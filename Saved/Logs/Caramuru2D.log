@@ -1,4 +1,4 @@
-﻿Log file open, 11/09/17 17:08:09
+﻿Log file open, 11/09/17 17:10:29
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Caramuru2D
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(892034357) SRandInit(892034357).
+LogInit: Display: RandInit(1313532926) SRandInit(1313532926).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.175630
+LogStats: Stats thread started at 0.175606
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,212 +113,1505 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.09-20.08.10:194][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.09-20.08.10:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.09-20.08.10:207][  0]LogInit: Computer: MASTER
-[2017.11.09-20.08.10:207][  0]LogInit: User: Junio
-[2017.11.09-20.08.10:207][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.09-20.08.10:207][  0]LogInit: High frequency timer resolution =3.020351 MHz
-[2017.11.09-20.08.10:207][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.11.09-20.08.10:207][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.09-20.08.10:207][  0]LogMemory: Process Physical Memory: 278.02 MB used, 278.02 MB peak
-[2017.11.09-20.08.10:208][  0]LogMemory: Process Virtual Memory: 274.27 MB used, 274.27 MB peak
-[2017.11.09-20.08.10:208][  0]LogMemory: Physical Memory: 4931.46 MB used,  3160.73 MB free, 8092.18 MB total
-[2017.11.09-20.08.10:208][  0]LogMemory: Virtual Memory: 668.14 MB used,  3160.73 MB free, 134217728.00 MB total
-[2017.11.09-20.08.10:379][  0]LogInit: Using OS detected language (pt-BR).
-[2017.11.09-20.08.10:379][  0]LogInit: Using OS detected locale (pt-BR).
-[2017.11.09-20.08.10:840][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.09-20.08.10:870][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
-[2017.11.09-20.08.10:870][  0]LogD3D11RHI:       2016/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.11.09-20.08.10:877][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.11.09-20.08.10:877][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.11.09-20.08.10:878][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.09-20.08.10:878][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.09-20.08.10:878][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.09-20.08.10:881][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.09-20.08.10:881][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.09-20.08.10:881][  0]LogWindows: EnumDisplayDevices:
-[2017.11.09-20.08.10:881][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
-[2017.11.09-20.08.10:881][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2017.11.09-20.08.10:881][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2017.11.09-20.08.10:881][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2017.11.09-20.08.10:882][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.11.09-20.08.10:882][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.11.09-20.08.10:882][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.11.09-20.08.10:882][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
-[2017.11.09-20.08.10:882][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.11.09-20.08.10:882][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.11.09-20.08.10:882][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.09-20.08.10:899][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.09-20.08.10:909][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.09-20.08.10:958][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/1784/).
-[2017.11.09-20.08.10:959][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Junio/AppData/Local/Temp/UnrealShaderWorkingDir/6D47BEB2476CE3B645987C9F9CA4E5C4/'.
-[2017.11.09-20.08.10:959][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.09-20.08.11:980][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.09-20.08.12:039][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.09-20.08.12:097][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.09-20.08.12:155][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.09-20.08.12:214][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.09-20.08.12:272][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.09-20.08.12:332][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.09-20.08.12:391][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.09-20.08.12:442][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.09-20.08.12:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.09-20.08.12:556][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.09-20.08.12:613][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.09-20.08.12:672][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.09-20.08.12:731][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.09-20.08.12:789][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.09-20.08.12:902][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.09-20.08.12:902][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.09-20.08.12:947][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.09-20.08.13:048][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.09-20.08.13:081][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.09-20.08.13:138][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.09-20.08.13:194][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.09-20.08.13:250][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.09-20.08.13:307][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.09-20.08.13:307][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.09-20.08.13:857][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.09-20.08.13:939][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.09-20.08.13:939][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.09-20.08.13:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.09-20.08.13:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.09-20.08.13:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.09-20.08.13:940][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.09-20.08.13:958][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.09-20.08.13:970][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Junio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.09-20.08.13:982][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.09-20.08.13:982][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.09-20.08.13:983][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.09-20.08.13:983][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.09-20.08.14:262][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2017.11.09-20.08.14:394][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.09-20.08.14:801][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.09-20.08.14:850][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.09-20.08.14:850][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.09-20.08.14:850][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.09-20.08.14:850][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.09-20.08.14:850][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.09-20.08.14:865][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.09-20.08.15:308][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
-[2017.11.09-20.08.15:545][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049558 seconds
-[2017.11.09-20.08.15:551][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.09-20.08.15:551][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.11.09-20.08.15:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.09-20.08.15:622][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.09-20.08.18:443][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.09-20.08.18:487][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.09-20.08.19:239][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.09-20.08.19:703][  0]SourceControl: Controle de origem desativado
-[2017.11.09-20.08.19:703][  0]SourceControl: Controle de origem desativado
-[2017.11.09-20.08.19:759][  0]SourceControl: Controle de origem desativado
-[2017.11.09-20.08.19:814][  0]SourceControl: Controle de origem desativado
-[2017.11.09-20.08.20:493][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.09-20.08.20:778][  0]LogOcInput: OculusInput pre-init called
-[2017.11.09-20.08.21:075][  0]LogEngine: Initializing Engine...
-[2017.11.09-20.08.21:077][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.09-20.08.21:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.09-20.08.21:306][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.09-20.08.21:455][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.09-20.08.21:465][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.11.09-20.08.21:478][  0]LogInit: FAudioDevice initialized.
-[2017.11.09-20.08.21:668][  0]LogDerivedDataCache: Saved boot cache 0.19s 93MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.09-20.08.21:699][  0]LogInit: Texture streaming: Enabled
-[2017.11.09-20.08.21:852][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.09-20.08.22:104][  0]LogInit: Transaction tracking system initialized
-[2017.11.09-20.08.22:481][  0]BlueprintLog: New page: Carregar Editor
-[2017.11.09-20.08.23:556][  0]LocalizationService: Localization service is disabled
-[2017.11.09-20.08.24:397][  0]LogConsoleResponse: Display: 
-[2017.11.09-20.08.24:593][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.09-20.08.24:593][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.09-20.08.24:593][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.09-20.08.25:766][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' took 0.02s
-[2017.11.09-20.08.25:818][  0]SourceControl: Controle de origem desativado
-[2017.11.09-20.08.25:818][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.09-20.08.25:819][  0]LightingResults: New page: Compilação de Iluminação
-[2017.11.09-20.08.25:867][  0]MapCheck: New page: Verificação de Mapa
-[2017.11.09-20.08.25:867][  0]LightingResults: New page: Compilação de Iluminação
-[2017.11.09-20.08.26:057][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.11.09-20.08.26:064][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.09-20.08.26:078][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.09-20.08.26:139][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60,61ms to complete.
-[2017.11.09-20.08.26:139][  0]LogFileHelpers: Loading map 'Template_Default' took 0.321
-[2017.11.09-20.08.26:199][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.09-20.08.26:290][  0]LogCollectionManager: Loaded 0 collections in 0.002038 seconds
-[2017.11.09-20.08.26:376][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' took 0.01s
-[2017.11.09-20.08.26:376][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Developers/Junio/Collections/' took 0.01s
-[2017.11.09-20.08.26:376][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Collections/' took 0.01s
-[2017.11.09-20.08.26:377][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.09-20.08.26:386][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2386 classes and 500 folders.
-[2017.11.09-20.08.26:461][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.11.09-20.08.26:509][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.09-20.08.26:558][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.11.09-20.08.26:579][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.09-20.08.26:582][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.09-20.08.26:590][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.09-20.08.26:682][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2017.11.09-20.08.26:840][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.11.09-20.08.26:840][  0]LogLoad: (Engine Initialization) Total time: 18.43 seconds
-[2017.11.09-20.08.26:840][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.09-20.08.26:840][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.11.09-20.08.26:869][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.09-20.08.26:909][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.09-20.08.26:944][  1]LogAssetRegistry: Asset discovery search completed in 12.7041 seconds
-[2017.11.09-20.08.26:947][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.09-20.08.26:947][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
-[2017.11.09-20.08.27:887][107]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.09-20.08.30:038][357]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng”
-[2017.11.09-20.08.30:038][357]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset” ao carregar /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.
-[2017.11.09-20.08.30:039][357]LoadErrors: Error: /Game/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest : Não é possível encontrar o arquivo do ativo. /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng
-[2017.11.09-20.08.30:039][357]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng”
-[2017.11.09-20.08.30:039][357]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset” ao carregar /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.
-[2017.11.09-20.08.30:040][357]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng”
-[2017.11.09-20.08.30:040][357]LoadErrors: Falha ao carregar /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng Referenciado por MaterialExpressionTextureSample_5
-[2017.11.09-20.08.30:040][357]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.
-[2017.11.09-20.08.30:042][357]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
-[2017.11.09-20.08.30:042][357]LogMaterial: Warning: Failed to compile Material /Game/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
-[2017.11.09-20.08.30:042][357]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.11.09-20.08.30:046][357]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.09-20.08.30:099][357]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
-[2017.11.09-20.08.30:136][357]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
-[2017.11.09-20.08.30:137][357]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
-[2017.11.09-20.08.30:137][357]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.11.09-20.08.30:268][357]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
-[2017.11.09-20.08.30:268][357]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
-[2017.11.09-20.08.30:268][357]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.11.09-20.08.30:328][357]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
-[2017.11.09-20.08.30:329][357]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
-[2017.11.09-20.08.30:329][357]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2017.11.09-20.08.30:388][357]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
-[2017.11.09-20.08.30:392][357]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
-[2017.11.09-20.08.30:402][357]LogSlate: Took 0.000567 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.11.09-20.08.42:052][610]SourceControl: On branch master
-[2017.11.09-20.08.42:052][610]SourceControl: Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
-[2017.11.09-20.08.42:052][610]SourceControl:   (use "git pull" to update your local branch)
-[2017.11.09-20.08.42:053][610]SourceControl: Changes not staged for commit:
-[2017.11.09-20.08.42:053][610]SourceControl:   (use "git add <file>..." to update what will be committed)
-[2017.11.09-20.08.42:053][610]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.09-20.08.42:053][610]SourceControl: 	modified:   Content/Caramuru2D.umap
-[2017.11.09-20.08.42:053][610]SourceControl: 	modified:   Content/Caramuru2D_BuiltData.uasset
-[2017.11.09-20.08.42:053][610]SourceControl: Untracked files:
-[2017.11.09-20.08.42:053][610]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2017.11.09-20.08.42:053][610]SourceControl: 	Intermediate/
-[2017.11.09-20.08.42:053][610]SourceControl: 	Saved/
-[2017.11.09-20.08.42:053][610]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.09-20.08.45:816][ 14]LogAIModule: Creating AISystem for world Caramuru2D
-[2017.11.09-20.08.45:845][ 14]Cmd: MAP LOAD FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.09-20.08.45:845][ 14]LightingResults: New page: Compilação de Iluminação
-[2017.11.09-20.08.45:846][ 14]LoadErrors: New page: Carregando mapa: Caramuru2D.umap
-[2017.11.09-20.08.45:846][ 14]MapCheck: New page: Verificação de Mapa
-[2017.11.09-20.08.45:846][ 14]LightingResults: New page: Compilação de Iluminação
-[2017.11.09-20.08.45:881][ 14]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.09-20.08.45:936][ 14]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.09-20.08.46:011][ 14]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74,176ms to complete.
-[2017.11.09-20.08.46:011][ 14]LogFileHelpers: Loading map 'Caramuru2D' took 0.166
-[2017.11.09-20.08.50:837][556]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2017.11.09-20.08.57:904][556]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.09-20.08.57:958][556]SourceControl: [master f1b5172] vai
-[2017.11.09-20.08.57:958][556]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.11.09-20.08.57:958][556]SourceControl:  rewrite Content/Caramuru2D.umap (83%)
-[2017.11.09-20.08.57:962][556]SourceControl: Commited [master f1b5172] vai.
+[2017.11.09-20.10.29:773][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.09-20.10.29:773][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.09-20.10.29:787][  0]LogInit: Computer: MASTER
+[2017.11.09-20.10.29:787][  0]LogInit: User: Junio
+[2017.11.09-20.10.29:787][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.09-20.10.29:787][  0]LogInit: High frequency timer resolution =3.020351 MHz
+[2017.11.09-20.10.29:787][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.09-20.10.29:787][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.09-20.10.29:787][  0]LogMemory: Process Physical Memory: 277.97 MB used, 277.97 MB peak
+[2017.11.09-20.10.29:787][  0]LogMemory: Process Virtual Memory: 274.22 MB used, 274.22 MB peak
+[2017.11.09-20.10.29:787][  0]LogMemory: Physical Memory: 4951.33 MB used,  3140.86 MB free, 8092.18 MB total
+[2017.11.09-20.10.29:787][  0]LogMemory: Virtual Memory: 668.14 MB used,  3140.86 MB free, 134217728.00 MB total
+[2017.11.09-20.10.29:961][  0]LogInit: Using OS detected language (pt-BR).
+[2017.11.09-20.10.29:961][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.11.09-20.10.30:421][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.09-20.10.30:445][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2017.11.09-20.10.30:446][  0]LogD3D11RHI:       2016/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.09-20.10.30:452][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.11.09-20.10.30:452][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.11.09-20.10.30:453][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.09-20.10.30:453][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.09-20.10.30:453][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.09-20.10.30:456][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.09-20.10.30:456][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.09-20.10.30:456][  0]LogWindows: EnumDisplayDevices:
+[2017.11.09-20.10.30:456][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2017.11.09-20.10.30:456][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.11.09-20.10.30:457][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.11.09-20.10.30:457][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2017.11.09-20.10.30:457][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.09-20.10.30:457][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.11.09-20.10.30:457][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.11.09-20.10.30:457][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2017.11.09-20.10.30:457][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.11.09-20.10.30:457][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.11.09-20.10.30:457][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.09-20.10.30:477][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.09-20.10.30:487][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.09-20.10.30:537][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/10136/).
+[2017.11.09-20.10.30:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Junio/AppData/Local/Temp/UnrealShaderWorkingDir/DE8AE4B749789858E99FE29C93C9D826/'.
+[2017.11.09-20.10.30:537][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.09-20.10.31:623][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.09-20.10.31:683][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.09-20.10.31:741][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.09-20.10.31:799][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.09-20.10.31:858][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.09-20.10.31:917][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.09-20.10.31:977][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.09-20.10.32:037][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.09-20.10.32:088][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.09-20.10.32:150][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.09-20.10.32:212][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.09-20.10.32:272][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.09-20.10.32:343][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.09-20.10.32:406][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.09-20.10.32:467][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.09-20.10.32:592][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.09-20.10.32:592][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.09-20.10.32:646][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.09-20.10.32:758][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.09-20.10.32:797][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.09-20.10.32:872][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.09-20.10.32:934][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.09-20.10.32:996][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.09-20.10.33:059][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.09-20.10.33:059][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.09-20.10.33:665][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.09-20.10.33:748][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.09-20.10.33:748][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.09-20.10.33:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.09-20.10.33:749][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.09-20.10.33:749][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.09-20.10.33:749][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.09-20.10.33:767][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.09-20.10.33:780][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Junio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.09-20.10.33:790][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.09-20.10.33:791][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.09-20.10.33:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.09-20.10.33:792][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.09-20.10.34:078][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.11.09-20.10.34:211][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.09-20.10.34:365][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.09-20.10.34:710][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.09-20.10.34:757][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.09-20.10.34:757][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.09-20.10.34:757][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.09-20.10.34:757][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.09-20.10.34:757][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.09-20.10.35:129][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
+[2017.11.09-20.10.35:366][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049626 seconds
+[2017.11.09-20.10.35:373][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.09-20.10.35:373][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.09-20.10.35:373][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.09-20.10.35:445][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.09-20.10.38:354][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.09-20.10.38:401][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.09-20.10.39:260][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.09-20.10.39:797][  0]SourceControl: Controle de origem desativado
+[2017.11.09-20.10.40:925][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.09-20.10.41:225][  0]LogOcInput: OculusInput pre-init called
+[2017.11.09-20.10.41:541][  0]LogEngine: Initializing Engine...
+[2017.11.09-20.10.41:543][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.09-20.10.41:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.09-20.10.41:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.09-20.10.41:943][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.09-20.10.41:953][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.09-20.10.41:968][  0]LogInit: FAudioDevice initialized.
+[2017.11.09-20.10.42:134][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.09-20.10.42:158][  0]LogInit: Texture streaming: Enabled
+[2017.11.09-20.10.42:301][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.09-20.10.42:549][  0]LogInit: Transaction tracking system initialized
+[2017.11.09-20.10.42:914][  0]BlueprintLog: New page: Carregar Editor
+[2017.11.09-20.10.43:919][  0]LocalizationService: Localization service is disabled
+[2017.11.09-20.10.44:688][  0]LogConsoleResponse: Display: 
+[2017.11.09-20.10.44:885][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.09-20.10.44:886][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.09-20.10.44:886][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.09-20.10.44:919][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' took 0.02s
+[2017.11.09-20.10.46:112][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.09-20.10.46:113][  0]LightingResults: New page: Compilação de Iluminação
+[2017.11.09-20.10.46:160][  0]MapCheck: New page: Verificação de Mapa
+[2017.11.09-20.10.46:160][  0]LightingResults: New page: Compilação de Iluminação
+[2017.11.09-20.10.46:355][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.11.09-20.10.46:363][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.09-20.10.46:375][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.09-20.10.46:437][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61,396ms to complete.
+[2017.11.09-20.10.46:437][  0]LogFileHelpers: Loading map 'Template_Default' took 0.324
+[2017.11.09-20.10.46:615][  0]LogCollectionManager: Loaded 0 collections in 0.001966 seconds
+[2017.11.09-20.10.46:698][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' took 0.01s
+[2017.11.09-20.10.46:698][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Developers/Junio/Collections/' took 0.01s
+[2017.11.09-20.10.46:698][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Collections/' took 0.01s
+[2017.11.09-20.10.46:698][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.09-20.10.46:707][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2386 classes and 500 folders.
+[2017.11.09-20.10.46:779][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.09-20.10.46:828][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.09-20.10.46:876][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.09-20.10.46:903][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.09-20.10.46:907][  0]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.09-20.10.46:915][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.09-20.10.47:008][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.11.09-20.10.47:155][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.09-20.10.47:155][  0]LogLoad: (Engine Initialization) Total time: 19.19 seconds
+[2017.11.09-20.10.47:155][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.09-20.10.47:156][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.09-20.10.47:525][  0]SourceControl: On branch master
+[2017.11.09-20.10.47:525][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.09-20.10.47:525][  0]SourceControl: Changes not staged for commit:
+[2017.11.09-20.10.47:525][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.11.09-20.10.47:525][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.09-20.10.47:525][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.09-20.10.47:525][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.09-20.10.47:525][  0]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.09-20.10.47:525][  0]SourceControl: Untracked files:
+[2017.11.09-20.10.47:525][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.09-20.10.47:525][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-CB3EDE3248A8D94ADDCD85BDF9594C98/
+[2017.11.09-20.10.47:525][  0]SourceControl: 	Saved/Config/Windows/SourceControlSettings.ini
+[2017.11.09-20.10.47:525][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.09-17.10.29.log
+[2017.11.09-20.10.47:525][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.09-20.10.47:526][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.09-20.10.47:580][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-20.10.48:526][  3]LogSlate: Took 0.000932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-20.10.48:863][  4]LogAssetRegistry: Asset discovery search completed in 14.8066 seconds
+[2017.11.09-20.10.48:871][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.09-20.10.48:871][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000166 seconds (updated 0 objects)
+[2017.11.09-20.10.57:791][733]LogTexture: Display: Building textures: Camomilatudojuntopng (BGRA8, 100X400)
+[2017.11.09-20.10.57:791][733]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.10.57:993][733]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.09-20.10.58:083][733]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.11.09-20.10.58:122][733]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.10.58:237][733]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.10.58:392][733]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.10.58:459][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.10.58:496][733]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.09-20.11.01:397][977]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.09-20.11.02:158][ 60]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.02:159][ 60]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.02:159][ 60]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.02:159][ 60]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.11:517][178]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.12:742][321]MaterialEditorStats: Base pass shader without light map: 27 instructions
+[2017.11.09-20.11.12:742][321]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.12:742][321]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.12:742][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.13:724][435]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.14:896][568]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.14:896][568]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.14:896][568]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.14:896][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.16:414][748]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.17:623][889]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.17:623][889]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.17:623][889]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.17:623][889]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.21:544][356]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.22:872][507]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.22:872][507]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.22:872][507]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.22:872][507]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.26:456][931]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.27:965][101]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.27:965][101]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.27:965][101]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.27:965][101]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.33:300][741]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.34:700][903]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.34:700][903]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.34:700][903]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.34:700][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.37:007][178]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.38:833][392]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.38:833][392]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.38:833][392]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.38:833][392]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.41:508][713]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.11.42:105][713]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.42:196][713]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.42:262][713]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.42:324][713]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.11.42:823][713]TextureStreamingBuild: Display: Compiling optional shaders took 0.539 seconds.
+[2017.11.09-20.11.43:323][768]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.11.44:197][768]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.09-20.11.44:294][768]LogSavePackage: Save=21.18ms
+[2017.11.09-20.11.44:294][768]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTestA547E098418830472CFCB7BD7E99F032.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.11.44:297][768]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.11.44:301][768]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.44:301][768]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.44:301][768]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.44:301][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.46:808][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.11.50:510][508]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.50:556][508]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.11.51:940][664]MaterialEditorStats: Base pass shader without light map: 34 instructions
+[2017.11.09-20.11.51:940][664]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.51:940][664]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.51:940][664]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.11.53:615][863]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.11.53:652][863]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.11.54:971][ 13]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.11.54:971][ 13]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.11.54:971][ 13]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.11.54:971][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.14.08:423][478]LogTexture: Display: Building textures: Camomila (BGRA8, 100X100)
+[2017.11.09-20.14.08:439][478]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.08:473][478]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.14.10:141][666]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.14.10:141][666]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.14.10:141][666]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.14.10:141][666]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.14.12:768][980]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.11.09-20.14.22:923][762]LogEditorTransaction: Undo Editar Textura
+[2017.11.09-20.14.22:940][762]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.23:008][762]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.23:024][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.14.25:045][973]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.14.25:046][973]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.14.25:046][973]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.14.25:046][973]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.14.45:220][434]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.45:736][485]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.46:076][518]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.47:670][702]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.14.47:670][702]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.14.47:670][702]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.14.47:670][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.14.53:367][383]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.53:764][426]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.55:315][603]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.14.55:328][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.14.56:814][773]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.14.56:814][773]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.14.56:814][773]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.14.56:814][773]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.15.01:136][284]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.15.02:363][422]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.15.02:363][422]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.15.02:363][422]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.15.02:363][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.15.07:422][ 18]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.11.09-20.15.15:740][990]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.15.15:741][990]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.15.15:741][990]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.15:758][990]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.15.15:783][990]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Normal, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.17:285][159]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.15.17:286][159]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.15.17:287][159]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Alfa, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.17:313][159]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.15.17:345][159]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Alfa, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.19:271][383]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.15.19:271][383]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.15.19:271][383]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Tons de Cinza, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.19:287][383]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.15.19:315][383]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Tons de Cinza, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.20:604][535]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.15.20:604][535]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.15.20:604][535]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Fonte do Campo de Distância, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.20:652][535]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.15.20:679][535]MaterialEditorStats: Error: [SM5] (Node TextureSample) TextureSample> Sampler type is Fonte do Campo de Distância, should be Cor for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.15.22:518][752]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.15.22:556][752]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.15.24:378][956]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.15.24:378][956]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.15.24:378][956]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.15.24:378][956]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.17.29:067][490]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.17.29:626][490]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.17.29:668][490]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.17.29:684][490]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.17.29:755][490]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.17.30:632][490]TextureStreamingBuild: Display: Compiling optional shaders took 0.925 seconds.
+[2017.11.09-20.17.32:709][656]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.17.32:709][656]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.17.32:709][656]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.17.32:709][656]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.17.58:090][746]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.17.58:145][746]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.17.59:859][940]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.17.59:859][940]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.17.59:859][940]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.17.59:859][940]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.18.01:851][173]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.01:875][173]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.18.03:163][317]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.18.03:163][317]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.18.03:163][317]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.18.03:163][317]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.18.10:292][172]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.10:293][172]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.18.10:293][172]LogMaterial: Warning: 	(Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.18.10:313][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.18.10:338][172]MaterialEditorStats: Error: [SM5] (Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.18.19:576][953]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.19:617][953]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.18.20:869][ 88]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.18.20:869][ 88]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.18.20:869][ 88]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.18.20:869][ 88]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.18.32:998][538]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.34:242][677]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.18.34:242][677]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.18.34:242][677]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.18.34:242][677]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.18.35:846][869]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.37:007][  1]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.38:191][139]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.18.38:191][139]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.18.38:191][139]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.18.38:191][139]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.18.39:512][297]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.39:512][297]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.18.39:512][297]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.18.39:542][297]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.18.39:567][297]MaterialEditorStats: Error: [SM5] (Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.18.46:837][161]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.46:837][161]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.18.46:837][161]LogMaterial: Warning: 	(Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.18.46:864][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.18.46:888][161]MaterialEditorStats: Error: [SM5] (Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.18.48:900][394]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.48:900][394]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.18.48:900][394]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.18.48:931][394]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.18.48:956][394]MaterialEditorStats: Error: [SM5] (Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.18.54:978][110]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.18.56:361][261]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.18.56:361][261]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.18.56:361][261]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.18.56:361][261]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.19.12:911][245]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.12:971][245]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.14:535][425]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.14:536][425]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.14:536][425]LogMaterial: Warning: 	(Node TextureSample) Reentrant expression
+[2017.11.09-20.19.14:537][425]MaterialEditorStats: Error: [SM5] (Node TextureSample) Reentrant expression
+[2017.11.09-20.19.17:209][742]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.17:235][742]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.18:532][885]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.19:735][ 25]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.19.19:735][ 25]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.19.19:735][ 25]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.19.19:736][ 25]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.19.24:088][545]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.24:096][545]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (1 / 1)
+[2017.11.09-20.19.25:226][670]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.19.25:226][670]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.19.25:226][670]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.19.28:403][855]LogEditorTransaction: Undo Editor de Materiais: Excluir
+[2017.11.09-20.19.28:406][855]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.28:456][855]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.28:511][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.28:603][860]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.28:606][860]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.28:626][860]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.28:847][880]LogEditorTransaction: Undo Quebra Vínculos do Fixador
+[2017.11.09-20.19.28:850][880]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.28:850][880]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.28:850][880]LogMaterial: Warning: 	(Node TextureSample) Reentrant expression
+[2017.11.09-20.19.28:869][880]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.28:870][880]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.28:870][880]LogMaterial: Warning: 	(Node TextureSample) Reentrant expression
+[2017.11.09-20.19.28:873][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.28:899][880]MaterialEditorStats: Error: [SM5] (Node TextureSample) Reentrant expression
+[2017.11.09-20.19.29:321][926]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.29:349][926]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.29:367][926]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.29:692][959]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.29:694][959]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.29:714][959]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.29:733][959]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.30:001][984]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.19.30:027][984]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.30:337][ 13]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.19.30:339][ 13]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.30:748][ 56]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.30:751][ 56]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.30:752][ 56]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.30:752][ 56]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.19.30:754][ 56]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.30:755][ 56]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.30:755][ 56]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.19.30:757][ 56]MaterialEditorStats: Error: [SM5] (Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.19.31:130][ 97]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.31:173][ 97]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.31:173][ 97]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.31:173][ 97]LogMaterial: Warning: 	(Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.19.31:185][ 97]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.31:186][ 97]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.31:186][ 97]LogMaterial: Warning: 	(Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.19.31:205][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.31:233][ 97]MaterialEditorStats: Error: [SM5] (Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.19.31:453][118]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.31:455][118]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.31:456][118]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.31:456][118]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.19.31:458][118]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.31:459][118]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.19.31:459][118]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.19.31:470][118]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.31:495][118]MaterialEditorStats: Error: [SM5] (Node Multiply) Arithmetic between types float3 and float2 are undefined
+[2017.11.09-20.19.31:839][156]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.31:852][156]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.31:863][156]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.31:885][156]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.32:282][195]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.19.32:344][195]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.32:684][230]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.32:699][230]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.32:710][230]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.33:145][275]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2017.11.09-20.19.33:170][275]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.33:183][275]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.33:579][315]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.19.33:582][315]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.34:002][359]LogEditorTransaction: Undo Editor de Materiais: Nova Expressão
+[2017.11.09-20.19.34:062][359]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.34:087][359]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.35:123][474]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.19.35:126][474]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.36:611][641]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.19.36:611][641]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.19.36:611][641]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.19.36:611][641]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.19.41:630][240]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.41:650][240]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.43:212][417]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.19.43:212][417]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.19.43:212][417]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.19.43:212][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.19.44:027][513]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.19.44:041][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.19.45:515][679]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.19.45:515][679]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.19.45:515][679]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.19.45:515][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.20.05:461][ 65]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.20.06:041][ 65]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.20.06:073][ 65]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.20.06:088][ 65]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.20.06:124][ 65]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.20.06:974][ 65]TextureStreamingBuild: Display: Compiling optional shaders took 0.863 seconds.
+[2017.11.09-20.20.08:165][ 65]LogSavePackage: Save=19.47ms
+[2017.11.09-20.20.08:165][ 65]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest03705842444DF78679169BAF4B4ACC40.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.20.08:168][ 65]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.22.40:086][118]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.22.45:010][677]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.22.45:020][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.09-20.22.45:051][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.22.45:056][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.09-20.22.46:853][877]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.22.46:853][877]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.22.46:853][877]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.22.50:972][367]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.22.50:987][367]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.09-20.22.52:335][515]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.22.52:348][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.09-20.22.54:162][718]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.22.54:162][718]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.22.54:162][718]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.22.54:162][718]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.23.08:566][129]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.23.08:585][129]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.23.10:233][318]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.23.10:233][318]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.23.10:233][318]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.23.10:233][318]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.23.10:368][334]LogTexture: Display: Building textures: Camomilatudojuntopng (AutoDXT, 100X400)
+[2017.11.09-20.23.10:404][334]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.23.10:417][334]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.23.12:206][540]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.23.12:206][540]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.23.12:206][540]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.23.12:206][540]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.23.13:030][626]LogSavePackage: Save=23.51ms
+[2017.11.09-20.23.13:030][626]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilatudojuntopngD7DC1F8746FD01639541F7BCCE848092.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset'
+[2017.11.09-20.23.13:033][626]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset
+[2017.11.09-20.23.26:484][206]SourceControl: fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.11.09-20.23.28:530][219]SourceControl: fatal: /Temp/Untitled_1: '/Temp/Untitled_1' is outside repository
+[2017.11.09-20.23.35:925][ 51]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.09-20.23.38:029][ 51]LogSavePackage: Save=8.12ms
+[2017.11.09-20.23.38:029][ 51]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Camomilatudojuntopng1D7A0D7D4BE1B9E670C05C9411C4A890.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset'
+[2017.11.09-20.23.38:032][ 51]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset
+[2017.11.09-20.23.38:033][ 51]Cmd: MAP LOAD FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.09-20.23.38:033][ 51]LightingResults: New page: Compilação de Iluminação
+[2017.11.09-20.23.38:034][ 51]LoadErrors: New page: Carregando mapa: Caramuru2D.umap
+[2017.11.09-20.23.38:035][ 51]MapCheck: New page: Verificação de Mapa
+[2017.11.09-20.23.38:035][ 51]LightingResults: New page: Compilação de Iluminação
+[2017.11.09-20.23.38:053][ 51]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.09-20.23.38:106][ 51]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.09-20.23.38:181][ 51]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75,067ms to complete.
+[2017.11.09-20.23.38:181][ 51]LogFileHelpers: Loading map 'Caramuru2D' took 0.149
+[2017.11.09-20.23.58:242][314]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.24.02:578][816]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.24.02:588][816]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.24.02:620][816]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.24.02:625][816]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.24.04:224][997]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.24.04:224][997]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.24.04:224][997]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.24.31:491][257]LogTexture: Display: Building textures: Camomilatudojuntopng (BGRA8, 100X400)
+[2017.11.09-20.24.34:660][627]LogSavePackage: Save=7.94ms
+[2017.11.09-20.24.34:660][627]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilatudojuntopngAD6BE4D549E41EE668D4CCBB038F701A.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset'
+[2017.11.09-20.24.34:663][627]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset
+[2017.11.09-20.25.18:020][826]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.18:021][826]LogMaterial: Warning: Failed to compile Material /Game/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.25.18:021][826]LogMaterial: Warning: 	(Node TextureSample) TextureSample> Sampler type is Cor, should be Cor Linear for /Game/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.Camomilatudojuntopng
+[2017.11.09-20.25.21:940][286]LogSavePackage: Save=7.47ms
+[2017.11.09-20.25.21:940][286]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Camomilatudojuntopng326FC1994C41044CA35FA1BBB71AEFEA.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset'
+[2017.11.09-20.25.21:943][286]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset
+[2017.11.09-20.25.25:486][711]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.25:486][711]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-20.25.25:526][711]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.25:747][730]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.25:747][730]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-20.25.25:795][730]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.26:806][843]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.26:806][843]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-20.25.26:813][843]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.26:992][859]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.26:992][859]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-20.25.27:004][859]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.27:139][870]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.27:139][870]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-20.25.27:145][870]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.27:296][883]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.27:296][883]LogEditorTransaction: Undo Editar sRGB
+[2017.11.09-20.25.27:338][883]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.27:456][892]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.27:456][892]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.25.27:458][892]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.27:618][906]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.27:618][906]LogEditorTransaction: Undo Editor de Materiais: Nova Expressão
+[2017.11.09-20.25.27:621][906]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.27:633][906]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.28:019][946]Cmd: TRANSACTION UNDO
+[2017.11.09-20.25.28:019][946]LogEditorTransaction: Undo Editor de Materiais: Excluir
+[2017.11.09-20.25.28:058][946]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.28:070][946]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.28:104][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.09-20.25.29:757][135]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.25.29:757][135]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.25.29:757][135]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.25.29:757][135]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.25.34:091][655]Cmd: TRANSACTION REDO
+[2017.11.09-20.25.34:091][655]LogEditorTransaction: Redo Editor de Materiais: Excluir
+[2017.11.09-20.25.34:103][655]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.34:151][655]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.34:450][680]Cmd: TRANSACTION REDO
+[2017.11.09-20.25.34:451][680]LogEditorTransaction: Redo Editor de Materiais: Nova Expressão
+[2017.11.09-20.25.34:453][680]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.34:488][680]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.25.34:547][680]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.25.35:973][841]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.25.35:973][841]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.25.35:973][841]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.15:892][539]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.15:907][539]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.17:593][732]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.17:593][732]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.17:593][732]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.20:306][ 53]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.20:326][ 53]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.21:618][199]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.21:619][199]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.21:619][199]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.32:348][481]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.32:395][481]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.33:764][636]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.33:764][636]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.33:764][636]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.36:921][ 10]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.36:965][ 10]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.38:289][159]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.38:289][159]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.38:289][159]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.39:508][303]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.39:526][303]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.40:940][464]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.40:940][464]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.40:940][464]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.43:393][758]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.43:407][758]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.44:926][930]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.44:926][930]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.44:926][930]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.47:299][213]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.47:313][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.48:777][380]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.28.48:777][380]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.28.48:777][380]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.54:722][ 91]LogEditorTransaction: Undo Editar Coordenada Const.
+[2017.11.09-20.28.54:724][ 91]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.54:735][ 91]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.54:751][ 91]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.54:913][103]LogEditorTransaction: Undo Editar Coordenada Const.
+[2017.11.09-20.28.54:916][103]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.54:931][103]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.54:964][103]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.55:145][117]LogEditorTransaction: Undo Editar Valor Mip Const.
+[2017.11.09-20.28.55:160][117]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:196][117]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:229][117]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.55:338][123]LogEditorTransaction: Undo Editar Valor Mip Const.
+[2017.11.09-20.28.55:351][123]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:364][123]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:412][123]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.55:502][127]LogEditorTransaction: Undo Editar MipValueMode
+[2017.11.09-20.28.55:504][127]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:515][127]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:535][127]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.55:686][138]LogEditorTransaction: Undo Editar É Textura da Pintura de Malha Padrão
+[2017.11.09-20.28.55:689][138]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:700][138]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:737][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.55:873][147]LogEditorTransaction: Undo Editar É Textura da Pintura de Malha Padrão
+[2017.11.09-20.28.55:876][147]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:887][147]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.55:905][147]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.11.09-20.28.56:047][157]LogEditorTransaction: Undo Mover Nó
+[2017.11.09-20.28.56:050][157]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.56:237][174]LogEditorTransaction: Undo Editor de Materiais: Nova Expressão
+[2017.11.09-20.28.56:239][174]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.56:276][174]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.56:411][185]LogEditorTransaction: Undo Editor de Materiais: Excluir
+[2017.11.09-20.28.56:423][185]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.56:472][185]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.28.56:515][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.09-20.28.58:096][363]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.28.58:096][363]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.28.58:096][363]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.28.58:096][363]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.29.15:161][399]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.16:451][539]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.29.16:451][539]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.29.16:451][539]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.29.19:530][907]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.19:564][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.29.20:905][ 57]MaterialEditorStats: Base pass shader without light map: 24 instructions
+[2017.11.09-20.29.20:905][ 57]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.11.09-20.29.20:905][ 57]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.29.22:384][234]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.22:432][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.29.23:857][395]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.23:875][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.29.25:338][561]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.29.25:339][561]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.29.25:339][561]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.29.25:339][561]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.29.38:512][135]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.29.39:074][135]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.39:128][135]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.39:144][135]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.29.39:181][135]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.29.39:778][135]TextureStreamingBuild: Display: Compiling optional shaders took 0.612 seconds.
+[2017.11.09-20.29.40:791][252]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.29.41:324][252]LogSavePackage: Save=19.75ms
+[2017.11.09-20.29.41:324][252]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTestD6BA05964667D57926A94A9403601BE9.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.29.41:327][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.29.41:331][252]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.29.41:331][252]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.29.41:331][252]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.29.41:331][252]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.30.07:104][339]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.30.07:104][339]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.30.07:104][339]LogMaterial: Warning: 	Reentrant expression
+[2017.11.09-20.30.07:115][339]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.30.07:139][339]MaterialEditorStats: Error: [SM5] Reentrant expression
+[2017.11.09-20.30.10:509][743]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.30.10:510][743]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.30.10:510][743]LogMaterial: Warning: 	Reentrant expression
+[2017.11.09-20.30.14:179][183]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.30.14:191][183]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.30.16:012][392]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.30.16:012][392]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.30.16:012][392]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.30.16:012][392]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.30.30:296][103]LogTexture: Display: Building textures: flor2 (BGRA8, 96X96)
+[2017.11.09-20.30.32:102][318]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.30.32:147][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.09-20.30.32:173][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.30.32:191][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.30.32:215][318]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.09-20.30.33:485][461]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.30.33:485][461]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.30.33:485][461]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.30.33:485][461]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.33.02:171][784]LogTexture: Display: Building textures: ALECRIM (BGRA8, 70X70)
+[2017.11.09-20.33.04:370][ 46]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.33.04:380][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.09-20.33.04:425][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.33.04:430][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.33.04:440][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.09-20.33.04:470][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.09-20.33.06:104][230]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.33.06:104][230]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.33.06:104][230]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.33.06:104][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.33.13:467][ 93]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.33.13:480][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.33.13:515][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.33.13:527][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.33.13:531][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.09-20.33.13:536][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.09-20.33.13:540][ 93]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.33.16:393][422]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.33.16:393][422]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.33.16:393][422]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.33.16:393][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.33.36:995][842]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.33.37:006][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.09-20.33.37:033][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.33.37:082][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.33.37:086][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.09-20.33.37:090][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.09-20.33.37:094][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.33.37:117][842]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.09-20.33.38:734][ 24]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.11.09-20.33.38:734][ 24]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.33.38:734][ 24]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.33.38:735][ 24]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.33.59:585][519]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.34.00:920][674]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.34.00:921][674]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.34.00:921][674]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.34.00:921][674]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.34.28:325][249]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Caramuru2D' took 0.033
+[2017.11.09-20.35.43:408][634]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.35.43:438][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.11.09-20.35.43:469][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.35.43:473][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.35.43:478][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.11.09-20.35.43:505][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.11.09-20.35.43:510][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.11.09-20.35.43:521][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.11.09-20.35.43:548][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.11.09-20.35.46:003][910]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.35.46:003][910]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.35.46:003][910]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.35.46:003][910]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.36.04:699][149]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.36.05:939][288]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.36.05:939][288]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.36.05:939][288]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.36.05:939][288]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.36.18:421][781]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.36.19:718][926]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.36.19:718][926]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.36.19:718][926]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.36.19:718][926]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.36.23:982][428]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.36.25:187][563]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.36.25:187][563]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.36.25:187][563]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.36.25:187][563]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.36.28:368][941]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.36.28:384][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.36.30:061][133]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.36.30:062][133]LogMaterial: Warning: Failed to compile Material /Engine/Transient.CamomilaTest for platform PCD3D_SM5, Default Material will be used in game.
+[2017.11.09-20.36.30:062][133]LogMaterial: Warning: 	(Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.36.30:074][133]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.36.30:101][133]MaterialEditorStats: Error: [SM5] (Node TextureSample) Coercion failed: Local7.rgb: float3 -> float2
+[2017.11.09-20.38.06:499][239]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.38.06:515][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.38.08:104][417]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.38.08:104][417]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.38.08:104][417]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.38.08:104][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.38.15:673][323]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.38.17:406][526]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.38.17:406][526]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.38.17:406][526]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.38.17:406][526]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.38.19:693][800]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.38.20:907][942]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.38.20:907][942]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.38.20:907][942]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.38.20:907][942]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.38.33:987][510]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.38.34:531][510]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.38.34:562][510]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.38.34:577][510]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.38.34:629][510]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.38.35:175][510]TextureStreamingBuild: Display: Compiling optional shaders took 0.574 seconds.
+[2017.11.09-20.38.36:663][673]MaterialEditorStats: Base pass shader without light map: 31 instructions
+[2017.11.09-20.38.36:663][673]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.38.36:663][673]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.38.36:663][673]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.38.37:121][728]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.38.37:258][728]LogSavePackage: Save=24.54ms
+[2017.11.09-20.38.37:258][728]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest200791694F933B952AC13A944A9C8D63.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.38.37:261][728]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.39.31:382][183]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.09-20.39.50:060][169]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.09-20.39.59:938][169]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-20.39.59:991][169]SourceControl: [master 2cb31d5] update
+[2017.11.09-20.39.59:991][169]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.09-20.39.59:991][169]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset (96%)
+[2017.11.09-20.39.59:991][169]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomilatudojuntopng.uasset (94%)
+[2017.11.09-20.39.59:996][169]SourceControl: Commited [master 2cb31d5] update.
+[2017.11.09-20.40.15:990][879]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.40.16:003][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.40.17:543][ 54]MaterialEditorStats: Base pass shader without light map: 27 instructions
+[2017.11.09-20.40.17:543][ 54]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.40.17:543][ 54]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.40.17:543][ 54]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.40.26:007][ 64]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.40.26:027][ 64]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.40.27:161][192]MaterialEditorStats: Base pass shader without light map: 27 instructions
+[2017.11.09-20.40.27:161][192]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.40.27:161][192]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.40.27:161][192]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.40.35:140][149]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.40.36:236][276]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.40.36:236][276]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.40.36:236][276]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.40.36:236][276]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.41.06:972][958]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.41.07:520][958]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.41.07:606][958]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.41.07:647][958]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.41.07:674][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.41.08:391][958]TextureStreamingBuild: Display: Compiling optional shaders took 0.722 seconds.
+[2017.11.09-20.41.09:470][ 74]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.41.09:843][ 74]LogSavePackage: Save=37.18ms
+[2017.11.09-20.41.09:843][ 74]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest531E12594D02E1A59EFD38916009796C.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.41.09:846][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.41.09:850][ 74]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.41.09:850][ 74]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.41.09:850][ 74]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.41.09:850][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.41.29:097][159]LogSavePackage: Save=91.09ms
+[2017.11.09-20.41.29:097][159]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Caramuru2D838D817B47A6714047C2B9B122D3822D.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Caramuru2D.umap'
+[2017.11.09-20.41.29:100][159]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Caramuru2D.umap
+[2017.11.09-20.41.29:143][159]LogFileHelpers: Saving map 'Caramuru2D' took 0.233
+[2017.11.09-20.45.14:501][850]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Junio\Desktop\imagens\Caramuru\Camomila_2FUNDO_CERTO.png)
+[2017.11.09-20.45.14:558][850]LogTexture: Display: Building textures: Camomila_2FUNDO_CERTO (AutoDXT, 100X400)
+[2017.11.09-20.45.19:174][861]LogSavePackage: Save=44.00ms
+[2017.11.09-20.45.19:174][861]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Camomila_2FUNDO_CERTOEA7EB94040EAF7BF5541A7B8D94EE81F.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset'
+[2017.11.09-20.45.19:177][861]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset
+[2017.11.09-20.45.25:637][577]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.45.25:647][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.11.09-20.45.25:676][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_5, compiling. 
+[2017.11.09-20.45.25:680][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.11.09-20.45.25:685][577]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.11.09-20.45.27:356][765]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.45.27:356][765]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.45.27:356][765]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.45.27:356][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.45.29:909][ 68]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.45.29:923][ 68]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.11.09-20.45.32:977][426]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.45.32:988][426]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.11.09-20.45.34:358][583]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.45.34:358][583]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.45.34:358][583]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.45.34:358][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.51.15:932][884]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.18:460][176]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.51.18:460][176]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.51.18:460][176]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.51.18:460][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.51.27:840][301]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.51.28:390][301]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.28:421][301]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.28:436][301]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.28:464][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.51.29:017][301]TextureStreamingBuild: Display: Compiling optional shaders took 0.558 seconds.
+[2017.11.09-20.51.29:671][373]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.51.30:399][373]LogSavePackage: Save=21.63ms
+[2017.11.09-20.51.30:399][373]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest7003327341B819585679D2B8B376BD94.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.51.30:402][373]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.51.30:407][373]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.51.30:407][373]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.51.30:407][373]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.51.30:407][373]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.51.35:637][999]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.36:699][114]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.38:606][334]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.39:696][460]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.51.39:696][460]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.51.39:696][460]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.51.39:696][460]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.51.41:973][733]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.43:179][874]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.51.43:179][874]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.51.43:179][874]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.51.43:179][874]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.51.50:025][695]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.51:198][832]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.51.51:198][832]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.51.51:198][832]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.51.51:198][832]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.51.52:290][963]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.51.52:837][963]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.52:869][963]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.52:913][963]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.51.52:941][963]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.51.53:493][963]TextureStreamingBuild: Display: Compiling optional shaders took 0.557 seconds.
+[2017.11.09-20.51.54:847][108]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.51.54:977][108]LogSavePackage: Save=19.76ms
+[2017.11.09-20.51.54:977][108]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTestDDDFD5D44CA6AFC4A47F6A84E39C5D6F.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.51.54:980][108]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.51.54:983][108]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.51.54:983][108]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.51.54:983][108]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.51.54:983][108]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.52.03:472][119]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.09-20.52.21:735][119]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-20.52.21:843][119]SourceControl: [master 71fa857] FlipBook Material
+[2017.11.09-20.52.21:843][119]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.09-20.52.21:843][119]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset (97%)
+[2017.11.09-20.52.21:843][119]SourceControl:  create mode 100644 Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset
+[2017.11.09-20.52.21:843][119]SourceControl:  rewrite Content/Caramuru2D.umap (69%)
+[2017.11.09-20.52.21:846][119]SourceControl: Commited [master 71fa857] FlipBook Material.
+[2017.11.09-20.52.24:894][453]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Caramuru2D' took 0.010
+[2017.11.09-20.52.53:156][810]LogTexture: Display: Building textures: Camomila_2FUNDO_CERTO (BGRA8, 100X400)
+[2017.11.09-20.52.55:240][ 58]Cmd: TRANSACTION UNDO
+[2017.11.09-20.52.55:240][ 58]LogEditorTransaction: Undo Editar Nome do Parâmetro
+[2017.11.09-20.52.55:243][ 58]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.52.55:311][ 58]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.52.55:956][114]Cmd: TRANSACTION UNDO
+[2017.11.09-20.52.55:956][114]LogEditorTransaction: Undo Editar Valor Padrão
+[2017.11.09-20.52.55:972][114]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.52.55:993][114]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.52.58:070][329]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.52.58:070][329]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.52.58:070][329]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.52.58:070][329]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.52.58:727][403]Cmd: TRANSACTION REDO
+[2017.11.09-20.52.58:727][403]LogEditorTransaction: Redo Editar Valor Padrão
+[2017.11.09-20.52.58:762][403]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.52.58:784][403]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.53.00:957][624]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.53.00:957][624]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.53.00:957][624]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.53.00:957][624]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.53.03:440][862]LogSavePackage: Save=7.50ms
+[2017.11.09-20.53.03:440][862]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Camomila_2FUNDO_CERTOCD50A1E947D8EF781887B69A6A148BD6.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset'
+[2017.11.09-20.53.03:443][862]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset
+[2017.11.09-20.53.08:382][446]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.53.08:927][446]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.53.08:958][446]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.53.08:975][446]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.53.09:001][446]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.53.09:577][446]TextureStreamingBuild: Display: Compiling optional shaders took 0.582 seconds.
+[2017.11.09-20.53.11:060][611]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.53.11:060][611]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.53.11:060][611]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.53.11:060][611]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.53.11:670][684]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.53.11:779][684]LogSavePackage: Save=19.82ms
+[2017.11.09-20.53.11:779][684]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest2C05F6234A971694DE1BBBA6EEEF3F2B.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.53.11:783][684]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.53.20:740][624]LogSavePackage: Save=48.46ms
+[2017.11.09-20.53.20:740][624]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Camomila_2FUNDO_CERTO6D8151AD4E66EE2C623FA7BF867DD66C.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset'
+[2017.11.09-20.53.20:750][624]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset
+[2017.11.09-20.53.45:519][527]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.53.45:604][527]LogSavePackage: Save=10.28ms
+[2017.11.09-20.53.45:604][527]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest4E867794404C814053C9328052EED09B.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.53.45:605][527]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.53.54:378][555]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.09-20.54.06:164][162]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.09-20.54.12:718][162]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-20.54.12:773][162]SourceControl: [master d1c41df] vdc
+[2017.11.09-20.54.12:773][162]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.09-20.54.12:773][162]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset (96%)
+[2017.11.09-20.54.12:773][162]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/GIfTest/Camomila_2FUNDO_CERTO.uasset (97%)
+[2017.11.09-20.54.12:778][162]SourceControl: Commited [master d1c41df] vdc.
+[2017.11.09-20.54.50:716][285]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.09-20.54.50:781][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.09-20.54.50:781][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.09-20.54.50:782][285]PIE: New page: Sessão de PIE : Caramuru2D (09/11/2017 14:54:50)
+[2017.11.09-20.54.50:782][285]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Caramuru2D
+[2017.11.09-20.54.50:786][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004091s)
+[2017.11.09-20.54.50:786][285]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.09-20.54.50:787][285]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.11.09-20.54.50:787][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Caramuru2D.Caramuru2D to /Game/UEDPIE_0_Caramuru2D.Caramuru2D (0.005198s)
+[2017.11.09-20.54.50:801][285]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.09-20.54.50:813][285]LogInit: FAudioDevice initialized.
+[2017.11.09-20.54.50:854][285]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.09-20.54.50:860][285]LogWorld: Bringing World /Game/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.09-17.54.50
+[2017.11.09-20.54.50:862][285]LogWorld: Bringing up level for play took: 0.006218
+[2017.11.09-20.54.50:909][285]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.09-20.54.50:910][285]LogBlueprintUserMessages: [2DSideScrollerCharacter_254] SpreaderGun
+[2017.11.09-20.54.50:910][285]PIE: Momento de início de reprodução no editor para /Game/UEDPIE_0_Caramuru2D 0,828
+[2017.11.09-20.54.50:911][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.09-20.54.59:835][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.09-20.54.59:897][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.09-20.55.12:196][782]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (FirstFloreGround)
+[2017.11.09-20.55.12:805][782]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Arvore_4png_Sprite4)
+[2017.11.09-20.55.18:381][392]Cmd: DELETE
+[2017.11.09-20.55.18:381][392]Cmd: ACTOR DELETE
+[2017.11.09-20.55.18:502][392]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.11.09-20.55.18:534][392]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2017.11.09-20.55.25:109][167]Cmd: TRANSACTION UNDO
+[2017.11.09-20.55.25:109][167]LogEditorTransaction: Undo Criar Atores
+[2017.11.09-20.55.25:119][167]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.55.27:086][390]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.55.27:086][390]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.55.27:086][390]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.55.27:086][390]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.57.40:778][940]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.57.41:321][940]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.57.41:353][940]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.57.41:369][940]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.57.41:394][940]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.57.42:180][940]TextureStreamingBuild: Display: Compiling optional shaders took 0.790 seconds.
+[2017.11.09-20.57.43:764][119]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.57.43:764][119]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.57.43:764][119]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.57.43:764][119]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.58.24:738][344]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.58.24:854][344]LogSavePackage: Save=19.64ms
+[2017.11.09-20.58.24:854][344]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTestE1CDF0764DC71A50DCE7D39B910EFD1D.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.58.24:859][344]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.58.37:387][846]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.58.38:909][ 24]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.58.38:909][ 24]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.58.38:909][ 24]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.58.38:909][ 24]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.58.43:535][579]LogMaterialEditor: Applying material CamomilaTest
+[2017.11.09-20.58.44:091][579]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.58.44:164][579]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.58.44:179][579]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-20.58.44:233][579]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-20.58.44:745][579]TextureStreamingBuild: Display: Compiling optional shaders took 0.526 seconds.
+[2017.11.09-20.58.45:281][629]LogMaterialEditor: Saving and Compiling material CamomilaTest
+[2017.11.09-20.58.46:068][629]LogSavePackage: Save=20.05ms
+[2017.11.09-20.58.46:068][629]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTest86A0655F4D67C52017C9179C83ACBF5F.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-20.58.46:072][629]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-20.58.46:077][629]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-20.58.46:077][629]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-20.58.46:077][629]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-20.58.46:077][629]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-20.58.55:984][617]LogSavePackage: Save=90.29ms
+[2017.11.09-20.58.55:984][617]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Caramuru2DEC9BE74C4B75BA0D96FF6FBAC308DB62.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Caramuru2D.umap'
+[2017.11.09-20.58.55:987][617]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Caramuru2D.umap
+[2017.11.09-20.58.56:030][617]LogFileHelpers: Saving map 'Caramuru2D' took 0.231
+[2017.11.09-21.04.09:100][940]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 113 classes and 0 folders.
+[2017.11.09-21.05.05:217][321]BlueprintLog: New page: Compilar Menu
+[2017.11.09-21.05.06:105][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset" SILENT=true
+[2017.11.09-21.05.06:122][372]LogSavePackage: Save=14.16ms
+[2017.11.09-21.05.06:122][372]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Menu94A8D6A841532DDBD1EF2B9493A2D27A.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset'
+[2017.11.09-21.05.06:125][372]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset
+[2017.11.09-21.08.39:333][772]LogEditorTransaction: Undo Editar Size To Content
+[2017.11.09-21.08.39:436][772]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.08.39:700][797]LogEditorTransaction: Undo Editar Inferior
+[2017.11.09-21.08.39:810][797]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.08.41:142][948]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-21.08.41:142][948]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-21.08.41:142][948]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-21.08.41:142][948]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-21.09.23:650][992]LogEditorTransaction: Undo Move Widget (Render Transform)
+[2017.11.09-21.09.23:667][992]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.23:995][ 27]LogEditorTransaction: Undo Move Widget (Render Transform)
+[2017.11.09-21.09.24:013][ 27]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.24:174][ 42]LogEditorTransaction: Undo Move Widget (Render Transform)
+[2017.11.09-21.09.24:193][ 42]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.24:372][ 60]LogEditorTransaction: Undo Move Widget (Render Transform)
+[2017.11.09-21.09.24:391][ 60]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.24:564][ 77]LogEditorTransaction: Undo Resize Widget
+[2017.11.09-21.09.24:583][ 77]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.24:739][ 92]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-21.09.24:758][ 92]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.24:924][108]LogEditorTransaction: Undo Editar Largura Mínima Desejada
+[2017.11.09-21.09.24:941][108]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.25:107][124]LogEditorTransaction: Undo Editar Size To Content
+[2017.11.09-21.09.25:126][124]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.25:292][140]LogEditorTransaction: Undo Editar Direita
+[2017.11.09-21.09.25:310][140]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.25:473][156]LogEditorTransaction: Undo Editar Propriedades
+[2017.11.09-21.09.25:492][156]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.25:633][169]LogEditorTransaction: Undo Editar Largura Mínima Desejada
+[2017.11.09-21.09.25:651][169]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.25:789][182]LogEditorTransaction: Undo Editar Size To Content
+[2017.11.09-21.09.25:807][182]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.25:950][195]LogEditorTransaction: Undo Editar Texto
+[2017.11.09-21.09.25:967][195]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.26:116][209]LogEditorTransaction: Undo Adicionar Widget
+[2017.11.09-21.09.26:133][209]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.26:300][225]LogEditorTransaction: Undo Adicionar Widget
+[2017.11.09-21.09.26:318][225]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.27:547][366]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-21.09.27:547][366]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-21.09.27:547][366]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-21.09.27:547][366]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-21.09.27:747][390]LogEditorTransaction: Redo Adicionar Widget
+[2017.11.09-21.09.27:763][390]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.09.28:884][518]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-21.09.28:884][518]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-21.09.28:884][518]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-21.09.28:884][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-21.10.33:990][288]LogEditorTransaction: Undo Definir Propriedade de Vetor
+[2017.11.09-21.10.34:093][288]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.34:223][298]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.34:223][298]LogEditorTransaction: Undo Definir Propriedade de Vetor
+[2017.11.09-21.10.34:322][298]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.34:678][335]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.34:678][335]LogEditorTransaction: Undo Editar Size To Content
+[2017.11.09-21.10.34:788][335]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.35:421][404]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.35:421][404]LogEditorTransaction: Undo Definir Propriedade de Vetor
+[2017.11.09-21.10.35:533][404]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.35:868][438]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.35:868][438]LogEditorTransaction: Undo Editar Inferior
+[2017.11.09-21.10.35:974][438]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.36:226][463]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.36:226][463]LogEditorTransaction: Undo Editar Size To Content
+[2017.11.09-21.10.36:335][463]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.36:472][474]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.36:472][474]LogEditorTransaction: Undo Editar Inferior
+[2017.11.09-21.10.36:578][474]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.36:887][505]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.36:887][505]LogEditorTransaction: Undo Editar Direita
+[2017.11.09-21.10.36:990][505]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.37:097][513]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.37:097][513]LogEditorTransaction: Undo Editar Direita
+[2017.11.09-21.10.37:209][513]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.37:310][520]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.37:310][520]LogEditorTransaction: Undo Editar Size To Content
+[2017.11.09-21.10.37:437][520]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.37:569][530]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.37:569][530]LogEditorTransaction: Undo Editar Inferior
+[2017.11.09-21.10.37:674][530]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.37:909][553]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.37:909][553]LogEditorTransaction: Undo Editar Direita
+[2017.11.09-21.10.38:019][553]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.38:203][570]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.38:204][570]LogEditorTransaction: Undo Editar Esquerda
+[2017.11.09-21.10.38:313][570]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.38:420][578]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.38:420][578]LogEditorTransaction: Undo Editar Texto
+[2017.11.09-21.10.38:529][578]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.38:723][596]Cmd: TRANSACTION UNDO
+[2017.11.09-21.10.38:723][596]LogEditorTransaction: Undo Adicionar Widget
+[2017.11.09-21.10.38:730][596]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.10.39:888][731]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2017.11.09-21.10.39:888][731]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.11.09-21.10.39:888][731]MaterialEditorStats: Texture samplers: 3/16
+[2017.11.09-21.10.39:888][731]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.09-21.11.10:634][599]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Caramuru2D' took 0.026
+[2017.11.09-21.11.10:653][599]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu] ([1] browsable assets)...
+[2017.11.09-21.11.10:653][599]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu]
+[2017.11.09-21.11.10:676][599]LogSavePackage: Save=14.38ms
+[2017.11.09-21.11.10:677][599]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Menu_Auto1824D5F444A048E91F461A1BE23F06153.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu_Auto1.uasset'
+[2017.11.09-21.11.10:678][599]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu_Auto1.uasset
+[2017.11.09-21.11.10:678][599]LogFileHelpers: Auto-saving content packages took 0.043
+[2017.11.09-21.12.18:704][303]BlueprintLog: New page: Compilar Menu
+[2017.11.09-21.12.19:686][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset" SILENT=true
+[2017.11.09-21.12.19:706][404]LogSavePackage: Save=16.22ms
+[2017.11.09-21.12.19:706][404]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/MenuEB4E97DE4BAD0E8897CB31BE3A8676EB.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset'
+[2017.11.09-21.12.19:710][404]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset
+[2017.11.09-21.13.54:650][969]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.09-21.13.57:043][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset" SILENT=true
+[2017.11.09-21.13.57:062][969]LogSavePackage: Save=15.25ms
+[2017.11.09-21.13.57:062][969]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Menu51C3FB164CCE8962DDCCA689996C3E20.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset'
+[2017.11.09-21.13.57:066][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Menu.uasset
+[2017.11.09-21.14.03:590][969]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.09-21.14.03:689][969]SourceControl: [master e5e580b] foi?
+[2017.11.09-21.14.03:689][969]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.09-21.14.03:689][969]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset (96%)
+[2017.11.09-21.14.03:689][969]SourceControl:  rewrite Content/Caramuru2D.umap (83%)
+[2017.11.09-21.14.03:689][969]SourceControl:  create mode 100644 Content/Menu.uasset
+[2017.11.09-21.14.03:694][969]SourceControl: Commited [master e5e580b] foi?.
+[2017.11.09-21.14.47:394][517]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.14.47:429][517]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.14.47:447][517]LogMaterial: Missing cached shader map for material CamomilaTest, compiling. 
+[2017.11.09-21.14.47:485][517]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CamomilaTest, compiling. 
+[2017.11.09-21.14.48:354][517]TextureStreamingBuild: Display: Compiling optional shaders took 0.874 seconds.
+[2017.11.09-21.14.50:020][517]LogSavePackage: Save=62.35ms
+[2017.11.09-21.14.50:020][517]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/CamomilaTestA86522BE4ABAE6D131DA888F2E69B711.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset'
+[2017.11.09-21.14.50:025][517]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/2dtiledmap/GIfTest/CamomilaTest.uasset
+[2017.11.09-21.14.50:756][518]Cmd: QUIT_EDITOR
+[2017.11.09-21.14.50:787][518]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.09-21.14.50:799][518]LogExit: Preparing to exit.
+[2017.11.09-21.14.51:872][518]LogDirectoryWatcher: A directory notification for 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' was aborted.
+[2017.11.09-21.14.51:913][518]LogExit: Editor shut down
+[2017.11.09-21.14.51:917][518]LogExit: Transaction tracking system shut down
+[2017.11.09-21.14.52:051][518]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.09-21.14.52:051][518]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.09-21.14.52:051][518]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.09-21.14.52:143][518]LogExit: Object subsystem successfully closed.
+[2017.11.09-21.14.52:170][518]LogD3D11RHI: Shutdown
+[2017.11.09-21.14.52:170][518]LogD3D11RHI: CleanupD3DDevice
+[2017.11.09-21.14.52:309][518]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.09-21.14.52:328][518]LogModuleManager: Shutting down and abandoning module SequencerWidgets (542)
+[2017.11.09-21.14.52:328][518]LogModuleManager: Shutting down and abandoning module BlueprintGraph (540)
+[2017.11.09-21.14.52:328][518]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (538)
+[2017.11.09-21.14.52:374][518]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.11.09-21.14.52:374][518]LogModuleManager: Shutting down and abandoning module TextureEditor (534)
+[2017.11.09-21.14.52:374][518]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2017.11.09-21.14.52:374][518]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.09-21.14.52:374][518]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.09-21.14.52:374][518]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.09-21.14.52:374][518]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.09-21.14.52:377][518]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.09-21.14.52:377][518]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.09-21.14.52:377][518]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.09-21.14.52:377][518]LogDirectoryWatcher: A directory notification for 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Collections/' was aborted.
+[2017.11.09-21.14.52:377][518]LogDirectoryWatcher: A directory notification for 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Developers/Junio/Collections/' was aborted.
+[2017.11.09-21.14.52:377][518]LogDirectoryWatcher: A directory notification for 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' was aborted.
+[2017.11.09-21.14.52:377][518]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.09-21.14.52:377][518]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.09-21.14.52:378][518]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.09-21.14.52:379][518]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.09-21.14.52:379][518]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.09-21.14.52:379][518]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.09-21.14.52:379][518]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.09-21.14.52:379][518]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.09-21.14.52:380][518]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.09-21.14.52:381][518]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.09-21.14.52:381][518]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.09-21.14.52:381][518]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.09-21.14.52:381][518]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.09-21.14.52:381][518]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.09-21.14.52:780][518]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.09-21.14.52:781][518]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.09-21.14.52:834][518]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.09-21.14.52:835][518]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.09-21.14.52:835][518]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.09-21.14.52:843][518]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.09-21.14.52:843][518]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.09-21.14.52:843][518]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.09-21.14.52:844][518]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.09-21.14.53:086][518]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.09-21.14.53:087][518]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.09-21.14.53:088][518]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.09-21.14.53:090][518]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.09-21.14.53:090][518]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.09-21.14.53:090][518]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.09-21.14.53:091][518]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.09-21.14.53:192][518]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.09-21.14.53:292][518]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.09-21.14.53:292][518]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.09-21.14.53:292][518]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.09-21.14.53:292][518]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.09-21.14.53:292][518]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.09-21.14.53:292][518]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.09-21.14.53:293][518]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.09-21.14.53:294][518]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.09-21.14.53:294][518]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.09-21.14.53:294][518]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.09-21.14.53:294][518]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.09-21.14.53:294][518]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.09-21.14.53:294][518]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.09-21.14.53:297][518]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.09-21.14.53:297][518]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.09-21.14.53:297][518]LogDirectoryWatcher: A directory notification for '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' was aborted.
+[2017.11.09-21.14.53:298][518]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.09-21.14.53:303][518]LogDerivedDataCache: Shutdown
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.09-21.14.53:303][518]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.09-21.14.53:304][518]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.09-21.14.53:304][518]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.09-21.14.53:304][518]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.09-21.14.53:304][518]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B28C3CD16-4990-AFB8-EA48-0B8E7E350DAE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=7c4361f244605dacb35ef4b5b0a6141c%7C51e5a3e65bf74b08b65401e982cfc1fa%7Cdccb3d67-bcde-49f2-bb7b-a6a8d8de6102&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.09-21.14.53:336][518]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.09-21.14.53:337][518]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.09-21.14.53:338][518]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.09-21.14.53:339][518]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.09-21.14.53:341][518]LogExit: Exiting.
+[2017.11.09-21.14.53:363][518]Log file closed, 11/09/17 18:14:53
