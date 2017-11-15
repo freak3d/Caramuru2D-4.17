@@ -4528,3 +4528,20 @@ LogInit: Object subsystem initialized
 [2017.11.15-04.15.13:615][ 67]LogSavePackage: Save=43.25ms
 [2017.11.15-04.15.13:615][ 67]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/DoorB0BB34CD4A24CECB81092BAD14F1B275.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Blueprints/Door.uasset'
 [2017.11.15-04.15.13:618][ 67]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Blueprints/Door.uasset
+[2017.11.15-04.15.47:343][927]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.15-04.15.52:379][927]LogSavePackage: Save=115.57ms
+[2017.11.15-04.15.52:379][927]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Caramuru2D33B7D2A44FCA8D33175963AE77BE1811.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap'
+[2017.11.15-04.15.52:382][927]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.15.52:437][927]LogFileHelpers: Saving map 'Caramuru2D' took 0.308
+[2017.11.15-04.16.26:344][927]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.15-04.16.26:619][927]SourceControl: On branch master
+[2017.11.15-04.16.26:619][927]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
+[2017.11.15-04.16.26:619][927]SourceControl:   (use "git push" to publish your local commits)
+[2017.11.15-04.16.26:619][927]SourceControl: Changes not staged for commit:
+[2017.11.15-04.16.26:619][927]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.16.26:619][927]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.15-04.16.26:619][927]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.15-04.16.26:619][927]SourceControl: Untracked files:
+[2017.11.15-04.16.26:619][927]SourceControl: 	Saved/Logs/Git-TempEE661596435A332166E19ABFDB9A2992.txt
+[2017.11.15-04.16.26:619][927]SourceControl: no changes added to commit
+[2017.11.15-04.16.26:623][927]SourceControl: Commited On branch master.
