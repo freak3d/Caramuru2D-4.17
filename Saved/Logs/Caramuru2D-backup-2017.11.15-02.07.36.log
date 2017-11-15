@@ -1,0 +1,1019 @@
+﻿Log file open, 11/15/17 01:33:07
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Caramuru2D
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1889111115) SRandInit(-1889111115).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167072
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.15-04.33.08:322][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-04.33.08:322][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.15-04.33.08:335][  0]LogInit: Computer: MARCELOM
+[2017.11.15-04.33.08:335][  0]LogInit: User: Marcelo
+[2017.11.15-04.33.08:335][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.15-04.33.08:335][  0]LogInit: High frequency timer resolution =3.020350 MHz
+[2017.11.15-04.33.08:335][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.15-04.33.08:335][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.15-04.33.08:335][  0]LogMemory: Process Physical Memory: 276.68 MB used, 276.68 MB peak
+[2017.11.15-04.33.08:335][  0]LogMemory: Process Virtual Memory: 289.91 MB used, 289.91 MB peak
+[2017.11.15-04.33.08:335][  0]LogMemory: Physical Memory: 4948.19 MB used,  3181.66 MB free, 8129.85 MB total
+[2017.11.15-04.33.08:335][  0]LogMemory: Virtual Memory: 667.25 MB used,  3181.66 MB free, 134217728.00 MB total
+[2017.11.15-04.33.08:474][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.11.15-04.33.08:474][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.11.15-04.33.09:132][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.15-04.33.09:154][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.11.15-04.33.09:154][  0]LogD3D11RHI:       3992/0/4064 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.15-04.33.09:155][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.15-04.33.09:155][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.15-04.33.09:155][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.15-04.33.09:158][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.15-04.33.09:158][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.15-04.33.09:158][  0]LogWindows: EnumDisplayDevices:
+[2017.11.15-04.33.09:159][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.11.15-04.33.09:159][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.11.15-04.33.09:159][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.11.15-04.33.09:159][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.11.15-04.33.09:159][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.15-04.33.09:159][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.11.15-04.33.09:159][  0]LogD3D11RHI:   Driver Version: 387.92 (internal:23.21.13.8792, unified:387.92)
+[2017.11.15-04.33.09:159][  0]LogD3D11RHI:      Driver Date: 10-6-2017
+[2017.11.15-04.33.09:159][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.15-04.33.09:170][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.15-04.33.09:188][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.15-04.33.09:235][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Intermediate/Shaders/WorkingDirectory/4468/).
+[2017.11.15-04.33.09:235][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcelo/AppData/Local/Temp/UnrealShaderWorkingDir/2F2952E3441015ADF5BFCBABB4AF597F/'.
+[2017.11.15-04.33.09:236][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.15-04.33.10:144][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.15-04.33.10:189][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.15-04.33.10:234][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.15-04.33.10:279][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.15-04.33.10:326][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.15-04.33.10:371][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.15-04.33.10:416][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.15-04.33.10:461][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.15-04.33.10:500][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.15-04.33.10:545][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.15-04.33.10:588][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.15-04.33.10:633][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.15-04.33.10:677][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.15-04.33.10:721][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.15-04.33.10:764][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.15-04.33.10:855][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.15-04.33.10:855][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.15-04.33.10:887][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.15-04.33.10:971][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.15-04.33.11:000][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.15-04.33.11:043][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.15-04.33.11:087][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.15-04.33.11:130][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.15-04.33.11:174][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.15-04.33.11:174][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.15-04.33.11:585][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.15-04.33.11:699][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.15-04.33.11:700][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.15-04.33.11:700][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.15-04.33.11:700][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.15-04.33.11:700][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.15-04.33.11:700][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.15-04.33.11:719][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.15-04.33.11:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcelo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.15-04.33.11:742][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.15-04.33.11:742][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.15-04.33.11:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-04.33.11:743][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.15-04.33.12:009][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2017.11.15-04.33.12:127][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.15-04.33.12:278][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.15-04.33.12:558][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.15-04.33.12:594][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.15-04.33.12:594][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.15-04.33.12:594][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.15-04.33.12:594][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.15-04.33.12:594][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.15-04.33.12:954][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
+[2017.11.15-04.33.13:138][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.024890 seconds
+[2017.11.15-04.33.13:144][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.15-04.33.13:144][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.15-04.33.13:144][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.15-04.33.13:205][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.15-04.33.15:581][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.15-04.33.15:616][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.15-04.33.16:162][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.15-04.33.16:516][  0]SourceControl: Source control is disabled
+[2017.11.15-04.33.17:238][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.15-04.33.17:439][  0]LogOcInput: OculusInput pre-init called
+[2017.11.15-04.33.17:661][  0]LogEngine: Initializing Engine...
+[2017.11.15-04.33.17:663][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.15-04.33.17:920][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.15-04.33.17:921][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.15-04.33.18:035][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.15-04.33.18:045][  0]LogInit: XAudio2 using 'Alto-falantes (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-04.33.18:055][  0]LogInit: FAudioDevice initialized.
+[2017.11.15-04.33.18:211][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Marcelo/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.15-04.33.18:234][  0]LogInit: Texture streaming: Enabled
+[2017.11.15-04.33.18:333][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.15-04.33.18:516][  0]LogInit: Transaction tracking system initialized
+[2017.11.15-04.33.18:777][  0]BlueprintLog: New page: Editor Load
+[2017.11.15-04.33.19:531][  0]LocalizationService: Localization service is disabled
+[2017.11.15-04.33.20:131][  0]LogConsoleResponse: Display: 
+[2017.11.15-04.33.20:306][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.15-04.33.20:306][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.15-04.33.20:306][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.15-04.33.21:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/' took 0.01s
+[2017.11.15-04.33.21:182][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.15-04.33.21:183][  0]LightingResults: New page: Lighting Build
+[2017.11.15-04.33.21:218][  0]MapCheck: New page: Map Check
+[2017.11.15-04.33.21:218][  0]LightingResults: New page: Lighting Build
+[2017.11.15-04.33.21:808][  0]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.15-04.33.21:822][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.15-04.33.21:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.15-04.33.21:899][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.571ms to complete.
+[2017.11.15-04.33.21:899][  0]LogFileHelpers: Loading map 'Caramuru2D' took 0.717
+[2017.11.15-04.33.22:031][  0]LogCollectionManager: Loaded 0 collections in 0.001294 seconds
+[2017.11.15-04.33.22:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Collections/' took 0.01s
+[2017.11.15-04.33.22:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Developers/Marcelo/Collections/' took 0.01s
+[2017.11.15-04.33.22:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Collections/' took 0.01s
+[2017.11.15-04.33.22:103][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.15-04.33.22:112][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2386 classes and 500 folders.
+[2017.11.15-04.33.22:166][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.15-04.33.22:200][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.15-04.33.22:236][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.15-04.33.22:301][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-04.33.22:304][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.15-04.33.22:317][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.15-04.33.22:453][  0]LogRenderer: Reallocating scene render targets to support 808x268 Format 10 NumSamples 1 (Frame:1).
+[2017.11.15-04.33.22:508][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-04.33.22:693][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.15-04.33.22:693][  0]LogLoad: (Engine Initialization) Total time: 15.76 seconds
+[2017.11.15-04.33.22:693][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.15-04.33.22:694][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.15-04.33.23:055][  0]SourceControl: On branch master
+[2017.11.15-04.33.23:055][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.15-04.33.23:055][  0]SourceControl: Changes not staged for commit:
+[2017.11.15-04.33.23:055][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-04.33.23:055][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Caramuru.uasset
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.11.15-04.33.23:055][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-19.35.24.log
+[2017.11.15-04.33.23:055][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-23.13.24.log
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.15-04.33.23:055][  0]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2017.11.15-04.33.23:055][  0]SourceControl: Untracked files:
+[2017.11.15-04.33.23:055][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-29-36.uasset
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Backup/Caramuru2D_2017-11-15-01-32-05.umap
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-30-04.uasset
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8E086C874478ECA2FBA4EE8BB6B21805/
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F34FC3734F3C3D0F39A7609B104B98C6/
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.27.30.log
+[2017.11.15-04.33.23:055][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.33.07.log
+[2017.11.15-04.33.23:055][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.15-04.33.23:056][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.15-04.33.23:382][  1]LogAssetRegistry: Asset discovery search completed in 11.3959 seconds
+[2017.11.15-04.33.23:385][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.15-04.33.23:385][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.11.15-04.33.24:035][  3]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-04.37.20:337][858]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.15-04.37.20:408][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.37.20:408][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-04.37.20:409][858]PIE: New page: PIE session: Caramuru2D (Nov 14, 2017, 10:37:20 PM)
+[2017.11.15-04.37.20:409][858]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.11.15-04.37.20:414][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004992s)
+[2017.11.15-04.37.20:415][858]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.15-04.37.20:415][858]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2017.11.15-04.37.20:415][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.006431s)
+[2017.11.15-04.37.20:431][858]LogInit: XAudio2 using 'Alto-falantes (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-04.37.20:439][858]LogInit: FAudioDevice initialized.
+[2017.11.15-04.37.20:482][858]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.15-04.37.20:487][858]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.15-01.37.20
+[2017.11.15-04.37.20:489][858]LogWorld: Bringing up level for play took: 0.006181
+[2017.11.15-04.37.20:525][858]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.15-04.37.20:527][858]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.15-04.37.20:527][858]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0.953
+[2017.11.15-04.37.20:527][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.37.22:014][ 33]Cmd: LevelEditor.ToggleImmersive
+[2017.11.15-04.37.22:161][ 34]LogRenderer: Reallocating scene render targets to support 944x380 Format 10 NumSamples 1 (Frame:177).
+[2017.11.15-04.37.22:209][ 35]LogRenderer: Reallocating scene render targets to support 1360x728 Format 10 NumSamples 1 (Frame:179).
+[2017.11.15-04.37.23:602][200]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5058.965 Y=100.000 Z=4038.977
+[2017.11.15-04.37.28:178][749]LogBlueprintUserMessages: [BP_Check_Point2] X=-3431.707 Y=100.000 Z=4053.597
+[2017.11.15-04.38.08:120][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.38.08:186][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.38.16:400][499]LogEditorViewport: Clicking on Actor (LMB): Chest_C (Chest)
+[2017.11.15-04.38.19:119][790]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree_3_Sprite8)
+[2017.11.15-04.38.21:766][ 98]LogEditorViewport: Clicking Background
+[2017.11.15-04.39.06:179][159]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.15-04.39.06:538][159]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.11.15-04.39.07:184][159]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.15-04.39.07:249][159]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.15-04.39.07:449][160]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.15-04.40.20:406][436]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.40.21:389][477]LogSavePackage: Save=115.07ms
+[2017.11.15-04.40.21:389][477]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacter952E50EC46C752C62C33E0849C6FF5CC.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset'
+[2017.11.15-04.40.21:392][477]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.40.47:728][980]LogSlate: Took 0.026166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.15-04.40.54:821][784]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.43.30:820][723]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.43.31:751][764]LogSavePackage: Save=139.46ms
+[2017.11.15-04.43.31:751][764]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacter66CAB4EA44A713A439903D9B9BCAAC6F.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset'
+[2017.11.15-04.43.31:754][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.45.08:956][ 31]BlueprintLog: New page: Compile BP_Shoot
+[2017.11.15-04.45.09:799][ 61]LogSavePackage: Save=24.98ms
+[2017.11.15-04.45.09:799][ 61]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/BP_ShootE4EB2A474481341FA23E46B7BD4615E8.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset'
+[2017.11.15-04.45.09:802][ 61]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset
+[2017.11.15-04.45.12:785][278]BlueprintLog: New page: Compile Caramuru
+[2017.11.15-04.45.14:747][288]LogSavePackage: Save=257.40ms
+[2017.11.15-04.45.14:747][288]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Caramuru40FFC521464AD8AA09A0DCA7BDDD65F4.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/Caramuru.uasset'
+[2017.11.15-04.45.14:749][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/Caramuru.uasset
+[2017.11.15-04.45.16:960][519]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.45.18:008][575]LogSavePackage: Save=151.51ms
+[2017.11.15-04.45.18:008][575]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacterF9984F95460F675218E7C3BB15212BFC.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset'
+[2017.11.15-04.45.18:009][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.45.21:475][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.15-04.45.22:457][896]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.15-04.45.22:520][896]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.45.22:520][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-04.45.22:520][896]PIE: New page: PIE session: Caramuru2D (Nov 14, 2017, 10:45:22 PM)
+[2017.11.15-04.45.22:520][896]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.11.15-04.45.22:525][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004211s)
+[2017.11.15-04.45.22:525][896]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.15-04.45.22:525][896]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.11.15-04.45.22:526][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005123s)
+[2017.11.15-04.45.22:548][896]LogInit: XAudio2 using 'Alto-falantes (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-04.45.22:557][896]LogInit: FAudioDevice initialized.
+[2017.11.15-04.45.22:591][896]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.15-04.45.22:596][896]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.15-01.45.22
+[2017.11.15-04.45.22:597][896]LogWorld: Bringing up level for play took: 0.005781
+[2017.11.15-04.45.22:599][896]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.15-04.45.22:599][896]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1.025
+[2017.11.15-04.45.22:599][896]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.45.23:526][  6]Cmd: LevelEditor.ToggleImmersive
+[2017.11.15-04.45.25:049][167]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5058.979 Y=100.000 Z=4039.005
+[2017.11.15-04.45.25:945][275]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.15-04.45.28:320][560]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.08 Normal: X=0.99 Y=0.00 Z=-0.15 PenetrationDepth:11.068 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2017.11.15-04.45.28:412][571]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2017.11.15-04.45.28:979][639]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2017.11.15-04.45.29:678][723]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2017.11.15-04.45.30:154][780]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2017.11.15-04.45.30:454][816]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=172.92 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.31 Normal: X=0.99 Y=0.00 Z=-0.13 PenetrationDepth:4.197 Actor:BP_Shoot_C_5 Component:Sphere BoneName:None (5 other events since notify)
+[2017.11.15-04.45.30:554][828]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2017.11.15-04.45.30:629][837]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2017.11.15-04.45.31:170][902]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2017.11.15-04.45.31:820][980]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2017.11.15-04.45.35:438][414]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.45.35:504][414]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.46.37:406][619]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.46.37:465][619]LogBlueprint: Error: [Compiler EnemyCharacter] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2017.11.15-04.46.37:738][619]LogBlueprint: Warning: [Compiler EnemyCharacter] [0810.80] Compile of EnemyCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 331 ms] (/Game/2DSideScrollerBP/Blueprints/EnemyCharacter.EnemyCharacter)
+[2017.11.15-04.47.14:122][272]SourceControl: On branch master
+[2017.11.15-04.47.14:122][272]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.15-04.47.14:122][272]SourceControl: Changes not staged for commit:
+[2017.11.15-04.47.14:122][272]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-04.47.14:122][272]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Caramuru.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.11.15-04.47.14:122][272]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-19.35.24.log
+[2017.11.15-04.47.14:122][272]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-23.13.24.log
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.15-04.47.14:122][272]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2017.11.15-04.47.14:122][272]SourceControl: Untracked files:
+[2017.11.15-04.47.14:122][272]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-29-36.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-45-09.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Backup/Caramuru2D_2017-11-15-01-32-05.umap
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-30-04.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-45-14.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Backup/EnemyCharacter_2017-11-15-01-40-21.uasset
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8E086C874478ECA2FBA4EE8BB6B21805/
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F34FC3734F3C3D0F39A7609B104B98C6/
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.27.30.log
+[2017.11.15-04.47.14:122][272]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.33.07.log
+[2017.11.15-04.47.14:122][272]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.15-04.47.14:375][272]LogMetaData: Removing '/Game/PotionHealt.PotionHealt_C' ref from Metadata '/Game/ExpSphere.PackageMetaData'
+[2017.11.15-04.47.14:375][272]LogMetaData: Removing '/Game/PotionHealt.SKEL_PotionHealt_C' ref from Metadata '/Game/ExpSphere.PackageMetaData'
+[2017.11.15-04.47.14:396][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PotionHealt" FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/PotionHealt.uasset" SILENT=true
+[2017.11.15-04.47.14:433][272]LogSavePackage: Save=34.43ms
+[2017.11.15-04.47.14:433][272]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/PotionHealt68E984C4475CFF9E2B265083AE1E2E7E.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/PotionHealt.uasset'
+[2017.11.15-04.47.14:435][272]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/PotionHealt.uasset
+[2017.11.15-04.47.14:538][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExpSphere" FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphere.uasset" SILENT=true
+[2017.11.15-04.47.14:569][272]LogSavePackage: Save=4.54ms
+[2017.11.15-04.47.14:569][272]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereACBF39CE44798BB32D3B37BEEE2F5A52.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphere.uasset'
+[2017.11.15-04.47.14:571][272]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphere.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: On branch master
+[2017.11.15-04.47.20:309][926]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.15-04.47.20:309][926]SourceControl: Changes to be committed:
+[2017.11.15-04.47.20:309][926]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Content/ExpSphere.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	new file:   Content/PotionHealt.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: Changes not staged for commit:
+[2017.11.15-04.47.20:309][926]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-04.47.20:309][926]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Caramuru.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.11.15-04.47.20:309][926]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-19.35.24.log
+[2017.11.15-04.47.20:309][926]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-23.13.24.log
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.15-04.47.20:309][926]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2017.11.15-04.47.20:309][926]SourceControl: Untracked files:
+[2017.11.15-04.47.20:309][926]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-29-36.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-45-09.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/Caramuru2D_2017-11-15-01-32-05.umap
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-30-04.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-45-14.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/EnemyCharacter_2017-11-15-01-40-21.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Backup/ExpSphere_2017-11-15-01-47-14.uasset
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8E086C874478ECA2FBA4EE8BB6B21805/
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F34FC3734F3C3D0F39A7609B104B98C6/
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.27.30.log
+[2017.11.15-04.47.20:309][926]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.33.07.log
+[2017.11.15-04.47.20:489][926]LogMetaData: Removing '/Game/Health.Health_C' ref from Metadata '/Game/PotionHealt.PackageMetaData'
+[2017.11.15-04.47.20:489][926]LogMetaData: Removing '/Game/Health.SKEL_Health_C' ref from Metadata '/Game/PotionHealt.PackageMetaData'
+[2017.11.15-04.47.20:511][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Health" FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Health.uasset" SILENT=true
+[2017.11.15-04.47.20:546][926]LogSavePackage: Save=33.34ms
+[2017.11.15-04.47.20:546][926]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/HealthA8E23FE14D053CFA546F2EAC11BA9C49.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Health.uasset'
+[2017.11.15-04.47.20:548][926]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Health.uasset
+[2017.11.15-04.47.21:111][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExpSphere" FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphere.uasset" SILENT=true
+[2017.11.15-04.47.21:137][926]LogSavePackage: Save=5.20ms
+[2017.11.15-04.47.21:137][926]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphere66D460BC484BF53F12B33EBE61CB102D.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphere.uasset'
+[2017.11.15-04.47.21:138][926]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphere.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: On branch master
+[2017.11.15-04.47.24:852][355]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.15-04.47.24:852][355]SourceControl: Changes to be committed:
+[2017.11.15-04.47.24:852][355]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Content/ExpSphere.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	new file:   Content/Health.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	new file:   Content/PotionHealt.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: Changes not staged for commit:
+[2017.11.15-04.47.24:852][355]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-04.47.24:852][355]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Caramuru.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Content/ExpSphere.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.11.15-04.47.24:852][355]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-19.35.24.log
+[2017.11.15-04.47.24:852][355]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-23.13.24.log
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.15-04.47.24:852][355]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2017.11.15-04.47.24:852][355]SourceControl: Untracked files:
+[2017.11.15-04.47.24:852][355]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-29-36.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-45-09.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/Caramuru2D_2017-11-15-01-32-05.umap
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-30-04.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-45-14.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/EnemyCharacter_2017-11-15-01-40-21.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Backup/ExpSphere_2017-11-15-01-47-14.uasset
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8E086C874478ECA2FBA4EE8BB6B21805/
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F34FC3734F3C3D0F39A7609B104B98C6/
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.27.30.log
+[2017.11.15-04.47.24:852][355]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.33.07.log
+[2017.11.15-04.47.25:033][355]LogMetaData: Removing '/Game/Health2.Health2_C' ref from Metadata '/Game/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.47.25:033][355]LogMetaData: Removing '/Game/Health2.SKEL_Health2_C' ref from Metadata '/Game/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.47.25:060][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Health2" FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Health2.uasset" SILENT=true
+[2017.11.15-04.47.25:097][355]LogSavePackage: Save=34.73ms
+[2017.11.15-04.47.25:097][355]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Health240A51C084A4B6FEA9E31AAA3117240C7.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Health2.uasset'
+[2017.11.15-04.47.25:099][355]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Health2.uasset
+[2017.11.15-04.47.25:384][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExpSphereActor" FILE="../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphereActor.uasset" SILENT=true
+[2017.11.15-04.47.25:416][355]LogSavePackage: Save=5.17ms
+[2017.11.15-04.47.25:416][355]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereActor595580624B5D89B8C9035E8A41AAD0EB.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphereActor.uasset'
+[2017.11.15-04.47.25:419][355]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/ExpSphereActor.uasset
+[2017.11.15-04.48.04:057][879]BlueprintLog: New page: Compile ExpSphereActor
+[2017.11.15-04.48.04:794][927]LogSavePackage: Save=17.60ms
+[2017.11.15-04.48.04:794][927]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereActor4FF24B83435A169D19FCA29B73B0EF68.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset'
+[2017.11.15-04.48.04:797][927]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset
+[2017.11.15-04.48.07:319][217]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.15-04.48.11:926][750]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.48.12:891][797]LogSavePackage: Save=129.15ms
+[2017.11.15-04.48.12:891][797]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacter48A32F644F997EC9AA8108AAE3BF90EF.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset'
+[2017.11.15-04.48.12:894][797]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.48.21:913][358]BlueprintLog: New page: Compile ExpSphereActor
+[2017.11.15-04.48.22:690][398]LogSavePackage: Save=18.30ms
+[2017.11.15-04.48.22:690][398]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereActor7E02C25044351DF22E83B189506FD2C8.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset'
+[2017.11.15-04.48.22:692][398]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset
+[2017.11.15-04.48.23:470][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.15-04.48.25:281][697]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.15-04.48.25:317][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.48.25:317][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-04.48.25:317][697]PIE: New page: PIE session: Caramuru2D (Nov 14, 2017, 10:48:25 PM)
+[2017.11.15-04.48.25:317][697]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.11.15-04.48.25:321][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003924s)
+[2017.11.15-04.48.25:322][697]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.15-04.48.25:322][697]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.11.15-04.48.25:322][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.004760s)
+[2017.11.15-04.48.25:344][697]LogInit: XAudio2 using 'Alto-falantes (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-04.48.25:352][697]LogInit: FAudioDevice initialized.
+[2017.11.15-04.48.25:380][697]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.15-04.48.25:386][697]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.15-01.48.25
+[2017.11.15-04.48.25:387][697]LogWorld: Bringing up level for play took: 0.005918
+[2017.11.15-04.48.25:389][697]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.15-04.48.25:389][697]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0.184
+[2017.11.15-04.48.25:389][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.48.26:093][780]Cmd: LevelEditor.ToggleImmersive
+[2017.11.15-04.48.27:850][973]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5062.471 Y=100.000 Z=4019.697
+[2017.11.15-04.48.28:779][ 85]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.15-04.48.30:887][338]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.29 Normal: X=0.97 Y=0.00 Z=-0.22 PenetrationDepth:27.500 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2017.11.15-04.48.30:945][345]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2017.11.15-04.48.30:987][350]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2017.11.15-04.48.31:145][369]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2017.11.15-04.48.31:420][402]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2017.11.15-04.48.31:971][468]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2017.11.15-04.48.32:279][505]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.03 Normal: X=0.99 Y=0.00 Z=-0.17 PenetrationDepth:15.614 Actor:BP_Shoot_C_6 Component:Sphere BoneName:None (13 other events since notify)
+[2017.11.15-04.48.32:362][515]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2017.11.15-04.48.32:429][523]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2017.11.15-04.48.32:595][543]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2017.11.15-04.48.35:638][908]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.48.35:704][908]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.48.51:765][715]SourceControl: On branch master
+[2017.11.15-04.48.51:765][715]SourceControl: Your branch is up to date with 'origin/master'.
+[2017.11.15-04.48.51:765][715]SourceControl: Changes to be committed:
+[2017.11.15-04.48.51:765][715]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/ExpSphere.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/ExpSphereActor.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	new file:   Content/Health.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	new file:   Content/Health2.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	new file:   Content/PotionHealt.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: Changes not staged for commit:
+[2017.11.15-04.48.51:765][715]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.15-04.48.51:765][715]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Caramuru.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Content/ExpSphere.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.11.15-04.48.51:765][715]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-19.35.24.log
+[2017.11.15-04.48.51:765][715]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2017.11.14-23.13.24.log
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2017.11.15-04.48.51:765][715]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2017.11.15-04.48.51:765][715]SourceControl: Untracked files:
+[2017.11.15-04.48.51:765][715]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-29-36.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/BP_Shoot_2017-11-15-01-45-09.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/Caramuru2D_2017-11-15-01-32-05.umap
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-30-04.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/Caramuru_2017-11-15-01-45-14.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/EnemyCharacter_2017-11-15-01-40-21.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/EnemyCharacter_2017-11-15-01-48-12.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/ExpSphereActor_2017-11-15-01-47-25.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Backup/ExpSphere_2017-11-15-01-47-14.uasset
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-8E086C874478ECA2FBA4EE8BB6B21805/
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F34FC3734F3C3D0F39A7609B104B98C6/
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.27.30.log
+[2017.11.15-04.48.51:765][715]SourceControl: 	Saved/Logs/Caramuru2D-backup-2017.11.15-01.33.07.log
+[2017.11.15-04.48.51:878][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.ExpSphereActor_C' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:878][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.ExpSphereActor_C:BndEvt__Box_K2Node_ComponentBoundEvent_4_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:878][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.ExpSphereActor_C:ExecuteUbergraph_ExpSphereActor' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:878][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.ExpSphereActor_C:UserConstructionScript' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:878][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.ExpSphereActor_C:Box' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.ExpSphereActor_C:PaperSprite' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C:UserConstructionScript' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C:Box' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C:PaperSprite' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C:BndEvt__Box_K2Node_ComponentBoundEvent_4_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:879][715]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/ExpSphereActor.SKEL_ExpSphereActor_C:ReceiveBeginPlay' ref from Metadata '/Game/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.PackageMetaData'
+[2017.11.15-04.48.51:931][715]LogSavePackage: Save=18.52ms
+[2017.11.15-04.48.51:931][715]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereActorAC49D48B449C903EF830F1B491329AAA.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/ExpSphereActor.uasset'
+[2017.11.15-04.48.51:934][715]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/ExpSphereActor.uasset
+[2017.11.15-04.48.52:083][715]LogSavePackage: Save=4.94ms
+[2017.11.15-04.48.52:083][715]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereActor9418CE7542DE5A5A6BF79E84CEACFEC6.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset'
+[2017.11.15-04.48.52:086][715]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset
+[2017.11.15-04.49.35:993][269]BlueprintLog: New page: Compile EnemyCharacter
+[2017.11.15-04.49.36:989][320]LogSavePackage: Save=131.37ms
+[2017.11.15-04.49.36:989][320]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacter116F7C9C4A1ADEE276B1A5931388553D.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset'
+[2017.11.15-04.49.36:992][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.49.38:769][531]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.15-04.49.38:821][531]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.49.38:821][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-04.49.38:821][531]PIE: New page: PIE session: Caramuru2D (Nov 14, 2017, 10:49:38 PM)
+[2017.11.15-04.49.38:821][531]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.11.15-04.49.38:826][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004749s)
+[2017.11.15-04.49.38:827][531]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.15-04.49.38:827][531]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2017.11.15-04.49.38:827][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005768s)
+[2017.11.15-04.49.38:851][531]LogInit: XAudio2 using 'Alto-falantes (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-04.49.38:859][531]LogInit: FAudioDevice initialized.
+[2017.11.15-04.49.38:892][531]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.15-04.49.38:897][531]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.15-01.49.38
+[2017.11.15-04.49.38:899][531]LogWorld: Bringing up level for play took: 0.006034
+[2017.11.15-04.49.38:900][531]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.15-04.49.38:900][531]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0.673
+[2017.11.15-04.49.38:901][531]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.49.39:353][584]Cmd: LevelEditor.ToggleImmersive
+[2017.11.15-04.49.41:397][809]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5061.441 Y=100.000 Z=4019.697
+[2017.11.15-04.49.42:301][918]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.15-04.49.43:976][119]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=172.93 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.31 Normal: X=0.99 Y=0.00 Z=-0.13 PenetrationDepth:3.861 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2017.11.15-04.49.44:076][131]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2017.11.15-04.49.44:176][143]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2017.11.15-04.49.44:901][230]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2017.11.15-04.49.45:201][266]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2017.11.15-04.49.45:334][282]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2017.11.15-04.49.45:526][305]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=25.24 Y=0.00 Z=0.00 Location: X=-3632.87 Y=100.00 Z=3942.09 Normal: X=0.99 Y=0.00 Z=-0.13 PenetrationDepth:4.551 Actor:BP_Shoot_C_6 Component:Sphere BoneName:None (8 other events since notify)
+[2017.11.15-04.49.45:627][317]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2017.11.15-04.49.45:677][323]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2017.11.15-04.49.46:068][370]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2017.11.15-04.49.46:894][469]LogBlueprintUserMessages: [EnemyCharacter_226] You earned 30 experience
+[2017.11.15-04.49.49:376][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.49.49:445][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.50.29:325][470]BlueprintLog: New page: Compile ExpSphereActor
+[2017.11.15-04.50.30:536][554]LogSavePackage: Save=19.10ms
+[2017.11.15-04.50.30:536][554]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/ExpSphereActor40EAB2134A8C393392E8E7A4D98451AA.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/ExpSphereActor.uasset'
+[2017.11.15-04.50.30:539][554]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/ExpSphereActor.uasset
+[2017.11.15-04.50.31:925][719]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.15-04.50.31:965][719]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.50.31:965][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.15-04.50.31:966][719]PIE: New page: PIE session: Caramuru2D (Nov 14, 2017, 10:50:31 PM)
+[2017.11.15-04.50.31:966][719]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.11.15-04.50.31:970][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004361s)
+[2017.11.15-04.50.31:971][719]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.15-04.50.31:971][719]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2017.11.15-04.50.31:971][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005314s)
+[2017.11.15-04.50.31:995][719]LogInit: XAudio2 using 'Alto-falantes (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.15-04.50.32:003][719]LogInit: FAudioDevice initialized.
+[2017.11.15-04.50.32:031][719]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.15-04.50.32:037][719]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.15-01.50.32
+[2017.11.15-04.50.32:038][719]LogWorld: Bringing up level for play took: 0.006416
+[2017.11.15-04.50.32:040][719]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.15-04.50.32:040][719]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0.467
+[2017.11.15-04.50.32:040][719]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.50.33:259][864]Cmd: LevelEditor.ToggleImmersive
+[2017.11.15-04.50.34:542][  1]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5059.087 Y=100.000 Z=4047.578
+[2017.11.15-04.50.35:630][132]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.15-04.50.37:315][334]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.28 Normal: X=0.99 Y=0.00 Z=-0.15 PenetrationDepth:12.699 Actor:BP_Shoot_C_2 Component:Sphere BoneName:None (0 other events since notify)
+[2017.11.15-04.50.37:399][344]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2017.11.15-04.50.37:473][353]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2017.11.15-04.50.38:123][431]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2017.11.15-04.50.38:531][480]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3632.94 Y=100.00 Z=3942.28 Normal: X=0.99 Y=0.00 Z=-0.15 PenetrationDepth:12.698 Actor:BP_Shoot_C_5 Component:Sphere BoneName:None (5 other events since notify)
+[2017.11.15-04.50.38:615][490]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2017.11.15-04.50.38:681][498]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2017.11.15-04.50.38:832][516]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2017.11.15-04.50.39:148][554]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2017.11.15-04.50.39:215][562]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2017.11.15-04.50.42:765][988]LogBlueprintUserMessages: [ExpSphereActor_C_0] You earned 30 EXP
+[2017.11.15-04.50.45:440][309]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.50.45:505][309]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.11.15-04.50.46:399][411]Cmd: SELECT NONE
+[2017.11.15-04.51.13:602][791]LogSavePackage: Save=294.87ms
+[2017.11.15-04.51.13:603][791]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Caramuru2D_Auto1886E42F84349C54BBB4EC7918CAA3F83.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap'
+[2017.11.15-04.51.13:640][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap
+[2017.11.15-04.51.13:643][791]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Caramuru2D' took 0.391
+[2017.11.15-04.51.13:643][791]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.391
+[2017.11.15-04.51.13:646][791]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/EnemyCharacter] ([1] browsable assets)...
+[2017.11.15-04.51.13:646][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/EnemyCharacter]
+[2017.11.15-04.51.13:848][791]LogSavePackage: Save=174.52ms
+[2017.11.15-04.51.13:848][791]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacter_Auto1C0CF8F384C603CCE6F6BDABE2DDF435C.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/EnemyCharacter_Auto1.uasset'
+[2017.11.15-04.51.13:852][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/EnemyCharacter_Auto1.uasset
+[2017.11.15-04.51.13:852][791]LogFileHelpers: Auto-saving content packages took 0.208
+[2017.11.15-04.51.29:616][803]LogSavePackage: Save=108.29ms
+[2017.11.15-04.51.29:616][803]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Caramuru2D4CA6E7134DB61B0E135F77ABF7776788.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap'
+[2017.11.15-04.51.29:621][803]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.11.15-04.51.31:166][949]LogSavePackage: Save=146.49ms
+[2017.11.15-04.51.31:166][949]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/EnemyCharacterF89C8E2C42A08DCA551B3CA62CE3CA08.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset'
+[2017.11.15-04.51.31:169][949]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset
+[2017.11.15-04.51.33:436][216]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.15-04.51.50:273][216]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.15-04.51.50:372][216]SourceControl: [master 6be1b85] Sistema de Matar Inimigo/Sistema de EXP
+[2017.11.15-04.51.50:372][216]SourceControl:  11 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.15-04.51.50:372][216]SourceControl:  rewrite Content/2DSideScrollerBP/2dtiledmap/Enemy/ExpSphereActor.uasset (100%)
+[2017.11.15-04.51.50:372][216]SourceControl:  rewrite Content/2DSideScrollerBP/Blueprints/BP_Shoot.uasset (88%)
+[2017.11.15-04.51.50:372][216]SourceControl:  rewrite Content/2DSideScrollerBP/Blueprints/EnemyCharacter.uasset (87%)
+[2017.11.15-04.51.50:372][216]SourceControl:  create mode 100644 Content/2DSideScrollerBP/Blueprints/ExpSphereActor.uasset
+[2017.11.15-04.51.50:372][216]SourceControl:  rewrite Content/ExpSphere.uasset (99%)
+[2017.11.15-04.51.50:372][216]SourceControl:  rewrite Content/ExpSphereActor.uasset (99%)
+[2017.11.15-04.51.50:372][216]SourceControl:  create mode 100644 Content/Health.uasset
+[2017.11.15-04.51.50:372][216]SourceControl:  create mode 100644 Content/Health2.uasset
+[2017.11.15-04.51.50:372][216]SourceControl:  create mode 100644 Content/PotionHealt.uasset
+[2017.11.15-04.51.50:375][216]SourceControl: Commited [master 6be1b85] Sistema de Matar Inimigo/Sistema de EXP.
+[2017.11.15-04.51.53:883][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.15-04.51.53:941][584]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.15-04.51.54:126][585]Cmd: QUIT_EDITOR
+[2017.11.15-04.51.54:551][585]LogExit: Preparing to exit.
+[2017.11.15-04.51.55:360][585]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/' was aborted.
+[2017.11.15-04.51.55:396][585]LogExit: Editor shut down
+[2017.11.15-04.51.55:400][585]LogExit: Transaction tracking system shut down
+[2017.11.15-04.51.55:572][585]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.15-04.51.55:572][585]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/' was aborted.
+[2017.11.15-04.51.55:572][585]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.15-04.51.55:572][585]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.15-04.51.55:572][585]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.15-04.51.55:664][585]LogExit: Object subsystem successfully closed.
+[2017.11.15-04.51.55:690][585]LogD3D11RHI: Shutdown
+[2017.11.15-04.51.55:690][585]LogD3D11RHI: CleanupD3DDevice
+[2017.11.15-04.51.55:798][585]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.15-04.51.55:811][585]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.11.15-04.51.55:811][585]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.11.15-04.51.55:811][585]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.11.15-04.51.55:811][585]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.15-04.51.55:811][585]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.15-04.51.55:811][585]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.15-04.51.55:811][585]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.15-04.51.55:812][585]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.15-04.51.55:812][585]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.15-04.51.55:812][585]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.15-04.51.55:812][585]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Collections/' was aborted.
+[2017.11.15-04.51.55:812][585]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Developers/Marcelo/Collections/' was aborted.
+[2017.11.15-04.51.55:812][585]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Collections/' was aborted.
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.15-04.51.55:813][585]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.15-04.51.55:814][585]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.15-04.51.56:500][585]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.15-04.51.56:501][585]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.15-04.51.56:544][585]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.15-04.51.56:551][585]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.15-04.51.56:553][585]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.15-04.51.56:663][585]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.15-04.51.56:663][585]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.15-04.51.56:663][585]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.15-04.51.56:663][585]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.15-04.51.56:663][585]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.15-04.51.56:664][585]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.15-04.51.56:665][585]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.15-04.51.56:767][585]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.15-04.51.56:868][585]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.15-04.51.56:869][585]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.15-04.51.56:869][585]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.15-04.51.56:869][585]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.15-04.51.56:869][585]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.15-04.51.56:871][585]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.15-04.51.56:883][585]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.15-04.51.56:967][585]LogDerivedDataCache: Shutdown
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.15-04.51.56:967][585]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.15-04.51.56:968][585]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.15-04.51.56:968][585]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.15-04.51.56:968][585]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.15-04.51.56:968][585]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDD969F49-43F1-D31A-C3FC-C89EF04A2FD7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0cdc46354752a0eab9852f856d7117e8%7C15cca6e6937c4713820d7aa9ac75edf7%7C47e4ea8b-fce0-40e0-83d0-fc5cc9b7dace&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.15-04.51.56:974][585]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.15-04.51.56:975][585]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.15-04.51.56:975][585]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.15-04.51.56:975][585]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.15-04.51.56:975][585]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.15-04.51.56:976][585]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.15-04.51.56:976][585]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.15-04.51.56:976][585]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.15-04.51.56:977][585]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.15-04.51.56:981][585]LogExit: Exiting.
+[2017.11.15-04.51.57:010][585]Log file closed, 11/15/17 01:51:57
