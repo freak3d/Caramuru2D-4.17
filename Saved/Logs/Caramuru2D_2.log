@@ -789,3 +789,344 @@ LogInit: Object subsystem initialized
 [2017.11.19-01.20.03:164][520]SourceControl: [master f3afae3] menu corrigido e pausa corrigida
 [2017.11.19-01.20.03:164][520]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
 [2017.11.19-01.20.03:174][520]SourceControl: Commited [master f3afae3] menu corrigido e pausa corrigida.
+[2017.11.19-01.22.52:968][245]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.22.53:082][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.22.53:082][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.22.53:083][245]PIE: New page: Sessão de PIE : Level_Game_Main_Menu (18/11/2017 19:22:53)
+[2017.11.19-01.22.53:083][245]LogPlayLevel: Creating play world package: /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu
+[2017.11.19-01.22.53:086][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003211s)
+[2017.11.19-01.22.53:088][245]LogAIModule: Creating AISystem for world Level_Game_Main_Menu
+[2017.11.19-01.22.53:089][245]LogPlayLevel: PIE: World Init took: (0.002509s)
+[2017.11.19-01.22.53:089][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu to /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu (0.006392s)
+[2017.11.19-01.22.53:165][245]LogInit: XAudio2 using 'Philips TV (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-01.22.53:184][245]LogInit: FAudioDevice initialized.
+[2017.11.19-01.22.53:227][245]LogLoad: Game class is 'GameModeBase'
+[2017.11.19-01.22.53:230][245]LogWorld: Bringing World /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu up for play (max tick rate 0) at 2017.11.18-22.22.53
+[2017.11.19-01.22.53:231][245]LogWorld: Bringing up level for play took: 0.002549
+[2017.11.19-01.22.53:237][245]PIE: Momento de início de reprodução no editor para /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu 1,154
+[2017.11.19-01.22.53:237][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.23.03:186][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.23.03:261][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.23.04:449][854]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.23.04:545][854]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.23.04:545][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.23.04:546][854]PIE: New page: Sessão de PIE : Level_Game_Main_Menu (18/11/2017 19:23:04)
+[2017.11.19-01.23.04:546][854]LogPlayLevel: Creating play world package: /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu
+[2017.11.19-01.23.04:548][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002277s)
+[2017.11.19-01.23.04:549][854]LogAIModule: Creating AISystem for world Level_Game_Main_Menu
+[2017.11.19-01.23.04:550][854]LogPlayLevel: PIE: World Init took: (0.001451s)
+[2017.11.19-01.23.04:550][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu to /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu (0.004302s)
+[2017.11.19-01.23.04:621][854]LogInit: XAudio2 using 'Philips TV (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-01.23.04:634][854]LogInit: FAudioDevice initialized.
+[2017.11.19-01.23.04:676][854]LogLoad: Game class is 'GameModeBase'
+[2017.11.19-01.23.04:678][854]LogWorld: Bringing World /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu up for play (max tick rate 0) at 2017.11.18-22.23.04
+[2017.11.19-01.23.04:679][854]LogWorld: Bringing up level for play took: 0.001742
+[2017.11.19-01.23.04:684][854]PIE: Momento de início de reprodução no editor para /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu 0,601
+[2017.11.19-01.23.04:684][854]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.23.06:579][951]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.23.06:593][951]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.23.06:633][951]Cmd: MEM
+[2017.11.19-01.23.06:664][951]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.23.06:664][951]LogMemory: Process Physical Memory: 1059.70 MB used, 2350.04 MB peak
+[2017.11.19-01.23.06:664][951]LogMemory: Process Virtual Memory: 3354.14 MB used, 3363.42 MB peak
+[2017.11.19-01.23.06:664][951]LogMemory: Physical Memory: 4226.16 MB used,  3869.34 MB free, 8095.50 MB total
+[2017.11.19-01.23.06:664][951]LogMemory: Virtual Memory: 4198.96 MB used,  3869.34 MB free, 134217728.00 MB total
+[2017.11.19-01.23.06:664][951]LogMemory: 
+[2017.11.19-01.23.06:664][951]Allocator Stats for TBB: (not implemented)
+[2017.11.19-01.23.06:878][951]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.19-01.23.06:878][951]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-01.23.06:892][951]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.18-22.23.06
+[2017.11.19-01.23.06:894][951]LogWorld: Bringing up level for play took: 0.014664
+[2017.11.19-01.23.06:896][951]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.19-01.23.06:896][951]LogLoad: Took 0.303462 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Caramuru2D)
+[2017.11.19-01.23.11:614][202]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5056.673 Y=100.000 Z=4019.697
+[2017.11.19-01.23.16:405][460]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.19-01.23.16:556][468]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2017.11.19-01.23.16:727][477]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2017.11.19-01.23.16:843][483]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2017.11.19-01.23.17:015][492]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=45.32 Y=0.00 Z=0.00 Location: X=-3888.89 Y=100.00 Z=3942.31 Normal: X=0.99 Y=0.00 Z=-0.14 PenetrationDepth:10.076 Actor:BP_Shoot_C_4 Component:Sphere BoneName:None (0 other events since notify)
+[2017.11.19-01.23.17:107][497]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2017.11.19-01.23.17:299][507]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2017.11.19-01.23.17:299][507]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2017.11.19-01.23.17:451][515]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2017.11.19-01.23.17:694][528]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2017.11.19-01.23.19:338][616]LogBlueprintUserMessages: [ExpSphereActor_C_0] You earned 30 EXP
+[2017.11.19-01.23.37:095][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.23.37:146][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.25.24:786][752]BlueprintLog: New page: Compilar HUD_Pausa
+[2017.11.19-01.25.24:856][752]LogBlueprint: Error: [Compiler HUD_Pausa] Spawn node  Create Widget  must have a class specified.
+[2017.11.19-01.25.24:897][752]LogBlueprint: Warning: [Compiler HUD_Pausa] [2313,60] Compile of HUD_Pausa failed. 1 Fatal Issue(s) 0 Warning(s) [in 110 ms] (/Game/Menu/HUD/HUD_Pausa.HUD_Pausa)
+[2017.11.19-01.25.25:345][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_Pausa" FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset" SILENT=true
+[2017.11.19-01.25.25:458][767]LogSavePackage: Save=58.08ms
+[2017.11.19-01.25.25:458][767]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Pausa5997FA5B495F0D25924080AADDE7603C.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset'
+[2017.11.19-01.25.25:463][767]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset
+[2017.11.19-01.26.18:856][686]BlueprintLog: New page: Compilar NewWidgetBlueprint
+[2017.11.19-01.29.00:754][654]BlueprintLog: New page: Compilar HUD_Creditos_Menu_Principal
+[2017.11.19-01.29.01:594][693]LogSavePackage: Save=48.85ms
+[2017.11.19-01.29.01:594][693]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Creditos_Menu_Principal82DEC85B4A0777556EECBAA81CB6B7A4.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Creditos_Menu_Principal.uasset'
+[2017.11.19-01.29.01:599][693]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Creditos_Menu_Principal.uasset
+[2017.11.19-01.29.02:472][756]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.29.02:558][756]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.29.02:558][756]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.19-01.29.02:560][756]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2017.11.19-01.29.02:749][756]LogPlayLevel: PlayLevel: Blueprint regeneration took 190 ms (1 blueprints)
+[2017.11.19-01.29.11:827][137]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.19-01.29.18:993][666]BlueprintLog: New page: Compilar HUD_Pausa
+[2017.11.19-01.29.19:982][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_Pausa" FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset" SILENT=true
+[2017.11.19-01.29.20:085][711]LogSavePackage: Save=58.22ms
+[2017.11.19-01.29.20:086][711]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_PausaCADD04F14DFA81CDF1B80E94539DB6A3.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset'
+[2017.11.19-01.29.20:090][711]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset
+[2017.11.19-01.29.20:661][745]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.29.20:723][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.29.20:723][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.29.20:724][745]PIE: New page: Sessão de PIE : Level_Game_Main_Menu (18/11/2017 19:29:20)
+[2017.11.19-01.29.20:724][745]LogPlayLevel: Creating play world package: /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu
+[2017.11.19-01.29.20:725][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001245s)
+[2017.11.19-01.29.20:726][745]LogAIModule: Creating AISystem for world Level_Game_Main_Menu
+[2017.11.19-01.29.20:726][745]LogPlayLevel: PIE: World Init took: (0.001325s)
+[2017.11.19-01.29.20:727][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu to /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu (0.002993s)
+[2017.11.19-01.29.20:767][745]LogInit: XAudio2 using 'Philips TV (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-01.29.20:779][745]LogInit: FAudioDevice initialized.
+[2017.11.19-01.29.20:835][745]LogLoad: Game class is 'GameModeBase'
+[2017.11.19-01.29.20:836][745]LogWorld: Bringing World /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu up for play (max tick rate 0) at 2017.11.18-22.29.20
+[2017.11.19-01.29.20:837][745]LogWorld: Bringing up level for play took: 0.001269
+[2017.11.19-01.29.20:838][745]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.19-01.29.20:845][745]PIE: Momento de início de reprodução no editor para /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu 0,763
+[2017.11.19-01.29.20:846][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.29.27:774][ 22]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.29.27:802][ 22]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.29.27:871][ 22]Cmd: MEM
+[2017.11.19-01.29.27:931][ 22]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.29.27:931][ 22]LogMemory: Process Physical Memory: 1251.53 MB used, 2350.04 MB peak
+[2017.11.19-01.29.27:931][ 22]LogMemory: Process Virtual Memory: 3504.42 MB used, 3520.13 MB peak
+[2017.11.19-01.29.27:931][ 22]LogMemory: Physical Memory: 4332.35 MB used,  3763.15 MB free, 8095.50 MB total
+[2017.11.19-01.29.27:931][ 22]LogMemory: Virtual Memory: 4336.04 MB used,  3763.15 MB free, 134217728.00 MB total
+[2017.11.19-01.29.27:931][ 22]LogMemory: 
+[2017.11.19-01.29.27:931][ 22]Allocator Stats for TBB: (not implemented)
+[2017.11.19-01.29.28:834][ 22]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.19-01.29.28:835][ 22]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-01.29.28:847][ 22]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.18-22.29.28
+[2017.11.19-01.29.28:849][ 22]LogWorld: Bringing up level for play took: 0.013650
+[2017.11.19-01.29.28:851][ 22]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.19-01.29.28:851][ 22]LogLoad: Took 1.048835 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Caramuru2D)
+[2017.11.19-01.29.28:974][ 23]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082358 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter_226', movement 'Walking'
+[2017.11.19-01.29.31:893][108]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.19-01.29.43:937][458]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.29.43:970][458]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.29.44:010][458]Cmd: MEM
+[2017.11.19-01.29.44:042][458]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.29.44:042][458]LogMemory: Process Physical Memory: 1274.51 MB used, 2350.04 MB peak
+[2017.11.19-01.29.44:042][458]LogMemory: Process Virtual Memory: 3502.86 MB used, 3696.95 MB peak
+[2017.11.19-01.29.44:042][458]LogMemory: Physical Memory: 4341.64 MB used,  3753.86 MB free, 8095.50 MB total
+[2017.11.19-01.29.44:042][458]LogMemory: Virtual Memory: 4348.04 MB used,  3753.86 MB free, 134217728.00 MB total
+[2017.11.19-01.29.44:042][458]LogMemory: 
+[2017.11.19-01.29.44:042][458]Allocator Stats for TBB: (not implemented)
+[2017.11.19-01.29.44:469][458]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.19-01.29.44:469][458]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-01.29.44:483][458]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.18-22.29.44
+[2017.11.19-01.29.44:485][458]LogWorld: Bringing up level for play took: 0.014809
+[2017.11.19-01.29.44:487][458]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.19-01.29.44:487][458]LogLoad: Took 0.516997 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Caramuru2D)
+[2017.11.19-01.29.44:595][459]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082688 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter_226', movement 'Walking'
+[2017.11.19-01.29.46:616][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.29.46:713][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.30.58:713][740]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.19-01.31.10:465][397]BlueprintLog: New page: Compilar HUD_Creditos_Menu_Principal
+[2017.11.19-01.32.17:610][605]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Menu/Levels/Level_Game_Main_Menu' took 0.043
+[2017.11.19-01.32.17:612][605]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_Creditos_Menu_Principal] ([1] browsable assets)...
+[2017.11.19-01.32.17:612][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_Creditos_Menu_Principal]
+[2017.11.19-01.32.17:705][605]LogSavePackage: Save=51.53ms
+[2017.11.19-01.32.17:705][605]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Creditos_Menu_Principal_Auto3EAD0D9C84B551CA11007AEA88C163525.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Creditos_Menu_Principal_Auto3.uasset'
+[2017.11.19-01.32.17:708][605]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Creditos_Menu_Principal_Auto3.uasset
+[2017.11.19-01.32.17:708][605]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_Pausa] ([1] browsable assets)...
+[2017.11.19-01.32.17:708][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_Pausa]
+[2017.11.19-01.32.17:812][605]LogSavePackage: Save=55.63ms
+[2017.11.19-01.32.17:813][605]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Pausa_Auto3481A25C942AB59CDE2FC49B339D527E3.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Pausa_Auto3.uasset'
+[2017.11.19-01.32.17:816][605]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Pausa_Auto3.uasset
+[2017.11.19-01.32.17:817][605]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/NewWidgetBlueprint] ([1] browsable assets)...
+[2017.11.19-01.32.17:817][605]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/NewWidgetBlueprint]
+[2017.11.19-01.32.17:838][605]LogSavePackage: Save=17.27ms
+[2017.11.19-01.32.17:838][605]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/NewWidgetBlueprint_Auto312D0648C45A7A61954E806988AEFFF24.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/NewWidgetBlueprint_Auto3.uasset'
+[2017.11.19-01.32.17:840][605]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/NewWidgetBlueprint_Auto3.uasset
+[2017.11.19-01.32.17:840][605]LogFileHelpers: Auto-saving content packages took 0.230
+[2017.11.19-01.33.54:602][256]BlueprintLog: New page: Compilar HUD_Pausa
+[2017.11.19-01.33.55:682][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_Pausa" FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset" SILENT=true
+[2017.11.19-01.33.55:787][278]LogSavePackage: Save=60.08ms
+[2017.11.19-01.33.55:787][278]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_PausaD0A6CC9C46B239BDE9163A802D5E95DD.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset'
+[2017.11.19-01.33.55:796][278]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset
+[2017.11.19-01.34.28:858][744]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.34.28:967][744]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.34.28:967][744]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.19-01.34.28:971][744]LogPlayLevel: [PlayLevel] Compiling NewWidgetBlueprint before play...
+[2017.11.19-01.34.29:238][744]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (1 blueprints)
+[2017.11.19-01.34.29:238][744]PIE: New page: Sessão de PIE : Level_Game_Main_Menu (18/11/2017 19:34:29)
+[2017.11.19-01.34.29:238][744]LogPlayLevel: Creating play world package: /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu
+[2017.11.19-01.34.29:241][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002247s)
+[2017.11.19-01.34.29:242][744]LogAIModule: Creating AISystem for world Level_Game_Main_Menu
+[2017.11.19-01.34.29:242][744]LogPlayLevel: PIE: World Init took: (0.001704s)
+[2017.11.19-01.34.29:243][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu to /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu (0.004502s)
+[2017.11.19-01.34.29:297][744]LogInit: XAudio2 using 'Philips TV (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-01.34.29:313][744]LogInit: FAudioDevice initialized.
+[2017.11.19-01.34.29:390][744]LogLoad: Game class is 'GameModeBase'
+[2017.11.19-01.34.29:394][744]LogWorld: Bringing World /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu up for play (max tick rate 0) at 2017.11.18-22.34.29
+[2017.11.19-01.34.29:394][744]LogWorld: Bringing up level for play took: 0.002370
+[2017.11.19-01.34.29:395][744]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.19-01.34.29:407][744]PIE: Momento de início de reprodução no editor para /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu 1,324
+[2017.11.19-01.34.29:408][744]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.34.33:903][914]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.34.33:931][914]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.34.34:000][914]Cmd: MEM
+[2017.11.19-01.34.34:054][914]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.34.34:054][914]LogMemory: Process Physical Memory: 1372.43 MB used, 2350.04 MB peak
+[2017.11.19-01.34.34:054][914]LogMemory: Process Virtual Memory: 3468.36 MB used, 3713.38 MB peak
+[2017.11.19-01.34.34:054][914]LogMemory: Physical Memory: 4453.80 MB used,  3641.70 MB free, 8095.50 MB total
+[2017.11.19-01.34.34:054][914]LogMemory: Virtual Memory: 4304.52 MB used,  3641.70 MB free, 134217728.00 MB total
+[2017.11.19-01.34.34:054][914]LogMemory: 
+[2017.11.19-01.34.34:054][914]Allocator Stats for TBB: (not implemented)
+[2017.11.19-01.34.34:790][914]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.19-01.34.34:791][914]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-01.34.34:802][914]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.18-22.34.34
+[2017.11.19-01.34.34:805][914]LogWorld: Bringing up level for play took: 0.012840
+[2017.11.19-01.34.34:806][914]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.19-01.34.34:806][914]LogLoad: Took 0.875772 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Caramuru2D)
+[2017.11.19-01.34.34:861][915]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.080306 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter_226', movement 'Walking'
+[2017.11.19-01.34.40:108][ 64]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	HUD_Creditos_Menu_Principal_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_Creditos_Menu_Principal_C_5
+	Function /Game/Menu/HUD/HUD_Creditos_Menu_Principal.HUD_Creditos_Menu_Principal_C:ExecuteUbergraph_HUD_Creditos_Menu_Principal:0082
+[2017.11.19-01.34.40:109][ 64]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_HUD_Creditos_Menu_Principal' from node: Adicionar à Porta de Visualização in graph: EventGraph in object: HUD_Creditos_Menu_Principal with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.11.19-01.34.41:234][ 96]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.11.19-01.35.05:014][775]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.05:204][775]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.16:229][359]BlueprintLog: New page: Compilar HUD_Pausa
+[2017.11.19-01.35.17:256][435]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.35.17:328][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.17:328][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.35.17:328][435]PIE: New page: Sessão de PIE : Level_Game_Main_Menu (18/11/2017 19:35:17)
+[2017.11.19-01.35.17:328][435]LogPlayLevel: Creating play world package: /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu
+[2017.11.19-01.35.17:330][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001316s)
+[2017.11.19-01.35.17:330][435]LogAIModule: Creating AISystem for world Level_Game_Main_Menu
+[2017.11.19-01.35.17:331][435]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2017.11.19-01.35.17:331][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu to /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu (0.002766s)
+[2017.11.19-01.35.17:370][435]LogInit: XAudio2 using 'Philips TV (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-01.35.17:379][435]LogInit: FAudioDevice initialized.
+[2017.11.19-01.35.17:433][435]LogLoad: Game class is 'GameModeBase'
+[2017.11.19-01.35.17:436][435]LogWorld: Bringing World /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu up for play (max tick rate 0) at 2017.11.18-22.35.17
+[2017.11.19-01.35.17:436][435]LogWorld: Bringing up level for play took: 0.001190
+[2017.11.19-01.35.17:437][435]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.19-01.35.17:442][435]PIE: Momento de início de reprodução no editor para /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu -0,64
+[2017.11.19-01.35.17:442][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.22:381][627]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.35.22:410][627]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.35.22:473][627]Cmd: MEM
+[2017.11.19-01.35.22:527][627]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.35.22:527][627]LogMemory: Process Physical Memory: 1386.22 MB used, 2350.04 MB peak
+[2017.11.19-01.35.22:527][627]LogMemory: Process Virtual Memory: 3407.79 MB used, 3713.38 MB peak
+[2017.11.19-01.35.22:527][627]LogMemory: Physical Memory: 4459.54 MB used,  3635.96 MB free, 8095.50 MB total
+[2017.11.19-01.35.22:527][627]LogMemory: Virtual Memory: 4253.33 MB used,  3635.96 MB free, 134217728.00 MB total
+[2017.11.19-01.35.22:527][627]LogMemory: 
+[2017.11.19-01.35.22:527][627]Allocator Stats for TBB: (not implemented)
+[2017.11.19-01.35.23:328][627]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.19-01.35.23:329][627]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-01.35.23:350][627]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.18-22.35.23
+[2017.11.19-01.35.23:355][627]LogWorld: Bringing up level for play took: 0.024643
+[2017.11.19-01.35.23:358][627]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.19-01.35.23:358][627]LogLoad: Took 0.948563 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Caramuru2D)
+[2017.11.19-01.35.23:470][628]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079923 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter_226', movement 'Walking'
+[2017.11.19-01.35.28:838][784]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.28:884][784]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.42:526][251]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.19-01.35.42:580][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.42:580][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.19-01.35.42:580][251]PIE: New page: Sessão de PIE : Level_Game_Main_Menu (18/11/2017 19:35:42)
+[2017.11.19-01.35.42:580][251]LogPlayLevel: Creating play world package: /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu
+[2017.11.19-01.35.42:582][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001464s)
+[2017.11.19-01.35.42:583][251]LogAIModule: Creating AISystem for world Level_Game_Main_Menu
+[2017.11.19-01.35.42:583][251]LogPlayLevel: PIE: World Init took: (0.001245s)
+[2017.11.19-01.35.42:583][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu to /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu (0.003157s)
+[2017.11.19-01.35.42:623][251]LogInit: XAudio2 using 'Philips TV (Áudio Intel(R) para telas)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.19-01.35.42:631][251]LogInit: FAudioDevice initialized.
+[2017.11.19-01.35.42:686][251]LogLoad: Game class is 'GameModeBase'
+[2017.11.19-01.35.42:687][251]LogWorld: Bringing World /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu.Level_Game_Main_Menu up for play (max tick rate 0) at 2017.11.18-22.35.42
+[2017.11.19-01.35.42:688][251]LogWorld: Bringing up level for play took: 0.001502
+[2017.11.19-01.35.42:688][251]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.11.19-01.35.42:695][251]PIE: Momento de início de reprodução no editor para /Game/Menu/Levels/UEDPIE_0_Level_Game_Main_Menu 0,612
+[2017.11.19-01.35.42:695][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.35.46:642][412]LogNet: Browse: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.35.46:670][412]LogLoad: LoadMap: /Game/2DSideScrollerBP/Maps/Caramuru2D
+[2017.11.19-01.35.46:726][412]Cmd: MEM
+[2017.11.19-01.35.46:776][412]LogMemory: Platform Memory Stats for Windows
+[2017.11.19-01.35.46:776][412]LogMemory: Process Physical Memory: 1386.25 MB used, 2350.04 MB peak
+[2017.11.19-01.35.46:776][412]LogMemory: Process Virtual Memory: 3411.61 MB used, 3713.38 MB peak
+[2017.11.19-01.35.46:776][412]LogMemory: Physical Memory: 4453.78 MB used,  3641.72 MB free, 8095.50 MB total
+[2017.11.19-01.35.46:776][412]LogMemory: Virtual Memory: 4216.83 MB used,  3641.72 MB free, 134217728.00 MB total
+[2017.11.19-01.35.46:776][412]LogMemory: 
+[2017.11.19-01.35.46:776][412]Allocator Stats for TBB: (not implemented)
+[2017.11.19-01.35.47:517][412]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.11.19-01.35.47:518][412]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.11.19-01.35.47:538][412]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.11.18-22.35.47
+[2017.11.19-01.35.47:542][412]LogWorld: Bringing up level for play took: 0.022795
+[2017.11.19-01.35.47:545][412]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.11.19-01.35.47:545][412]LogLoad: Took 0.875674 seconds to LoadMap(/Game/2DSideScrollerBP/Maps/Caramuru2D)
+[2017.11.19-01.35.47:643][413]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078875 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter_226', movement 'Walking'
+[2017.11.19-01.36.01:763][841]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5056.211 Y=100.000 Z=4019.697
+[2017.11.19-01.36.16:356][296]LogBlueprintUserMessages: [BP_Check_Point2] X=-3664.791 Y=100.000 Z=4034.641
+[2017.11.19-01.36.50:171][310]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue2
+	HUD_Creditos_Menu_Principal_C /Engine/Transient.UnrealEdEngine_0:GameInstance_11.HUD_Creditos_Menu_Principal_C_9
+	Function /Game/Menu/HUD/HUD_Creditos_Menu_Principal.HUD_Creditos_Menu_Principal_C:ExecuteUbergraph_HUD_Creditos_Menu_Principal:0082
+[2017.11.19-01.36.50:172][310]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue2 from function: 'ExecuteUbergraph_HUD_Creditos_Menu_Principal' from node: Adicionar à Porta de Visualização in graph: EventGraph in object: HUD_Creditos_Menu_Principal with description: Accessed None trying to read property CallFunc_Create_ReturnValue2
+[2017.11.19-01.36.53:732][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.36.53:895][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu' with GeneratedClass '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu_C' with ClassGeneratedBy '/Game/Menu/Levels/Level_Game_Main_Menu.Level_Game_Main_Menu:PersistentLevel.Level_Game_Main_Menu'
+[2017.11.19-01.44.17:328][944]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Menu/Levels/Level_Game_Main_Menu' took 0.045
+[2017.11.19-01.44.17:330][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_Caramuru] ([1] browsable assets)...
+[2017.11.19-01.44.17:331][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_Caramuru]
+[2017.11.19-01.44.17:459][944]LogSavePackage: Save=74.21ms
+[2017.11.19-01.44.17:459][944]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Caramuru_Auto4B682A4654EB78FCBE571CCB6911D3266.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Caramuru_Auto4.uasset'
+[2017.11.19-01.44.17:462][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Caramuru_Auto4.uasset
+[2017.11.19-01.44.17:463][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_Creditos_Menu_Principal] ([1] browsable assets)...
+[2017.11.19-01.44.17:463][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_Creditos_Menu_Principal]
+[2017.11.19-01.44.17:577][944]LogSavePackage: Save=62.33ms
+[2017.11.19-01.44.17:577][944]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Creditos_Menu_Principal_Auto40317AD6748A05A6359B42A9B814A0BE2.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Creditos_Menu_Principal_Auto4.uasset'
+[2017.11.19-01.44.17:579][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Creditos_Menu_Principal_Auto4.uasset
+[2017.11.19-01.44.17:580][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_Pausa] ([1] browsable assets)...
+[2017.11.19-01.44.17:580][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_Pausa]
+[2017.11.19-01.44.17:699][944]LogSavePackage: Save=65.47ms
+[2017.11.19-01.44.17:699][944]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Pausa_Auto44B7752454C96F9651EC12C9AF63E0086.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Pausa_Auto4.uasset'
+[2017.11.19-01.44.17:701][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_Pausa_Auto4.uasset
+[2017.11.19-01.44.17:702][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/NewWidgetBlueprint] ([1] browsable assets)...
+[2017.11.19-01.44.17:702][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/NewWidgetBlueprint]
+[2017.11.19-01.44.17:724][944]LogSavePackage: Save=18.85ms
+[2017.11.19-01.44.17:724][944]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/NewWidgetBlueprint_Auto407E3DE264438161B5D88B0BA869255BC.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/NewWidgetBlueprint_Auto4.uasset'
+[2017.11.19-01.44.17:726][944]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/NewWidgetBlueprint_Auto4.uasset
+[2017.11.19-01.44.17:726][944]LogFileHelpers: Auto-saving content packages took 0.397
+[2017.11.19-01.46.02:147][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_Caramuru" FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Caramuru.uasset" SILENT=true
+[2017.11.19-01.46.02:266][620]LogSavePackage: Save=68.85ms
+[2017.11.19-01.46.02:266][620]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Caramuru92A729434D712BB0F14297A5E787CFC0.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Caramuru.uasset'
+[2017.11.19-01.46.02:280][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Caramuru.uasset
+[2017.11.19-01.46.02:382][620]LogSavePackage: Save=49.95ms
+[2017.11.19-01.46.02:382][620]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_Creditos_Menu_Principal51A173CC4802834018E3169E36B35FC9.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Creditos_Menu_Principal.uasset'
+[2017.11.19-01.46.02:391][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Creditos_Menu_Principal.uasset
+[2017.11.19-01.46.02:396][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_Pausa" FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset" SILENT=true
+[2017.11.19-01.46.02:493][620]LogSavePackage: Save=54.45ms
+[2017.11.19-01.46.02:493][620]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/HUD_PausaDEE9507E441A5FDB96DB609A67E307C5.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset'
+[2017.11.19-01.46.02:503][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/HUD_Pausa.uasset
+[2017.11.19-01.46.02:508][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/NewWidgetBlueprint" FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/NewWidgetBlueprint.uasset" SILENT=true
+[2017.11.19-01.46.02:528][620]LogSavePackage: Save=16.19ms
+[2017.11.19-01.46.02:528][620]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/NewWidgetBlueprint19122D4445D496586F1688BB5F5F8BA4.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/NewWidgetBlueprint.uasset'
+[2017.11.19-01.46.02:532][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/HUD/NewWidgetBlueprint.uasset
+[2017.11.19-01.46.04:393][673]LogSavePackage: Save=68.23ms
+[2017.11.19-01.46.04:394][673]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Level_Game_Main_Menu6A4A9FB04768A3EB00F4BC9E3CDB0792.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/Levels/Level_Game_Main_Menu.umap'
+[2017.11.19-01.46.04:398][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/Levels/Level_Game_Main_Menu.umap
+[2017.11.19-01.46.05:376][697]LogSavePackage: Save=40.74ms
+[2017.11.19-01.46.05:376][697]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Level_Game_Main_MenuD1D4D3714B7825D8C742C6B2E95D1E1A.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/Levels/Level_Game_Main_Menu.umap'
+[2017.11.19-01.46.05:378][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/Levels/Level_Game_Main_Menu.umap
+[2017.11.19-01.46.05:884][703]LogSavePackage: Save=39.86ms
+[2017.11.19-01.46.05:884][703]LogSavePackage: Moving '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Level_Game_Main_Menu61145EF745FE4B8530CBC880E820AD01.tmp' to '../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/Levels/Level_Game_Main_Menu.umap'
+[2017.11.19-01.46.05:887][703]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Menu/Levels/Level_Game_Main_Menu.umap
+[2017.11.19-01.46.08:140][783]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.11.19-01.46.17:927][783]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.19-01.46.18:049][783]SourceControl: [master 824100e] menu de pausa corrigido
+[2017.11.19-01.46.18:049][783]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.19-01.46.18:049][783]SourceControl:  rewrite Content/Menu/HUD/HUD_Creditos_Menu_Principal.uasset (79%)
+[2017.11.19-01.46.18:049][783]SourceControl:  rewrite Content/Menu/HUD/HUD_Pausa.uasset (83%)
+[2017.11.19-01.46.18:049][783]SourceControl:  create mode 100644 Content/Menu/HUD/NewWidgetBlueprint.uasset
+[2017.11.19-01.46.18:061][783]SourceControl: Commited [master 824100e] menu de pausa corrigido.
