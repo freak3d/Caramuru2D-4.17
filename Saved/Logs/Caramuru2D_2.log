@@ -2229,3 +2229,402 @@ LogInit: Object subsystem initialized
 [2017.12.01-15.08.39:408][376]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
 [2017.12.01-15.14.30:753][648]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
 [2017.12.01-15.14.30:877][648]EditorErrors: Warning: No assets to check in!
+[2017.12.01-15.19.13:448][194]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Caramuru2D
+[2017.12.01-15.19.13:448][194]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.01-15.19.13:448][194]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.12.01-15.19.13:448][194]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.01-15.19.13:448][194]LogTemp: BranchPath = MARCELOM/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MARCELOM/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.01-15.19.13:473][196]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcelo\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.01-15.19.48:950][676]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.01-15.19.48:993][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.19.48:993][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.01-15.19.48:993][676]PIE: New page: PIE session: Caramuru2D (Dec 1, 2017, 9:19:48 AM)
+[2017.12.01-15.19.48:993][676]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.12.01-15.19.49:001][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007281s)
+[2017.12.01-15.19.49:001][676]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.12.01-15.19.49:002][676]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2017.12.01-15.19.49:002][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008539s)
+[2017.12.01-15.19.49:024][676]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.01-15.19.49:036][676]LogInit: FAudioDevice initialized.
+[2017.12.01-15.19.49:069][676]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.12.01-15.19.49:075][676]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.12.01-12.19.49
+[2017.12.01-15.19.49:077][676]LogWorld: Bringing up level for play took: 0.007259
+[2017.12.01-15.19.49:079][676]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.12.01-15.19.49:079][676]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0.073
+[2017.12.01-15.19.49:079][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.19.50:108][798]Cmd: LevelEditor.ToggleImmersive
+[2017.12.01-15.19.51:196][909]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-5101.68 Y=68.66 Z=4050.15 Normal: X=0.84 Y=-0.54 Z=0.08 PenetrationDepth:0.001 Actor:BP_Shoot_C_0 Component:Sphere BoneName:None (0 other events since notify)
+[2017.12.01-15.19.52:196][ 29]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-5006.07 Y=68.66 Z=4048.41 Normal: X=-0.31 Y=-0.60 Z=-0.74 PenetrationDepth:5.620 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (16 other events since notify)
+[2017.12.01-15.19.54:038][250]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=-147.22 Y=0.00 Z=0.00 Location: X=-4968.52 Y=68.66 Z=4051.43 Normal: X=0.83 Y=-0.56 Z=0.10 PenetrationDepth:1.429 Actor:BP_Shoot_C_3 Component:Sphere BoneName:None (16 other events since notify)
+[2017.12.01-15.19.55:087][376]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-4959.33 Y=68.66 Z=4050.54 Normal: X=0.75 Y=-0.66 Z=0.10 PenetrationDepth:10.190 Actor:BP_Shoot_C_6 Component:Sphere BoneName:None (34 other events since notify)
+[2017.12.01-15.19.56:096][497]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=-38.34 Y=0.00 Z=0.00 Location: X=-4963.42 Y=68.66 Z=4052.25 Normal: X=0.82 Y=-0.56 Z=0.12 PenetrationDepth:1.403 Actor:BP_Shoot_C_11 Component:Sphere BoneName:None (44 other events since notify)
+[2017.12.01-15.19.57:096][617]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4959.43 Y=68.66 Z=4052.55 Normal: X=0.31 Y=-0.93 Z=0.20 PenetrationDepth:24.125 Actor:BP_Shoot_C_16 Component:Sphere BoneName:None (55 other events since notify)
+[2017.12.01-15.19.59:955][960]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2017.12.01-15.20.02:046][211]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-4626.51 Y=72.66 Z=3942.25 Normal: X=0.88 Y=-0.47 Z=0.08 PenetrationDepth:0.248 Actor:BP_Shoot_C_20 Component:Sphere BoneName:None (0 other events since notify)
+[2017.12.01-15.20.02:496][265]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-4357.58 Y=72.66 Z=3943.89 Normal: X=0.87 Y=-0.48 Z=0.11 PenetrationDepth:1.041 Actor:BP_Shoot_C_20 Component:Sphere BoneName:None (0 other events since notify)
+[2017.12.01-15.20.03:046][331]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4600.49 Y=72.66 Z=3943.76 Normal: X=0.35 Y=-0.91 Z=0.20 PenetrationDepth:27.918 Actor:BP_Shoot_C_25 Component:Sphere BoneName:None (55 other events since notify)
+[2017.12.01-15.20.03:080][335]LogCharacterMovement: MulaEnemy_666 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-4006.66 Y=72.66 Z=3942.50 Normal: X=0.88 Y=-0.48 Z=0.08 PenetrationDepth:0.411 Actor:BP_Shoot_C_20 Component:Sphere BoneName:None (0 other events since notify)
+[2017.12.01-15.20.03:730][413]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2017.12.01-15.20.03:980][443]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3578.94 Y=100.00 Z=3942.52 Normal: X=0.99 Y=0.00 Z=0.10 PenetrationDepth:10.517 Actor:BP_Shoot_C_21 Component:Sphere BoneName:None (0 other events since notify)
+[2017.12.01-15.20.04:113][459]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4600.20 Y=72.66 Z=3944.62 Normal: X=0.79 Y=-0.60 Z=0.15 PenetrationDepth:12.182 Actor:BP_Shoot_C_31 Component:Sphere BoneName:None (43 other events since notify)
+[2017.12.01-15.20.04:122][460]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2017.12.01-15.20.04:488][504]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2017.12.01-15.20.04:847][547]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2017.12.01-15.20.05:055][572]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3578.94 Y=100.00 Z=3942.53 Normal: X=0.99 Y=0.00 Z=0.10 PenetrationDepth:10.473 Actor:BP_Shoot_C_27 Component:Sphere BoneName:None (19 other events since notify)
+[2017.12.01-15.20.05:172][586]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2017.12.01-15.20.05:538][630]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2017.12.01-15.20.05:913][675]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2017.12.01-15.20.06:530][749]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2017.12.01-15.20.07:172][826]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-4184.46 Y=72.66 Z=3999.45 Normal: X=0.83 Y=-0.53 Z=-0.15 PenetrationDepth:6.372 Actor:BP_Shoot_C_34 Component:Sphere BoneName:None (23 other events since notify)
+[2017.12.01-15.20.07:764][897]LogCharacterMovement: MulaEnemy_666 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-3831.19 Y=72.66 Z=4000.52 Normal: X=0.82 Y=-0.55 Z=-0.14 PenetrationDepth:8.213 Actor:BP_Shoot_C_34 Component:Sphere BoneName:None (17 other events since notify)
+[2017.12.01-15.20.16:218][902]LogBlueprintUserMessages: [BP_Check_Point_832] X=-4881.613 Y=100.000 Z=4100.136
+[2017.12.01-15.20.17:316][ 33]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-4996.08 Y=68.66 Z=4050.12 Normal: X=0.83 Y=-0.55 Z=0.00 PenetrationDepth:0.902 Actor:BP_Shoot_C_36 Component:Sphere BoneName:None (25 other events since notify)
+[2017.12.01-15.20.19:332][275]LogCharacterMovement: MulaEnemy_666 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3817.43 Y=72.66 Z=4007.49 Normal: X=0.33 Y=-0.55 Z=-0.76 PenetrationDepth:8.537 Actor:BP_Shoot_C_36 Component:Sphere BoneName:None (10 other events since notify)
+[2017.12.01-15.20.20:599][427]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-4600.18 Y=72.66 Z=3942.12 Normal: X=0.62 Y=-0.78 Z=0.00 PenetrationDepth:22.946 Actor:BP_Shoot_C_41 Component:Sphere BoneName:None (35 other events since notify)
+[2017.12.01-15.20.21:599][547]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4600.60 Y=72.66 Z=3942.12 Normal: X=0.38 Y=-0.92 Z=0.00 PenetrationDepth:28.280 Actor:BP_Shoot_C_46 Component:Sphere BoneName:None (51 other events since notify)
+[2017.12.01-15.20.22:266][627]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3578.84 Y=100.00 Z=3942.31 Normal: X=1.00 Y=0.00 Z=0.00 PenetrationDepth:14.876 Actor:BP_Shoot_C_41 Component:Sphere BoneName:None (18 other events since notify)
+[2017.12.01-15.20.22:283][629]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.27 Y=72.66 Z=3942.31 Normal: X=0.82 Y=-0.57 Z=0.00 PenetrationDepth:9.770 Actor:BP_Shoot_C_41 Component:Sphere BoneName:None (7 other events since notify)
+[2017.12.01-15.20.22:599][667]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4600.60 Y=72.66 Z=3942.12 Normal: X=0.22 Y=-0.97 Z=0.00 PenetrationDepth:29.802 Actor:BP_Shoot_C_51 Component:Sphere BoneName:None (47 other events since notify)
+[2017.12.01-15.20.23:283][749]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.20 Y=72.66 Z=3942.31 Normal: X=0.73 Y=-0.68 Z=0.00 PenetrationDepth:17.545 Actor:BP_Shoot_C_46 Component:Sphere BoneName:None (72 other events since notify)
+[2017.12.01-15.20.23:599][787]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4600.60 Y=72.66 Z=3942.12 Normal: X=0.38 Y=-0.92 Z=0.00 PenetrationDepth:28.281 Actor:BP_Shoot_C_56 Component:Sphere BoneName:None (46 other events since notify)
+[2017.12.01-15.20.24:441][888]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.20 Y=72.66 Z=3942.31 Normal: X=0.88 Y=-0.48 Z=0.00 PenetrationDepth:1.170 Actor:BP_Shoot_C_52 Component:Sphere BoneName:None (21 other events since notify)
+[2017.12.01-15.20.24:633][911]LogCharacterMovement: WerewolfEnemy_520 is stuck and failed to move! Velocity: X=-68.28 Y=0.00 Z=0.00 Location: X=-4620.97 Y=72.66 Z=3942.12 Normal: X=0.88 Y=-0.47 Z=0.00 PenetrationDepth:0.062 Actor:BP_Shoot_C_62 Component:Sphere BoneName:None (57 other events since notify)
+[2017.12.01-15.20.25:442][  8]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-34.13 Y=0.00 Z=0.00 Location: X=-3572.20 Y=72.66 Z=3942.31 Normal: X=0.85 Y=-0.52 Z=0.00 PenetrationDepth:5.552 Actor:BP_Shoot_C_57 Component:Sphere BoneName:None (15 other events since notify)
+[2017.12.01-15.20.26:566][143]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.20 Y=72.66 Z=3942.31 Normal: X=0.88 Y=-0.48 Z=0.00 PenetrationDepth:1.237 Actor:BP_Shoot_C_63 Component:Sphere BoneName:None (19 other events since notify)
+[2017.12.01-15.20.31:042][680]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.20 Y=72.66 Z=3942.31 Normal: X=0.84 Y=-0.54 Z=0.00 PenetrationDepth:7.364 Actor:BP_Shoot_C_67 Component:Sphere BoneName:None (10 other events since notify)
+[2017.12.01-15.20.33:525][978]LogCharacterMovement: MulaEnemy_666 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3816.74 Y=72.66 Z=4007.70 Normal: X=0.59 Y=-0.62 Z=-0.51 PenetrationDepth:13.708 Actor:BP_Shoot_C_69 Component:Sphere BoneName:None (24 other events since notify)
+[2017.12.01-15.20.34:117][ 49]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.20 Y=72.66 Z=3942.31 Normal: X=0.83 Y=-0.56 Z=0.00 PenetrationDepth:8.757 Actor:BP_Shoot_C_70 Component:Sphere BoneName:None (7 other events since notify)
+[2017.12.01-15.20.35:117][169]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3572.14 Y=72.66 Z=3942.30 Normal: X=0.70 Y=-0.72 Z=0.00 PenetrationDepth:9.296 Actor:ExpSphereActor_C_0 Component:PaperSprite BoneName:None (19 other events since notify)
+[2017.12.01-15.20.36:118][289]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-3572.14 Y=72.66 Z=3942.30 Normal: X=0.70 Y=-0.72 Z=0.00 PenetrationDepth:9.296 Actor:ExpSphereActor_C_0 Component:PaperSprite BoneName:None (119 other events since notify)
+[2017.12.01-15.20.36:309][312]LogCharacterMovement: MulaEnemy_666 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3817.12 Y=72.66 Z=4008.77 Normal: X=0.88 Y=-0.47 Z=0.00 PenetrationDepth:0.099 Actor:BP_Shoot_C_81 Component:Sphere BoneName:None (3 other events since notify)
+[2017.12.01-15.20.37:117][409]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-3572.14 Y=72.66 Z=3942.30 Normal: X=0.70 Y=-0.72 Z=0.00 PenetrationDepth:9.296 Actor:ExpSphereActor_C_0 Component:PaperSprite BoneName:None (116 other events since notify)
+[2017.12.01-15.20.38:117][529]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-3572.14 Y=72.66 Z=3942.30 Normal: X=0.70 Y=-0.72 Z=0.00 PenetrationDepth:9.296 Actor:ExpSphereActor_C_0 Component:PaperSprite BoneName:None (117 other events since notify)
+[2017.12.01-15.20.38:767][607]LogCharacterMovement: MulaEnemy_666 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-3818.45 Y=72.66 Z=4006.53 Normal: X=-0.18 Y=-0.48 Z=-0.86 PenetrationDepth:0.507 Actor:BP_Shoot_C_86 Component:Sphere BoneName:None (1 other events since notify)
+[2017.12.01-15.20.39:118][649]LogCharacterMovement: BradadorEnemy_398 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-3572.14 Y=72.66 Z=3942.30 Normal: X=0.70 Y=-0.72 Z=0.00 PenetrationDepth:9.296 Actor:ExpSphereActor_C_0 Component:PaperSprite BoneName:None (119 other events since notify)
+[2017.12.01-15.20.40:027][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.20.40:089][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.22.48:505][712]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0010 seconds. Added 2 classes and 3 folders.
+[2017.12.01-15.23.01:353][166]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.12.01-15.23.02:319][280]Cmd: DELETE
+[2017.12.01-15.23.02:319][280]Cmd: ACTOR DELETE
+[2017.12.01-15.23.02:319][280]LogEditorActor: Deleted Actor: SpotLight
+[2017.12.01-15.23.02:340][280]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.12.01-15.23.28:672][395]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.01-15.23.28:719][395]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.23.28:719][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.01-15.23.28:719][395]PIE: New page: PIE session: Caramuru2D (Dec 1, 2017, 9:23:28 AM)
+[2017.12.01-15.23.28:719][395]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2017.12.01-15.23.28:726][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006728s)
+[2017.12.01-15.23.28:727][395]LogAIModule: Creating AISystem for world Caramuru2D
+[2017.12.01-15.23.28:727][395]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2017.12.01-15.23.28:727][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008131s)
+[2017.12.01-15.23.28:752][395]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.12.01-15.23.28:764][395]LogInit: FAudioDevice initialized.
+[2017.12.01-15.23.28:797][395]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.12.01-15.23.28:803][395]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2017.12.01-12.23.28
+[2017.12.01-15.23.28:805][395]LogWorld: Bringing up level for play took: 0.007305
+[2017.12.01-15.23.28:807][395]LogBlueprintUserMessages: [Character] SpreaderGun
+[2017.12.01-15.23.28:807][395]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0.345
+[2017.12.01-15.23.28:807][395]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.23.29:636][493]Cmd: LevelEditor.ToggleImmersive
+[2017.12.01-15.23.30:922][628]LogCharacterMovement: ENEMY_CuracangaMov_477 is stuck and failed to move! Velocity: X=-83.85 Y=0.00 Z=0.00 Location: X=-5098.75 Y=68.66 Z=4050.45 Normal: X=0.83 Y=-0.55 Z=0.08 PenetrationDepth:1.231 Actor:BP_Shoot_C_0 Component:Sphere BoneName:None (0 other events since notify)
+[2017.12.01-15.23.34:114][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.23.34:187][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2017.12.01-15.23.38:574][501]LogEditorActor: Deleted Actor: PointLight
+[2017.12.01-15.23.38:594][501]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2017.12.01-15.23.40:137][684]LogEditorActor: Deleted Actor: TargetPoint
+[2017.12.01-15.23.40:155][684]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.12.01-15.23.43:886][ 76]LogSavePackage: Save=174.90ms
+[2017.12.01-15.23.43:887][ 76]LogSavePackage: Moving '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Caramuru2D3D36FA92406D1DFFC06FE5BAC4B8126B.tmp' to '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap'
+[2017.12.01-15.23.43:900][ 76]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2017.12.01-15.23.44:994][144]Cmd: QUIT_EDITOR
+[2017.12.01-15.23.45:779][144]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.01-15.23.45:817][144]LogExit: Preparing to exit.
+[2017.12.01-15.23.46:674][144]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/' was aborted.
+[2017.12.01-15.23.46:842][144]LogExit: Editor shut down
+[2017.12.01-15.23.46:873][144]LogExit: Transaction tracking system shut down
+[2017.12.01-15.23.47:114][144]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.01-15.23.47:114][144]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/' was aborted.
+[2017.12.01-15.23.47:114][144]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.01-15.23.47:114][144]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.12.01-15.23.47:114][144]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.12.01-15.23.47:513][144]LogExit: Object subsystem successfully closed.
+[2017.12.01-15.23.47:656][144]LogD3D11RHI: Shutdown
+[2017.12.01-15.23.47:656][144]LogD3D11RHI: CleanupD3DDevice
+[2017.12.01-15.23.47:777][144]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.01-15.23.47:837][144]LogModuleManager: Shutting down and abandoning module WorldBrowser (542)
+[2017.12.01-15.23.47:859][144]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (540)
+[2017.12.01-15.23.47:859][144]LogModuleManager: Shutting down and abandoning module TextureEditor (538)
+[2017.12.01-15.23.47:859][144]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.12.01-15.23.47:859][144]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.12.01-15.23.47:860][144]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.12.01-15.23.47:860][144]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.12.01-15.23.47:860][144]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.12.01-15.23.47:860][144]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.12.01-15.23.47:861][144]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.12.01-15.23.47:866][144]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.12.01-15.23.47:866][144]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.12.01-15.23.47:866][144]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.12.01-15.23.47:867][144]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Collections/' was aborted.
+[2017.12.01-15.23.47:867][144]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Content/Developers/Marcelo/Collections/' was aborted.
+[2017.12.01-15.23.47:867][144]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcelo/Documents/Unreal Projects/Caramuru2D 4.17/Saved/Collections/' was aborted.
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.12.01-15.23.47:867][144]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.12.01-15.23.47:868][144]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.12.01-15.23.48:202][144]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.12.01-15.23.48:203][144]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.12.01-15.23.48:255][144]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.12.01-15.23.48:267][144]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.12.01-15.23.48:268][144]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.12.01-15.23.48:345][144]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.12.01-15.23.48:346][144]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.12.01-15.23.48:347][144]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.12.01-15.23.48:349][144]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.12.01-15.23.48:350][144]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.12.01-15.23.48:350][144]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.12.01-15.23.48:350][144]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.12.01-15.23.48:451][144]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.12.01-15.23.48:551][144]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.12.01-15.23.48:551][144]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.12.01-15.23.48:551][144]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.12.01-15.23.48:551][144]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.12.01-15.23.48:551][144]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.12.01-15.23.48:551][144]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.12.01-15.23.48:552][144]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.12.01-15.23.48:552][144]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.12.01-15.23.48:552][144]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.12.01-15.23.48:552][144]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.12.01-15.23.48:555][144]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.12.01-15.23.48:556][144]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.12.01-15.23.48:556][144]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.12.01-15.23.48:559][144]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.12.01-15.23.48:560][144]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.12.01-15.23.48:560][144]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.12.01-15.23.48:560][144]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.12.01-15.23.48:560][144]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.12.01-15.23.48:566][144]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.01-15.23.48:569][144]LogDerivedDataCache: Shutdown
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.01-15.23.48:569][144]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.01-15.23.48:570][144]LogOnline: Display: Unloading online subsystem: NULL
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.01-15.23.48:570][144]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.01-15.23.48:570][144]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.01-15.23.48:571][144]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B630634FD-499F-2764-A20C-C2B467551FD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=0cdc46354752a0eab9852f856d7117e8%7C15cca6e6937c4713820d7aa9ac75edf7%7C47e4ea8b-fce0-40e0-83d0-fc5cc9b7dace&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.01-15.23.48:579][144]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.12.01-15.23.48:581][144]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.12.01-15.23.48:588][144]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.12.01-15.23.48:588][144]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.12.01-15.23.48:588][144]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.12.01-15.23.48:588][144]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.12.01-15.23.48:588][144]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.12.01-15.23.48:589][144]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.12.01-15.23.48:589][144]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.12.01-15.23.48:589][144]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.12.01-15.23.48:589][144]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.01-15.23.48:589][144]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.01-15.23.48:589][144]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.01-15.23.48:592][144]LogExit: Exiting.
+[2017.12.01-15.23.48:637][144]Log file closed, 12/01/17 12:23:48
