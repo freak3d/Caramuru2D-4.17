@@ -199,3 +199,11 @@ LogInit: Object subsystem initialized
 [2018.01.04-14.51.18:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
 [2018.01.04-14.51.47:406][  0]LogAssetRegistry: FAssetRegistry took 0.0904 seconds to start up
 [2018.01.04-14.51.49:903][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-14.51.58:534][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.04-14.52.01:506][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.04-14.52.01:708][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.04-14.52.01:720][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.04-14.52.01:720][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.04-14.52.01:720][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.04-14.52.01:720][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.04-14.52.08:978][  0]LogConfig: Warning: Failed to saved backup for config[TemplateDefs]
