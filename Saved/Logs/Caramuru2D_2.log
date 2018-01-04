@@ -159,3 +159,28 @@ LogInit: Object subsystem initialized
 [2018.01.04-14.50.31:590][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/3140/).
 [2018.01.04-14.50.31:591][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/diego/AppData/Local/Temp/UnrealShaderWorkingDir/ECAE7E5F41B65D06D00E7986A96FAE19/'.
 [2018.01.04-14.50.31:686][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.04-14.50.55:613][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.04-14.50.56:297][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.04-14.50.56:561][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.04-14.50.56:774][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.04-14.50.57:206][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.04-14.50.57:428][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.04-14.50.57:610][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.04-14.50.57:746][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.04-14.50.58:171][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.04-14.50.58:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.04-14.50.58:891][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.04-14.50.59:096][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.04-14.50.59:367][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.04-14.50.59:777][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.04-14.51.00:009][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.04-14.51.00:509][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.04-14.51.00:509][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.04-14.51.00:688][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.04-14.51.02:233][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.04-14.51.02:321][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.04-14.51.02:534][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.04-14.51.02:797][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.04-14.51.03:018][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.04-14.51.03:339][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.04-14.51.03:339][  0]LogTargetPlatformManager: Display: Building Assets For Windows
