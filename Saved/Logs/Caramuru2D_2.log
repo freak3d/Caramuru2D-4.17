@@ -184,3 +184,18 @@ LogInit: Object subsystem initialized
 [2018.01.04-14.51.03:018][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
 [2018.01.04-14.51.03:339][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
 [2018.01.04-14.51.03:339][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.04-14.51.17:318][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.04-14.51.18:444][  0]LogDerivedDataCache: Loaded boot cache 1.12s 93MB C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.04-14.51.18:444][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.04-14.51.18:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.04-14.51.18:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.04-14.51.18:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.04-14.51.18:444][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.04-14.51.18:539][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.04-14.51.18:585][  0]LogDerivedDataCache: Using Local data cache path C:/Users/diego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.04-14.51.18:668][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.04-14.51.18:787][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.04-14.51.18:974][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-14.51.18:980][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-14.51.47:406][  0]LogAssetRegistry: FAssetRegistry took 0.0904 seconds to start up
+[2018.01.04-14.51.49:903][  0]LogInit: Selected Device Profile: [Windows]
