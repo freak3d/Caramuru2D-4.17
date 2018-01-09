@@ -223,3 +223,79 @@ LogInit: Object subsystem initialized
 [2018.01.04-14.52.40:814][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
 [2018.01.04-14.52.40:814][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
 [2018.01.04-14.52.40:914][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.04-14.54.38:067][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.04-14.54.38:474][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.04-14.54.54:368][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.04-14.55.00:405][  0]LogConfig: Warning: Failed to saved backup for config[SourceControlSettings]
+[2018.01.04-14.55.00:490][  0]LogConfig: Warning: Failed to saved backup for config[SourceControlSettings]
+[2018.01.04-14.55.00:827][  0]SourceControl: Controle de origem desativado
+[2018.01.04-14.55.13:835][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.04-14.55.16:261][  0]LogOcInput: OculusInput pre-init called
+[2018.01.04-14.55.23:389][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 2.58s
+[2018.01.04-14.55.24:509][  0]LogEngine: Initializing Engine...
+[2018.01.04-14.55.24:853][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.04-14.55.30:022][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.04-14.55.30:041][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.019 s
+[2018.01.04-14.55.37:338][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.04-14.55.39:877][  0]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-14.55.40:193][  0]LogInit: FAudioDevice initialized.
+[2018.01.04-14.55.41:071][  0]LogDerivedDataCache: Saved boot cache 0.81s 93MB C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.04-14.55.41:095][  0]LogInit: Texture streaming: Enabled
+[2018.01.04-14.55.45:254][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.04-14.55.50:241][  0]LogInit: Transaction tracking system initialized
+[2018.01.04-14.55.56:037][  0]BlueprintLog: New page: Carregar Editor
+[2018.01.04-14.56.13:808][  0]LocalizationService: Localization service is disabled
+[2018.01.04-14.56.26:216][  0]LogConsoleResponse: Display: 
+[2018.01.04-14.56.46:183][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/' took 4.85s
+[2018.01.04-14.56.46:184][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.04-14.56.46:228][  0]LogCook: Display: Mobile HDR setting 0
+[2018.01.04-14.56.46:513][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.04-14.57.01:288][  0]Cmd: MAP LOAD FILE="../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.04-14.57.01:798][  0]LightingResults: New page: Compilação de Iluminação
+[2018.01.04-14.57.03:631][  0]MapCheck: New page: Verificação de Mapa
+[2018.01.04-14.57.03:631][  0]LightingResults: New page: Compilação de Iluminação
+[2018.01.04-14.57.22:911][  0]LogBlueprint: Warning: [Compiler Caramuru] Evento de Eixo de Entrada referencia Eixo desconhecido 'MoveUp' para  InputAxis MoveUp
+[2018.01.04-14.57.23:397][  0]LogBlueprint: Warning: [Compiler Caramuru] [0509,84] Compile of Caramuru successful, but with 1 Warning(s) [in 4.730 ms] (/Game/2DSideScrollerBP/Blueprints/Caramuru.Caramuru)
+[2018.01.04-14.57.38:587][  0]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.04-14.57.44:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.04-14.57.47:156][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.04-14.57.47:446][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 289,233ms to complete.
+[2018.01.04-14.57.47:499][  0]LogFileHelpers: Loading map 'Caramuru2D' took 46.283
+[2018.01.04-14.58.19:773][  0]LogCollectionManager: Loaded 0 collections in 0.003629 seconds
+[2018.01.04-14.58.23:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' took 0.01s
+[2018.01.04-14.58.23:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Developers/diego/Collections/' took 0.01s
+[2018.01.04-14.58.23:634][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Content/Collections/' took 0.01s
+[2018.01.04-14.58.23:634][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.04-14.58.24:020][  0]LogContentBrowser: Native class hierarchy populated in 0.1125 seconds. Added 2386 classes and 500 folders.
+[2018.01.04-14.58.25:029][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.01.04-14.58.38:032][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.01.04-14.58.40:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2018.01.04-14.59.08:125][  0]LogSlate: Took 0.908829 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-14.59.09:603][  0]LogSlate: Took 0.099339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.04-14.59.10:154][  0]LogSlate: Took 0.031882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.04-14.59.14:916][  0]LogRenderer: Reallocating scene render targets to support 760x652 Format 10 NumSamples 1 (Frame:1).
+[2018.01.04-14.59.43:797][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.04-14.59.43:798][  0]LogLoad: (Engine Initialization) Total time: 650.24 seconds
+[2018.01.04-14.59.43:798][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.04-14.59.43:842][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.04-14.59.43:842][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.04-14.59.46:953][  0]SourceControl: On branch master
+[2018.01.04-14.59.46:953][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.01.04-14.59.46:953][  0]SourceControl: Changes not staged for commit:
+[2018.01.04-14.59.46:953][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.01.04-14.59.46:953][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.04-14.59.46:953][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2018.01.04-14.59.46:953][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.04-14.59.46:953][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.04-14.59.47:016][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.04-14.59.50:427][  4]LogAssetRegistry: Asset discovery search completed in 483.0437 seconds
+[2018.01.04-14.59.50:472][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.04-14.59.50:488][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000156 seconds (updated 0 objects)
+[2018.01.04-15.06.18:621][ 10]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (tree_3_Sprite8)
+[2018.01.04-15.06.25:437][ 10]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree_3_Sprite8)
+[2018.01.04-15.06.25:472][ 10]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree__1__Sprite2)
+[2018.01.04-15.06.28:755][142]LogEditorViewport: Clicking on Actor (context menu): BP_Check_Point_C (BP_Check_Point)
+[2018.01.04-15.06.30:069][218]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (FirstFloreGround)
+[2018.01.04-15.06.33:641][307]LogEditorViewport: Clicking Background
+[2018.01.04-15.10.49:150][229]LogSlate: Took 0.024495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-19.36.08:260][322]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
