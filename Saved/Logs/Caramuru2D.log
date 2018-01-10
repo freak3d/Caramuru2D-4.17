@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 01/09/18 23:53:07
+=======
+﻿Log file open, 01/10/18 10:28:37
+>>>>>>> c8aa5487411aca130c76066897afce03fa907b77
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +13,15 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Caramuru2D
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1213937082) SRandInit(1213937082).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 8.455017
+=======
+LogInit: Display: RandInit(-1426472933) SRandInit(-1426472933).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.171403
+>>>>>>> c8aa5487411aca130c76066897afce03fa907b77
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,6 +123,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.01.10-02.53.10:970][  0]LogInit: Selected Device Profile: [Windows]
 [2018.01.10-02.53.10:970][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.01.10-02.53.11:091][  0]LogInit: Computer: MARCELOM
@@ -712,3 +723,301 @@ LogInit: Object subsystem initialized
 [2018.01.10-03.04.14:941][153]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.01.10-03.04.15:099][153]LogExit: Exiting.
 [2018.01.10-03.04.15:130][153]Log file closed, 01/10/18 00:04:15
+=======
+[2018.01.10-13.28.41:022][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.10-13.28.41:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.10-13.28.41:171][  0]LogInit: Computer: MASTER
+[2018.01.10-13.28.41:171][  0]LogInit: User: Junio
+[2018.01.10-13.28.41:171][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.10-13.28.41:171][  0]LogInit: High frequency timer resolution =3.020351 MHz
+[2018.01.10-13.28.41:207][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.10-13.28.41:207][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.10-13.28.41:207][  0]LogMemory: Process Physical Memory: 279.97 MB used, 279.97 MB peak
+[2018.01.10-13.28.41:207][  0]LogMemory: Process Virtual Memory: 275.07 MB used, 275.07 MB peak
+[2018.01.10-13.28.41:207][  0]LogMemory: Physical Memory: 5219.91 MB used,  2872.28 MB free, 8092.18 MB total
+[2018.01.10-13.28.41:207][  0]LogMemory: Virtual Memory: 669.07 MB used,  2872.28 MB free, 134217728.00 MB total
+[2018.01.10-13.28.42:745][  0]LogInit: Using OS detected language (pt-BR).
+[2018.01.10-13.28.42:745][  0]LogInit: Using OS detected locale (pt-BR).
+[2018.01.10-13.28.48:062][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.10-13.28.48:337][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2018.01.10-13.28.48:337][  0]LogD3D11RHI:       2017/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.10-13.28.48:621][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.01.10-13.28.48:621][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.10-13.28.48:687][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.10-13.28.48:687][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.10-13.28.48:687][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.10-13.28.48:704][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.10-13.28.48:704][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.10-13.28.48:728][  0]LogWindows: EnumDisplayDevices:
+[2018.01.10-13.28.48:729][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2018.01.10-13.28.48:729][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.01.10-13.28.48:730][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.01.10-13.28.48:730][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.01.10-13.28.48:731][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.10-13.28.48:731][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.10-13.28.48:732][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.01.10-13.28.48:732][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2018.01.10-13.28.48:732][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2018.01.10-13.28.48:732][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2018.01.10-13.28.48:732][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.10-13.28.48:853][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.10-13.28.49:374][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
+[2018.01.10-13.28.49:479][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/8668/).
+[2018.01.10-13.28.49:480][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Junio/AppData/Local/Temp/UnrealShaderWorkingDir/FB5DDF43469ADFEA630356B07063451E/'.
+[2018.01.10-13.28.49:509][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.10-13.28.57:285][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.10-13.28.57:388][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.10-13.28.57:444][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.10-13.28.57:498][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.10-13.28.57:601][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.10-13.28.57:658][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.10-13.28.57:716][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.10-13.28.57:772][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.10-13.28.57:822][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.10-13.28.57:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.10-13.28.57:943][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.10-13.28.57:998][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.10-13.28.58:052][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.10-13.28.58:106][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.10-13.28.58:161][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.10-13.28.58:270][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.10-13.28.58:270][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.10-13.28.58:318][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.10-13.28.58:518][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.10-13.28.58:551][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.10-13.28.58:605][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.10-13.28.58:658][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.10-13.28.58:748][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.10-13.28.58:825][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.10-13.28.58:836][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.10-13.29.00:528][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Loaded boot cache 1.05s 95MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.10-13.29.01:704][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.10-13.29.01:722][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Junio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.10-13.29.01:909][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.10-13.29.02:007][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.10-13.29.02:138][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.10-13.29.02:147][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.10-13.29.14:277][  0]LogAssetRegistry: FAssetRegistry took 0.0681 seconds to start up
+[2018.01.10-13.29.17:944][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.10-13.29.27:188][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.10-13.29.29:823][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.10-13.29.29:987][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.10-13.29.29:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.10-13.29.29:987][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.10-13.29.29:987][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.10-13.29.29:987][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.10-13.29.35:339][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
+[2018.01.10-13.29.37:601][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.214114 seconds
+[2018.01.10-13.29.37:652][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.01.10-13.29.37:652][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.01.10-13.29.37:660][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.10-13.29.37:894][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.10-13.30.12:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.10-13.30.12:162][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.10-13.30.16:970][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.01.10-13.30.17:042][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:042][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:385][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.10-13.30.17:506][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.01.10-13.30.17:507][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/LightingModel.LightingModel for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:507][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:543][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.01.10-13.30.17:544][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/MaterialAO.MaterialAO for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:544][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:593][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.01.10-13.30.17:594][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Metallic.Metallic for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:595][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:633][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.01.10-13.30.17:634][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Opacity.Opacity for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:634][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:707][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.01.10-13.30.17:707][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Roughness.Roughness for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:707][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:919][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.01.10-13.30.17:920][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:920][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:946][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.01.10-13.30.17:947][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/SubsurfaceColor.SubsurfaceColor for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:947][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.17:988][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.01.10-13.30.17:989][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/WorldNormal.WorldNormal for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.10-13.30.17:989][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.01.10-13.30.20:252][  0]SourceControl: Controle de origem desativado
+[2018.01.10-13.30.24:895][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.10-13.30.25:428][  0]LogOcInput: OculusInput pre-init called
+[2018.01.10-13.30.26:782][  0]LogEngine: Initializing Engine...
+[2018.01.10-13.30.26:864][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.10-13.30.28:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.10-13.30.28:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.10-13.30.29:303][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.10-13.30.29:630][  0]LogInit: XAudio2 using 'Alto-falantes (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.10-13.30.29:719][  0]LogInit: FAudioDevice initialized.
+[2018.01.10-13.30.30:175][  0]LogDerivedDataCache: Saved boot cache 0.44s 95MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.10-13.30.30:188][  0]LogInit: Texture streaming: Enabled
+[2018.01.10-13.30.30:682][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.10-13.30.31:966][  0]LogInit: Transaction tracking system initialized
+[2018.01.10-13.30.32:995][  0]BlueprintLog: New page: Carregar Editor
+[2018.01.10-13.30.35:830][  0]LocalizationService: Localization service is disabled
+[2018.01.10-13.30.37:913][  0]LogConsoleResponse: Display: 
+[2018.01.10-13.30.43:707][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' took 0.05s
+[2018.01.10-13.30.43:707][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.10-13.30.43:716][  0]LogCook: Display: Mobile HDR setting 0
+[2018.01.10-13.30.43:843][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.10-13.30.53:156][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.10-13.30.53:292][  0]LightingResults: New page: Compilação de Iluminação
+[2018.01.10-13.30.54:405][  0]MapCheck: New page: Verificação de Mapa
+[2018.01.10-13.30.54:405][  0]LightingResults: New page: Compilação de Iluminação
+[2018.01.10-13.31.08:223][  0]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.10-13.31.09:733][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.10-13.31.09:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.10-13.31.10:090][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98,45ms to complete.
+[2018.01.10-13.31.10:111][  0]LogFileHelpers: Loading map 'Caramuru2D' took 17.102
+[2018.01.10-13.31.17:208][  0]LogCollectionManager: Loaded 0 collections in 0.015121 seconds
+[2018.01.10-13.31.18:622][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' took 0.01s
+[2018.01.10-13.31.18:622][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Developers/Junio/Collections/' took 0.01s
+[2018.01.10-13.31.18:622][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Collections/' took 0.01s
+[2018.01.10-13.31.18:622][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.10-13.31.18:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0717 seconds. Added 2386 classes and 500 folders.
+[2018.01.10-13.31.19:389][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.10-13.31.21:155][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.10-13.31.21:283][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.10-13.31.22:037][  0]LogSlate: Took 0.018640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.10-13.31.22:087][  0]LogSlate: Took 0.009590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.10-13.31.22:299][  0]LogSlate: Took 0.020483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.10-13.31.22:969][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.10-13.31.23:895][  0]LogSlate: Took 0.013543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.10-13.31.24:532][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.10-13.31.24:533][  0]LogLoad: (Engine Initialization) Total time: 187.03 seconds
+[2018.01.10-13.31.24:533][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.10-13.31.24:544][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.10-13.31.26:000][  0]SourceControl: On branch master
+[2018.01.10-13.31.26:000][  0]SourceControl: Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+[2018.01.10-13.31.26:000][  0]SourceControl:   (use "git pull" to update your local branch)
+[2018.01.10-13.31.26:000][  0]SourceControl: Changes not staged for commit:
+[2018.01.10-13.31.26:000][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.10-13.31.26:000][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Character/Caramuru.uasset
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1.uasset
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto4.uasset
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto5.uasset
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto2.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto3.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto4.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto5.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto6.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto7.umap
+[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-0756B61244D4C6D10D28299DAF5D8CD9/CrashReportClient.ini
+[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-34FE49C242EF937641877DA3CD73DB6E/CrashReportClient.ini
+[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-BBC3FDDA4EFE0B6A2C8C1D9AEC081E05/CrashReportClient.ini
+[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-C1B1374248368D956B8CDB8B7294AA33/CrashReportClient.ini
+[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CCF621554FD2333D34CEFCB71761A586/CrashReportClient.ini
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Config/WorldState/150936410.json
+[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.03-14.34.10.log
+[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.04-09.02.00.log
+[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.04-11.49.12.log
+[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.04-12.49.46.log
+[2018.01.10-13.31.26:001][  0]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D_2-backup-2018.01.04-11.49.12.log
+[2018.01.10-13.31.26:001][  0]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2018.01.10-13.31.26:001][  0]SourceControl: Untracked files:
+[2018.01.10-13.31.26:001][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto0.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto2.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto3.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto5.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto0.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto1.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto2.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto3.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto4.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto0.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto8.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto9.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-09-20-59.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-09-30-01.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-09-45-39.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-00-23.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-06-27.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-16-55.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-39-06.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-47-51.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-08-45.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-19-00.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-38-21.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-52-57.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-12-02-56.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-12-29-38.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-03-02.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-19-27.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-34-00.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-40-15.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-48-58.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-00-25.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-16-06.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-21-42.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-39-28.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-50-24.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-57-27.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-09-21-23.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-09-45-39.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-10-06-27.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-10-40-06.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-11-18-59.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-11-43-27.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-12-03-22.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-12-30-12.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-13-03-35.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-13-19-31.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-13-40-14.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-03-30.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-17-09.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-28-54.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-39-28.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-50-24.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-15-01-51.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-15-20-35.umap
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-09-38-11.uasset
+[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-09-46-44.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-09-56-49.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-10-06-27.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-10-49-06.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-11-18-59.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-11-42-15.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-11-49-20.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-13-25-43.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-13-40-15.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-17-09.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-39-28.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-46-00.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-55-53.uasset
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-5356A27A4DCA558983E505A58C2D0823/
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-81C3F2C94F0E56C3563555A07B534605/
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.09-08.47.44.log
+[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.10-10.28.36.log
+[2018.01.10-13.31.26:002][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.10-13.31.26:026][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.10-13.31.27:151][  2]LogSlate: Took 0.000817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.10-13.31.27:774][  4]LogAssetRegistry: Asset discovery search completed in 133.5202 seconds
+[2018.01.10-13.31.27:809][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.10-13.31.27:809][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.008594 seconds (updated 0 objects)
+[2018.01.10-13.32.53:022][831]LogEditorViewport: Clicking on Actor (LMB): Caramuru_C (Character)
+[2018.01.10-13.33.01:075][507]LogSlate: Took 0.007623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.10-13.38.13:984][854]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.10-13.38.13:984][854]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.10-13.38.20:220][434]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2018.01.10-13.38.30:047][318]LogEditorViewport: Clicking on Actor (LMB): Caramuru_C (Character)
+[2018.01.10-13.40.12:641][394]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2018.01.10-13.40.12:835][394]EditorErrors: Warning: No assets to check in!
+>>>>>>> c8aa5487411aca130c76066897afce03fa907b77
