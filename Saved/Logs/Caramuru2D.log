@@ -1,17 +1,25 @@
+<<<<<<< HEAD
 ﻿Log file open, 01/03/18 23:11:40
+=======
+﻿Log file open, 01/09/18 12:03:04
+>>>>>>> 9721121cc450f8ee5b7187f741c684069735bf9f
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Caramuru2D
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(-966041945) SRandInit(-966041945).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.170210
+=======
+LogInit: Display: RandInit(-568421153) SRandInit(-568421153).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 11.852698
+>>>>>>> 9721121cc450f8ee5b7187f741c684069735bf9f
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,6 +121,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.01.04-02.11.41:550][  0]LogInit: Selected Device Profile: [Windows]
 [2018.01.04-02.11.41:550][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.01.04-02.11.41:608][  0]LogInit: Computer: MARCELOM
@@ -639,3 +648,86 @@ LogInit: Object subsystem initialized
 [2018.01.04-02.18.03:392][ 56]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.01.04-02.18.03:396][ 56]LogExit: Exiting.
 [2018.01.04-02.18.03:423][ 56]Log file closed, 01/03/18 23:18:03
+=======
+[2018.01.09-15.03.07:008][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.09-15.03.07:008][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.09-15.03.07:154][  0]LogInit: Computer: DESKTOP-2FCU6I7
+[2018.01.09-15.03.07:154][  0]LogInit: User: diego
+[2018.01.09-15.03.07:154][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.09-15.03.07:154][  0]LogInit: High frequency timer resolution =1.656321 MHz
+[2018.01.09-15.03.07:154][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.09-15.03.07:157][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.09-15.03.07:157][  0]LogMemory: Process Physical Memory: 281.65 MB used, 281.65 MB peak
+[2018.01.09-15.03.07:157][  0]LogMemory: Process Virtual Memory: 273.89 MB used, 273.89 MB peak
+[2018.01.09-15.03.07:157][  0]LogMemory: Physical Memory: 3650.16 MB used,  4445.34 MB free, 8095.50 MB total
+[2018.01.09-15.03.07:157][  0]LogMemory: Virtual Memory: 699.07 MB used,  4445.34 MB free, 134217728.00 MB total
+[2018.01.09-15.03.09:302][  0]LogInit: Using OS detected language (pt-BR).
+[2018.01.09-15.03.09:302][  0]LogInit: Using OS detected locale (pt-BR).
+[2018.01.09-15.03.24:833][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.09-15.03.24:977][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 820M' (Feature Level 11_0)
+[2018.01.09-15.03.24:977][  0]LogD3D11RHI:       2000/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.09-15.03.25:038][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2018.01.09-15.03.25:038][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.09-15.03.25:041][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.09-15.03.25:041][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.09-15.03.25:041][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.09-15.03.25:180][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.09-15.03.25:180][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.09-15.03.25:193][  0]LogWindows: EnumDisplayDevices:
+[2018.01.09-15.03.25:193][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.01.09-15.03.25:193][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.01.09-15.03.25:193][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.01.09-15.03.25:193][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.09-15.03.25:193][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 820M
+[2018.01.09-15.03.25:193][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.09-15.03.25:193][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.09-15.03.25:193][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.09-15.03.25:294][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.01.09-15.03.25:320][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.09-15.03.25:818][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.09-15.03.25:989][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/6084/).
+[2018.01.09-15.03.25:989][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/diego/AppData/Local/Temp/UnrealShaderWorkingDir/55392AA145382231659A80BFB4C386ED/'.
+[2018.01.09-15.03.25:997][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.09-15.03.33:768][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.09-15.03.33:851][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.09-15.03.33:963][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.09-15.03.34:040][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.09-15.03.34:168][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.09-15.03.34:262][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.09-15.03.34:342][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.09-15.03.34:421][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.09-15.03.34:490][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.09-15.03.34:612][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.09-15.03.34:690][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.09-15.03.34:761][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.09-15.03.34:833][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.09-15.03.34:933][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.09-15.03.35:021][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.09-15.03.35:174][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.09-15.03.35:174][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.09-15.03.35:316][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.09-15.03.35:554][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.09-15.03.35:606][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.09-15.03.35:687][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.09-15.03.35:757][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.09-15.03.35:842][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.09-15.03.35:943][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.09-15.03.35:943][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.09-15.03.37:913][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.09-15.03.38:984][  0]LogDerivedDataCache: Loaded boot cache 1.06s 93MB C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.09-15.03.38:985][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.09-15.03.38:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.09-15.03.38:985][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.09-15.03.38:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/diego/Documents/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.09-15.03.38:985][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.09-15.03.39:101][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.09-15.03.39:156][  0]LogDerivedDataCache: Using Local data cache path C:/Users/diego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.09-15.03.39:238][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.09-15.03.41:572][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.09-15.03.42:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.09-15.03.42:495][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.09-15.04.02:254][  0]LogAssetRegistry: FAssetRegistry took 0.1144 seconds to start up
+[2018.01.09-15.04.08:516][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.09-15.04.20:871][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.09-15.04.21:928][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+>>>>>>> 9721121cc450f8ee5b7187f741c684069735bf9f
