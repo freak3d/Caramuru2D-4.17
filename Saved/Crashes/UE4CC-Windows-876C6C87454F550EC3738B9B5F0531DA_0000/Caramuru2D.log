@@ -1,0 +1,777 @@
+﻿Log file open, 01/22/18 09:09:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Caramuru2D
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(108860304) SRandInit(108860304).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.491133
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.22-12.09.33:459][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.22-12.09.33:459][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.22-12.09.33:626][  0]LogInit: Computer: MASTER
+[2018.01.22-12.09.33:626][  0]LogInit: User: Junio
+[2018.01.22-12.09.33:626][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.22-12.09.33:626][  0]LogInit: High frequency timer resolution =3.020349 MHz
+[2018.01.22-12.09.33:628][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.22-12.09.33:628][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.22-12.09.33:628][  0]LogMemory: Process Physical Memory: 278.97 MB used, 278.97 MB peak
+[2018.01.22-12.09.33:628][  0]LogMemory: Process Virtual Memory: 277.97 MB used, 277.97 MB peak
+[2018.01.22-12.09.33:628][  0]LogMemory: Physical Memory: 4660.17 MB used,  3432.01 MB free, 8092.18 MB total
+[2018.01.22-12.09.33:628][  0]LogMemory: Virtual Memory: 672.07 MB used,  3432.01 MB free, 134217728.00 MB total
+[2018.01.22-12.09.37:816][  0]LogInit: Using OS detected language (pt-BR).
+[2018.01.22-12.09.37:816][  0]LogInit: Using OS detected locale (pt-BR).
+[2018.01.22-12.09.50:288][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.22-12.09.50:637][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
+[2018.01.22-12.09.50:637][  0]LogD3D11RHI:       2017/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.22-12.09.50:685][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.01.22-12.09.50:685][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.22-12.09.50:737][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.22-12.09.50:737][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.22-12.09.50:737][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.22-12.09.50:751][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.22-12.09.50:751][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.22-12.09.50:751][  0]LogWindows: EnumDisplayDevices:
+[2018.01.22-12.09.50:751][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
+[2018.01.22-12.09.50:752][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.01.22-12.09.50:752][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.01.22-12.09.50:752][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
+[2018.01.22-12.09.50:753][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.22-12.09.50:753][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.01.22-12.09.50:753][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.01.22-12.09.50:753][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
+[2018.01.22-12.09.50:753][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.01.22-12.09.50:753][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.01.22-12.09.50:753][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.22-12.09.50:871][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.22-12.09.51:273][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.22-12.09.51:386][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/6000/).
+[2018.01.22-12.09.51:386][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Junio/AppData/Local/Temp/UnrealShaderWorkingDir/F92139EC4D99F3232992179705ADA14E/'.
+[2018.01.22-12.09.51:397][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.22-12.10.00:565][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.22-12.10.00:664][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.22-12.10.00:726][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.22-12.10.00:786][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.22-12.10.00:873][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.22-12.10.00:965][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.22-12.10.01:086][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.22-12.10.01:161][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.22-12.10.01:214][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.22-12.10.01:293][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.22-12.10.01:352][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.22-12.10.01:408][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.22-12.10.01:468][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.22-12.10.01:534][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.22-12.10.01:634][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.22-12.10.01:930][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.22-12.10.01:930][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.22-12.10.02:005][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.22-12.10.02:337][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.22-12.10.02:731][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.22-12.10.03:058][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.22-12.10.03:370][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.22-12.10.03:671][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.22-12.10.03:906][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.22-12.10.03:906][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.22-12.10.09:875][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.22-12.10.10:852][  0]LogDerivedDataCache: Loaded boot cache 0.98s 93MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.22-12.10.10:852][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.22-12.10.10:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.22-12.10.10:901][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.22-12.10.10:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.22-12.10.10:901][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.22-12.10.11:015][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.22-12.10.11:030][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Junio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.22-12.10.11:398][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.22-12.10.11:487][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.22-12.10.11:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.22-12.10.11:594][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.22-12.10.26:214][  0]LogAssetRegistry: FAssetRegistry took 0.0577 seconds to start up
+[2018.01.22-12.10.35:993][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.22-12.10.59:934][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.22-12.11.01:796][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.22-12.11.01:975][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.22-12.11.01:975][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.22-12.11.01:975][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.22-12.11.01:975][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.22-12.11.01:975][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.22-12.11.09:801][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
+[2018.01.22-12.11.20:447][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.229761 seconds
+[2018.01.22-12.11.20:752][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.01.22-12.11.20:752][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.01.22-12.11.20:757][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.22-12.11.20:966][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.22-12.12.03:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.22-12.12.03:467][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.22-12.12.05:988][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.22-12.12.07:675][  0]SourceControl: Controle de origem desativado
+[2018.01.22-12.12.12:180][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.22-12.12.12:582][  0]LogOcInput: OculusInput pre-init called
+[2018.01.22-12.12.14:321][  0]LogEngine: Initializing Engine...
+[2018.01.22-12.12.14:402][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.22-12.12.17:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.22-12.12.17:490][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.039 s
+[2018.01.22-12.12.19:066][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.22-12.12.19:406][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.12.19:524][  0]LogInit: FAudioDevice initialized.
+[2018.01.22-12.12.20:346][  0]LogDerivedDataCache: Saved boot cache 0.81s 93MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.22-12.12.20:358][  0]LogInit: Texture streaming: Enabled
+[2018.01.22-12.12.20:948][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.22-12.12.24:548][  0]LogInit: Transaction tracking system initialized
+[2018.01.22-12.12.26:450][  0]BlueprintLog: New page: Carregar Editor
+[2018.01.22-12.12.32:730][  0]LocalizationService: Localization service is disabled
+[2018.01.22-12.12.35:685][  0]LogConsoleResponse: Display: 
+[2018.01.22-12.12.49:509][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' took 0.07s
+[2018.01.22-12.12.49:509][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.22-12.12.49:538][  0]LogCook: Display: Mobile HDR setting 0
+[2018.01.22-12.12.49:758][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.22-12.13.03:144][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.22-12.13.03:227][  0]LightingResults: New page: Compilação de Iluminação
+[2018.01.22-12.13.03:610][  0]MapCheck: New page: Verificação de Mapa
+[2018.01.22-12.13.03:610][  0]LightingResults: New page: Compilação de Iluminação
+[2018.01.22-12.13.17:705][  0]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.13.19:204][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.22-12.13.19:513][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.22-12.13.19:606][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93,308ms to complete.
+[2018.01.22-12.13.19:633][  0]LogFileHelpers: Loading map 'Caramuru2D' took 16.492
+[2018.01.22-12.13.25:745][  0]LogCollectionManager: Loaded 0 collections in 0.003016 seconds
+[2018.01.22-12.13.26:057][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' took 0.01s
+[2018.01.22-12.13.26:058][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Developers/Junio/Collections/' took 0.01s
+[2018.01.22-12.13.26:058][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Collections/' took 0.01s
+[2018.01.22-12.13.26:058][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.22-12.13.26:112][  0]LogContentBrowser: Native class hierarchy populated in 0.0287 seconds. Added 2386 classes and 500 folders.
+[2018.01.22-12.13.26:510][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.01.22-12.13.28:203][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.01.22-12.13.28:374][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.22-12.13.29:693][  0]LogSlate: Took 0.026864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.22-12.13.29:768][  0]LogSlate: Took 0.017764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.22-12.13.29:912][  0]LogSlate: Took 0.018711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.22-12.13.30:988][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.22-12.13.32:242][  0]LogSlate: Took 0.022072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.22-12.13.33:023][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2018.01.22-12.13.33:023][  0]LogLoad: (Engine Initialization) Total time: 270.24 seconds
+[2018.01.22-12.13.33:023][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.22-12.13.33:033][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.22-12.13.35:189][  0]SourceControl: On branch master
+[2018.01.22-12.13.35:189][  0]SourceControl: Your branch is up to date with 'origin/master'.
+[2018.01.22-12.13.35:189][  0]SourceControl: Changes not staged for commit:
+[2018.01.22-12.13.35:189][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.22-12.13.35:189][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Character/Caramuru.uasset
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1.uasset
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto1.uasset
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-5356A27A4DCA558983E505A58C2D0823/CrashReportClient.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-6A37E06B4C8A3A9A535EF28F0955D57F/CrashReportClient.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-74D70C294ED8B6756034DA925EA5CDCF/CrashReportClient.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-81C3F2C94F0E56C3563555A07B534605/CrashReportClient.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8F1EE8E94E96953FB3239BB5686B023E/CrashReportClient.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2018.01.22-12.13.35:189][  0]SourceControl: 	modified:   Saved/Config/WorldState/150936410.json
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.09-08.47.44.log
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.09-12.03.04.log
+[2018.01.22-12.13.35:189][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.09-23.53.07.log
+[2018.01.22-12.13.35:190][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.10-10.28.36.log
+[2018.01.22-12.13.35:190][  0]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2018.01.22-12.13.35:190][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D_2-backup-2018.01.10-00.04.12.log
+[2018.01.22-12.13.35:190][  0]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2018.01.22-12.13.35:190][  0]SourceControl: Untracked files:
+[2018.01.22-12.13.35:190][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto1.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-11-14-00-15.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-17-14-34-04.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-17-14-47-54.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-17-14-59-50.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-17-15-05-31.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-17-15-21-41.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-11-14-11-49.umap
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-11-15-15-15.umap
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-17-15-05-30.umap
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-17-15-10-55.umap
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-17-15-21-44.umap
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-11-14-02-06.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-17-15-05-30.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-17-15-15-01.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-17-15-21-44.uasset
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-876C6C87454F550EC3738B9B5F0531DA/
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-C987A38B4D19D6A1490C058AA4E1ADF8/
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.17-14.08.43.log
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.20-11.37.02.log
+[2018.01.22-12.13.35:190][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.22-09.09.28.log
+[2018.01.22-12.13.35:190][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.22-12.13.35:215][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.22-12.13.37:309][  5]LogAssetRegistry: Asset discovery search completed in 191.1188 seconds
+[2018.01.22-12.13.37:355][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.22-12.13.37:356][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.015822 seconds (updated 0 objects)
+[2018.01.22-12.14.07:961][374]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.14.08:311][374]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.14.08:329][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-12.14.08:499][374]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:14:08)
+[2018.01.22-12.14.08:521][374]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.14.08:581][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059571s)
+[2018.01.22-12.14.08:590][374]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.14.08:591][374]LogPlayLevel: PIE: World Init took: (0.009956s)
+[2018.01.22-12.14.08:599][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.086078s)
+[2018.01.22-12.14.08:642][374]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.14.08:659][374]LogInit: FAudioDevice initialized.
+[2018.01.22-12.14.08:769][374]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.14.08:960][374]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.14.08
+[2018.01.22-12.14.09:066][374]LogWorld: Bringing up level for play took: 0.136530
+[2018.01.22-12.14.09:234][374]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.01.22-12.14.09:396][374]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.14.09:440][374]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,26
+[2018.01.22-12.14.09:441][374]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.14.20:972][672]LogBlueprintUserMessages: [Chest_284] You receive 1 Silver Key.
+[2018.01.22-12.14.21:444][707]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5059.585 Y=100.000 Z=4023.697
+[2018.01.22-12.14.23:038][893]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.01.22-12.14.24:394][ 55]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=172.93 Y=0.00 Z=0.00 Location: X=-3888.92 Y=100.00 Z=3946.31 Normal: X=1.00 Y=0.00 Z=0.09 PenetrationDepth:4.916 Actor:BP_Shoot_C_8 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.14.26:178][269]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2018.01.22-12.14.27:870][472]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.35 Normal: X=0.99 Y=0.00 Z=0.11 PenetrationDepth:17.535 Actor:BP_Shoot_C_10 Component:Sphere BoneName:None (7 other events since notify)
+[2018.01.22-12.14.40:232][942]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2018.01.22-12.14.45:474][571]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2018.01.22-12.14.46:890][741]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4827.06 Y=100.00 Z=3946.44 Normal: X=-0.99 Y=0.00 Z=0.10 PenetrationDepth:11.525 Actor:BP_Shoot_C_18 Component:Sphere BoneName:None (5 other events since notify)
+[2018.01.22-12.14.47:040][759]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2018.01.22-12.14.47:607][827]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2018.01.22-12.14.47:898][862]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-4827.13 Y=100.00 Z=3946.19 Normal: X=-0.99 Y=0.00 Z=0.11 PenetrationDepth:18.490 Actor:BP_Shoot_C_21 Component:Sphere BoneName:None (7 other events since notify)
+[2018.01.22-12.14.49:714][ 77]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2018.01.22-12.14.50:364][155]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2018.01.22-12.14.50:655][190]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-4827.13 Y=100.00 Z=3946.19 Normal: X=-1.00 Y=0.00 Z=0.09 PenetrationDepth:8.564 Actor:BP_Shoot_C_32 Component:Sphere BoneName:None (3 other events since notify)
+[2018.01.22-12.14.52:081][361]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2018.01.22-12.14.54:336][630]LogBlueprintUserMessages: [ExpSphereActor_C_0] You earned 30 EXP
+[2018.01.22-12.14.57:813][ 47]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.14.57:934][ 47]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.14.59:252][171]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree_3_Sprite5)
+[2018.01.22-12.15.03:241][484]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2018.01.22-12.15.05:162][649]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.22-12.15.06:147][649]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2018.01.22-12.15.08:441][649]LogSlate: Took 0.016170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.22-12.15.09:614][650]LogSlate: Took 0.015329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.22-12.15.37:085][331]LogRenderer: Reallocating scene render targets to support 1576x712 Format 10 NumSamples 1 (Frame:1).
+[2018.01.22-12.16.29:123][904]LogEditorViewport: Clicking on Actor (LMB): Caramuru_C (Character)
+[2018.01.22-12.18.17:471][ 35]LogEditorTransaction: Undo Modificar Componente(s)
+[2018.01.22-12.18.17:673][ 35]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.22-12.18.43:709][108]LogActorComponent: ReregisterComponent: (/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.EnemyCharacter_226.Sprite0) Not currently registered. Aborting.
+[2018.01.22-12.18.43:710][108]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.EnemyCharacter_C_0.Sprite0) Not currently registered. Aborting.
+[2018.01.22-12.19.56:120][226]BlueprintLog: New page: Compilar EnemyCharacter
+[2018.01.22-12.19.59:018][408]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.19.59:071][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.19.59:071][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-12.19.59:072][408]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:19:59)
+[2018.01.22-12.19.59:072][408]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.19.59:077][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
+[2018.01.22-12.19.59:077][408]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.19.59:077][408]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2018.01.22-12.19.59:078][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005925s)
+[2018.01.22-12.19.59:128][408]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.19.59:139][408]LogInit: FAudioDevice initialized.
+[2018.01.22-12.19.59:196][408]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.19.59:207][408]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.19.59
+[2018.01.22-12.19.59:211][408]LogWorld: Bringing up level for play took: 0.013750
+[2018.01.22-12.19.59:214][408]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.19.59:219][408]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,039
+[2018.01.22-12.19.59:220][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.20.05:420][855]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5061.095 Y=100.000 Z=4052.506
+[2018.01.22-12.20.06:519][951]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.01.22-12.20.07:994][ 80]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=24.11 Y=0.00 Z=0.00 Location: X=-3888.99 Y=100.00 Z=3946.37 Normal: X=0.99 Y=0.00 Z=0.11 PenetrationDepth:16.759 Actor:BP_Shoot_C_4 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.20.10:391][283]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2018.01.22-12.20.12:477][462]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2018.01.22-12.20.13:453][546]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2018.01.22-12.20.14:113][602]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2018.01.22-12.20.14:932][671]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2018.01.22-12.20.15:581][726]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2018.01.22-12.20.16:266][784]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-200.00 Y=0.00 Z=0.00 Location: X=-3829.15 Y=100.00 Z=4002.56 Normal: X=0.53 Y=0.00 Z=-0.85 PenetrationDepth:1.438 Actor:BP_Shoot_C_27 Component:Sphere BoneName:None (4 other events since notify)
+[2018.01.22-12.20.16:266][784]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2018.01.22-12.20.17:309][871]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2018.01.22-12.20.19:293][ 39]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-25.78 Y=0.00 Z=0.00 Location: X=-3864.96 Y=100.00 Z=3999.47 Normal: X=0.86 Y=0.00 Z=-0.51 PenetrationDepth:38.695 Actor:BP_Shoot_C_37 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.20.19:294][ 39]LogBlueprintUserMessages: [ExpSphereActor_C_0] You earned 30 EXP
+[2018.01.22-12.20.23:145][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.20.23:276][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.20.24:412][466]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.20.24:461][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.20.24:462][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-12.20.24:462][466]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:20:24)
+[2018.01.22-12.20.24:462][466]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.20.24:466][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004343s)
+[2018.01.22-12.20.24:467][466]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.20.24:467][466]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.01.22-12.20.24:467][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005178s)
+[2018.01.22-12.20.24:518][466]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.20.24:527][466]LogInit: FAudioDevice initialized.
+[2018.01.22-12.20.24:563][466]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.20.24:568][466]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.20.24
+[2018.01.22-12.20.24:570][466]LogWorld: Bringing up level for play took: 0.006071
+[2018.01.22-12.20.24:571][466]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.20.24:574][466]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0,394
+[2018.01.22-12.20.24:574][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.20.27:934][738]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5060.530 Y=100.000 Z=4026.962
+[2018.01.22-12.20.29:054][836]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.01.22-12.20.30:691][981]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-22.14 Y=0.00 Z=0.00 Location: X=-3889.00 Y=100.00 Z=3946.41 Normal: X=0.99 Y=0.00 Z=0.11 PenetrationDepth:16.571 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.20.32:124][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.20.32:237][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.22.08:825][245]BlueprintLog: New page: Compilar BP_Shoot
+[2018.01.22-12.22.10:725][311]LogSavePackage: Save=121.29ms
+[2018.01.22-12.22.10:725][311]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/BP_ShootEF6FA42B48F6D402D85B79BC185781E7.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Blueprints/Powers/BP_Shoot.uasset'
+[2018.01.22-12.22.10:731][311]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Blueprints/Powers/BP_Shoot.uasset
+[2018.01.22-12.22.14:807][793]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.22.14:842][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.22.14:843][793]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.22-12.22.14:849][793]LogPlayLevel: [PlayLevel] Compiling BP_Shoot before play...
+[2018.01.22-12.22.14:861][793]LogPlayLevel: [PlayLevel]   Compiling Caramuru as a dependent...
+[2018.01.22-12.22.15:410][793]LogPlayLevel: PlayLevel: Blueprint regeneration took 567 ms (2 blueprints)
+[2018.01.22-12.22.15:410][793]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:22:15)
+[2018.01.22-12.22.15:411][793]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.22.15:416][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004934s)
+[2018.01.22-12.22.15:416][793]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.22.15:416][793]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2018.01.22-12.22.15:416][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005853s)
+[2018.01.22-12.22.15:468][793]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.22.15:478][793]LogInit: FAudioDevice initialized.
+[2018.01.22-12.22.15:514][793]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.22.15:519][793]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.22.15
+[2018.01.22-12.22.15:521][793]LogWorld: Bringing up level for play took: 0.005934
+[2018.01.22-12.22.15:522][793]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.22.15:524][793]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,344
+[2018.01.22-12.22.15:525][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.22.19:133][221]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5058.984 Y=100.000 Z=4051.027
+[2018.01.22-12.22.21:282][479]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.55 Normal: X=0.99 Y=0.00 Z=0.10 PenetrationDepth:10.221 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.22.23:066][693]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-97.53 Y=0.00 Z=0.00 Location: X=-3889.28 Y=100.00 Z=3946.70 Normal: X=1.00 Y=0.00 Z=0.09 PenetrationDepth:0.466 Actor:BP_Shoot_C_3 Component:Sphere BoneName:None (17 other events since notify)
+[2018.01.22-12.22.28:730][371]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.22.28:830][371]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.25.09:057][514]LogSavePackage: Save=182.71ms
+[2018.01.22-12.25.09:057][514]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Caramuru2D_Auto1E0BA92A34613B195C57D63868EC83561.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap'
+[2018.01.22-12.25.09:058][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap
+[2018.01.22-12.25.09:092][514]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Caramuru2D' took 0.483
+[2018.01.22-12.25.09:092][514]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.483
+[2018.01.22-12.25.09:102][514]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Powers/BP_Shoot] ([1] browsable assets)...
+[2018.01.22-12.25.09:102][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Powers/BP_Shoot]
+[2018.01.22-12.25.09:236][514]LogSavePackage: Save=24.92ms
+[2018.01.22-12.25.09:236][514]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/BP_Shoot_Auto1AF1C79024287DB892AA9B0B40F4157A4.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Powers/BP_Shoot_Auto1.uasset'
+[2018.01.22-12.25.09:237][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Powers/BP_Shoot_Auto1.uasset
+[2018.01.22-12.25.09:238][514]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Enemy/EnemyCharacter] ([1] browsable assets)...
+[2018.01.22-12.25.09:238][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Enemy/EnemyCharacter]
+[2018.01.22-12.25.09:588][514]LogSavePackage: Save=160.90ms
+[2018.01.22-12.25.09:588][514]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/EnemyCharacter_Auto14FC2E94F4B9380769EDA41AF971DE8F8.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemy/EnemyCharacter_Auto1.uasset'
+[2018.01.22-12.25.09:590][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Enemy/EnemyCharacter_Auto1.uasset
+[2018.01.22-12.25.09:590][514]LogFileHelpers: Auto-saving content packages took 0.496
+[2018.01.22-12.58.55:943][737]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.58.55:986][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.58.55:986][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-12.58.55:986][737]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:58:55)
+[2018.01.22-12.58.55:987][737]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.58.55:992][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005115s)
+[2018.01.22-12.58.55:993][737]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.58.55:993][737]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2018.01.22-12.58.55:993][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.006570s)
+[2018.01.22-12.58.56:051][737]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.58.56:061][737]LogInit: FAudioDevice initialized.
+[2018.01.22-12.58.56:097][737]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.58.56:104][737]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.58.56
+[2018.01.22-12.58.56:106][737]LogWorld: Bringing up level for play took: 0.007936
+[2018.01.22-12.58.56:108][737]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.58.56:110][737]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0,07
+[2018.01.22-12.58.56:111][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.58.59:918][187]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5059.230 Y=100.000 Z=4051.528
+[2018.01.22-12.59.01:959][432]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.33 Normal: X=0.99 Y=0.00 Z=0.15 PenetrationDepth:27.752 Actor:BP_Shoot_C_0 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.59.02:893][544]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.02:998][544]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.16:363][117]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.59.16:396][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.16:396][117]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.22-12.59.16:404][117]LogPlayLevel: [PlayLevel] Compiling BP_Shoot before play...
+[2018.01.22-12.59.16:415][117]LogPlayLevel: [PlayLevel]   Compiling Caramuru as a dependent...
+[2018.01.22-12.59.16:996][117]LogPlayLevel: PlayLevel: Blueprint regeneration took 599 ms (2 blueprints)
+[2018.01.22-12.59.16:996][117]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:59:16)
+[2018.01.22-12.59.16:996][117]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.59.17:001][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004886s)
+[2018.01.22-12.59.17:001][117]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.59.17:001][117]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2018.01.22-12.59.17:002][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005825s)
+[2018.01.22-12.59.17:049][117]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.59.17:059][117]LogInit: FAudioDevice initialized.
+[2018.01.22-12.59.17:098][117]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.59.17:103][117]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.59.17
+[2018.01.22-12.59.17:106][117]LogWorld: Bringing up level for play took: 0.007712
+[2018.01.22-12.59.17:108][117]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.59.17:110][117]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0,931
+[2018.01.22-12.59.17:111][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.19:998][457]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5038.424 Y=100.000 Z=4105.200
+[2018.01.22-12.59.26:211][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.26:307][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.27:827][381]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-12.59.27:861][381]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.27:861][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-12.59.27:861][381]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 06:59:27)
+[2018.01.22-12.59.27:861][381]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-12.59.27:866][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004737s)
+[2018.01.22-12.59.27:866][381]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-12.59.27:866][381]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2018.01.22-12.59.27:866][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005543s)
+[2018.01.22-12.59.27:922][381]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-12.59.27:932][381]LogInit: FAudioDevice initialized.
+[2018.01.22-12.59.27:968][381]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-12.59.27:974][381]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-09.59.27
+[2018.01.22-12.59.27:976][381]LogWorld: Bringing up level for play took: 0.006772
+[2018.01.22-12.59.27:977][381]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-12.59.27:979][381]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0,201
+[2018.01.22-12.59.27:980][381]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.36:432][391]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.41 Normal: X=0.99 Y=0.00 Z=0.11 PenetrationDepth:16.783 Actor:BP_Shoot_C_0 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-12.59.36:515][401]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.01.22-12.59.37:490][513]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2018.01.22-12.59.38:599][646]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2018.01.22-12.59.39:741][778]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2018.01.22-12.59.41:209][954]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2018.01.22-12.59.42:234][ 77]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.84 Y=100.00 Z=3946.41 Normal: X=1.00 Y=0.00 Z=0.10 PenetrationDepth:11.002 Actor:BP_Shoot_C_5 Component:Sphere BoneName:None (6 other events since notify)
+[2018.01.22-12.59.42:985][167]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2018.01.22-12.59.43:668][249]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.47 Normal: X=0.99 Y=0.00 Z=0.10 PenetrationDepth:11.121 Actor:BP_Shoot_C_7 Component:Sphere BoneName:None (8 other events since notify)
+[2018.01.22-12.59.44:527][352]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2018.01.22-12.59.45:252][439]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.47 Normal: X=0.99 Y=0.00 Z=0.13 PenetrationDepth:21.058 Actor:BP_Shoot_C_9 Component:Sphere BoneName:None (6 other events since notify)
+[2018.01.22-12.59.45:711][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-12.59.45:814][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.00.33:279][ 59]BlueprintLog: New page: Compilar BP_Shoot
+[2018.01.22-13.00.34:723][153]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.00.34:759][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.00.34:759][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-13.00.34:759][153]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:00:34)
+[2018.01.22-13.00.34:759][153]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.00.34:764][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005071s)
+[2018.01.22-13.00.34:765][153]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.00.34:765][153]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.01.22-13.00.34:765][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.006057s)
+[2018.01.22-13.00.34:814][153]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.00.34:823][153]LogInit: FAudioDevice initialized.
+[2018.01.22-13.00.34:860][153]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.00.34:866][153]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.00.34
+[2018.01.22-13.00.34:868][153]LogWorld: Bringing up level for play took: 0.006804
+[2018.01.22-13.00.34:869][153]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.00.34:872][153]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0,692
+[2018.01.22-13.00.34:873][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.00.48:253][649]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.01.22-13.00.49:636][806]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.46 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.52 Normal: X=0.99 Y=0.00 Z=0.10 PenetrationDepth:10.881 Actor:BP_Shoot_C_1 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-13.00.53:323][220]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2018.01.22-13.00.56:649][590]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2018.01.22-13.00.59:589][916]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=17.63 Y=0.00 Z=0.00 Location: X=-4827.07 Y=100.00 Z=3946.31 Normal: X=-1.00 Y=0.00 Z=0.09 PenetrationDepth:8.739 Actor:BP_Shoot_C_18 Component:Sphere BoneName:None (5 other events since notify)
+[2018.01.22-13.01.00:058][967]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2018.01.22-13.01.01:301][103]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2018.01.22-13.01.01:602][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.01.01:707][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.01.40:814][766]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Caramuru2D
+[2018.01.22-13.01.40:814][766]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.01.22-13.01.40:814][766]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.01.22-13.01.40:814][766]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.01.22-13.01.40:814][766]LogTemp: BranchPath = MASTER/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MASTER/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.01.22-13.01.41:515][841]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Junio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.22-13.02.58:561][797]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.02.58:595][797]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.02.58:595][797]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.22-13.02.58:603][797]LogPlayLevel: [PlayLevel] Compiling BP_Shoot before play...
+[2018.01.22-13.02.58:614][797]LogPlayLevel: [PlayLevel]   Compiling Caramuru as a dependent...
+[2018.01.22-13.02.59:183][797]LogPlayLevel: PlayLevel: Blueprint regeneration took 587 ms (2 blueprints)
+[2018.01.22-13.02.59:183][797]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:02:59)
+[2018.01.22-13.02.59:183][797]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.02.59:188][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004582s)
+[2018.01.22-13.02.59:189][797]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.02.59:189][797]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2018.01.22-13.02.59:189][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005749s)
+[2018.01.22-13.02.59:241][797]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.02.59:251][797]LogInit: FAudioDevice initialized.
+[2018.01.22-13.02.59:287][797]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.02.59:293][797]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.02.59
+[2018.01.22-13.02.59:294][797]LogWorld: Bringing up level for play took: 0.006625
+[2018.01.22-13.02.59:296][797]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.02.59:300][797]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,12
+[2018.01.22-13.02.59:301][797]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.02:377][113]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5060.214 Y=100.000 Z=4023.697
+[2018.01.22-13.03.08:042][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.08:110][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.08:836][772]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.03.08:873][772]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.08:873][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-13.03.08:873][772]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:03:08)
+[2018.01.22-13.03.08:873][772]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.03.08:878][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004878s)
+[2018.01.22-13.03.08:879][772]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.03.08:879][772]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.01.22-13.03.08:879][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005866s)
+[2018.01.22-13.03.08:935][772]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.03.08:944][772]LogInit: FAudioDevice initialized.
+[2018.01.22-13.03.08:982][772]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.03.09:026][772]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.03.09
+[2018.01.22-13.03.09:027][772]LogWorld: Bringing up level for play took: 0.044330
+[2018.01.22-13.03.09:029][772]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.03.09:032][772]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0,852
+[2018.01.22-13.03.09:033][772]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.12:274][111]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.12:373][111]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.13:836][283]LogEditorTransaction: Undo Editar Nome do Perfil de Colisão
+[2018.01.22-13.03.14:037][300]LogEditorTransaction: Undo Alterar Perfil de Colisão
+[2018.01.22-13.03.14:249][321]LogEditorTransaction: Undo Quebra Vínculos do Fixador
+[2018.01.22-13.03.14:474][343]LogEditorTransaction: Undo Quebra Vínculos do Fixador
+[2018.01.22-13.03.14:927][393]LogEditorTransaction: Undo Criar Vínculo de Fixador
+[2018.01.22-13.03.16:381][563]LogEditorTransaction: Undo Quebra Vínculos do Fixador
+[2018.01.22-13.03.18:465][809]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.03.18:498][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.18:498][809]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.22-13.03.18:506][809]LogPlayLevel: [PlayLevel] Compiling BP_Shoot before play...
+[2018.01.22-13.03.18:518][809]LogPlayLevel: [PlayLevel]   Compiling Caramuru as a dependent...
+[2018.01.22-13.03.19:105][809]LogPlayLevel: PlayLevel: Blueprint regeneration took 606 ms (2 blueprints)
+[2018.01.22-13.03.19:105][809]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:03:19)
+[2018.01.22-13.03.19:105][809]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.03.19:109][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004295s)
+[2018.01.22-13.03.19:110][809]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.03.19:110][809]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.01.22-13.03.19:110][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005222s)
+[2018.01.22-13.03.19:159][809]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.03.19:169][809]LogInit: FAudioDevice initialized.
+[2018.01.22-13.03.19:205][809]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.03.19:211][809]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.03.19
+[2018.01.22-13.03.19:213][809]LogWorld: Bringing up level for play took: 0.006768
+[2018.01.22-13.03.19:214][809]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.03.19:218][809]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,038
+[2018.01.22-13.03.19:218][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.23:042][261]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5061.390 Y=100.000 Z=4023.697
+[2018.01.22-13.03.24:046][381]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.24:143][381]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.25:307][493]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.03.25:343][493]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.25:344][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-13.03.25:344][493]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:03:25)
+[2018.01.22-13.03.25:344][493]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.03.25:348][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004696s)
+[2018.01.22-13.03.25:349][493]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.03.25:349][493]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2018.01.22-13.03.25:349][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005647s)
+[2018.01.22-13.03.25:399][493]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.03.25:409][493]LogInit: FAudioDevice initialized.
+[2018.01.22-13.03.25:441][493]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.03.25:447][493]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.03.25
+[2018.01.22-13.03.25:448][493]LogWorld: Bringing up level for play took: 0.006247
+[2018.01.22-13.03.25:450][493]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.03.25:451][493]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0,73
+[2018.01.22-13.03.25:451][493]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.30:237][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.30:313][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.31:851][228]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.03.31:886][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.31:886][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-13.03.31:886][228]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:03:31)
+[2018.01.22-13.03.31:886][228]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.03.31:891][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004308s)
+[2018.01.22-13.03.31:891][228]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.03.31:891][228]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.01.22-13.03.31:891][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005184s)
+[2018.01.22-13.03.31:945][228]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.03.31:955][228]LogInit: FAudioDevice initialized.
+[2018.01.22-13.03.31:990][228]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.03.31:995][228]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.03.31
+[2018.01.22-13.03.31:997][228]LogWorld: Bringing up level for play took: 0.006100
+[2018.01.22-13.03.31:998][228]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.03.32:002][228]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0,178
+[2018.01.22-13.03.32:003][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.41:509][165]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5061.602 Y=100.000 Z=4023.697
+[2018.01.22-13.03.43:921][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.44:018][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.45:053][575]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.03.45:086][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.45:086][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-13.03.45:086][575]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:03:45)
+[2018.01.22-13.03.45:086][575]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.03.45:091][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004310s)
+[2018.01.22-13.03.45:091][575]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.03.45:091][575]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2018.01.22-13.03.45:091][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005184s)
+[2018.01.22-13.03.45:143][575]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.03.45:153][575]LogInit: FAudioDevice initialized.
+[2018.01.22-13.03.45:188][575]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.03.45:194][575]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.03.45
+[2018.01.22-13.03.45:196][575]LogWorld: Bringing up level for play took: 0.006350
+[2018.01.22-13.03.45:197][575]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.03.45:199][575]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,02
+[2018.01.22-13.03.45:200][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.03.53:703][590]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5060.908 Y=100.000 Z=4023.697
+[2018.01.22-13.03.55:814][843]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.01.22-13.03.56:490][924]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2018.01.22-13.03.57:208][ 10]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2018.01.22-13.03.57:768][ 77]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2018.01.22-13.03.58:043][110]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=-17.07 Y=0.00 Z=0.00 Location: X=-3888.94 Y=100.00 Z=3946.31 Normal: X=0.99 Y=0.00 Z=0.12 PenetrationDepth:18.425 Actor:BP_Shoot_C_21 Component:Sphere BoneName:None (0 other events since notify)
+[2018.01.22-13.04.02:510][644]LogCharacterMovement: EnemyCharacter_226 is stuck and failed to move! Velocity: X=17.07 Y=0.00 Z=0.00 Location: X=-3865.95 Y=100.00 Z=3998.25 Normal: X=0.34 Y=0.00 Z=-0.94 PenetrationDepth:1.401 Actor:BP_Shoot_C_23 Component:Sphere BoneName:None (6 other events since notify)
+[2018.01.22-13.04.02:510][644]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2018.01.22-13.04.05:386][988]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2018.01.22-13.04.06:335][101]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2018.01.22-13.04.07:019][183]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2018.01.22-13.04.08:721][386]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2018.01.22-13.04.16:701][342]LogBlueprintUserMessages: [ExpSphereActor_C_0] You earned 30 EXP
+[2018.01.22-13.04.17:885][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.04.17:983][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.04.21:744][894]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (SpriteKeyTest)
+[2018.01.22-13.04.32:028][101]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.22-13.04.32:066][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.04.32:066][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.22-13.04.32:066][101]PIE: New page: Sessão de PIE : Caramuru2D (22/01/2018 07:04:32)
+[2018.01.22-13.04.32:066][101]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.01.22-13.04.32:071][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004625s)
+[2018.01.22-13.04.32:071][101]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.01.22-13.04.32:071][101]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2018.01.22-13.04.32:072][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005751s)
+[2018.01.22-13.04.32:094][101]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.22-13.04.32:104][101]LogInit: FAudioDevice initialized.
+[2018.01.22-13.04.32:137][101]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.01.22-13.04.32:142][101]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.22-10.04.32
+[2018.01.22-13.04.32:144][101]LogWorld: Bringing up level for play took: 0.006051
+[2018.01.22-13.04.32:145][101]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.01.22-13.04.32:146][101]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0,034
+[2018.01.22-13.04.32:146][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.04.35:139][459]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5061.667 Y=100.000 Z=4075.879
+[2018.01.22-13.04.46:606][827]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.04.46:660][827]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.01.22-13.05.01:885][982]LogEditorViewport: Clicking on Actor (LMB): BP_Ladder1_C (BP_Ladder1)
+[2018.01.22-13.05.14:484][402]LogUObjectBase: Warning: Object is not registered
+[2018.01.22-13.05.15:730][402]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.238 s
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: === Handled ensure: ===
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: 
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: Stack: 
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008C143E36
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008BECC2D2
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008BEE4746
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x000000008775D3E6
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000848CFB2B
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x0000000083F2259A
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x0000000083DB737C
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x0000000083DBA8E9
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x0000000083EE6C25
+[2018.01.22-13.05.15:731][402]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000098414A47
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009841AC21
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000986503A3
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Slate.dll!0x0000000098471E65
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009844A28C
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000009843B444
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008C11B5AC
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008C103EE1
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008C11D5BB
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008C0FF042
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: USER32.dll!0x00000000CCDCBC50
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: USER32.dll!0x00000000CCDCB5CF
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000008C11DCC6
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor.exe!0x0000000054E14BE2
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor.exe!0x0000000054E23970
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor.exe!0x0000000054E239EA
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor.exe!0x0000000054E302D9
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: UE4Editor.exe!0x0000000054E31C47
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: KERNEL32.DLL!0x00000000CC0D2774
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: ntdll.dll!0x00000000CEB70D51
+[2018.01.22-13.05.15:732][402]LogOutputDevice: Error: 
+[2018.01.22-13.05.15:735][402]LogStats:                SubmitErrorReport -  0.000 s
