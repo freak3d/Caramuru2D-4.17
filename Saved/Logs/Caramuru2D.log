@@ -1,4 +1,4 @@
-﻿Log file open, 01/10/18 10:28:37
+﻿Log file open, 02/05/18 18:35:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Caramuru2D
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1426472933) SRandInit(-1426472933).
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 5.171403
+LogInit: Display: RandInit(-138872538) SRandInit(-138872538).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.334797
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,974 +113,457 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.10-13.28.41:022][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.10-13.28.41:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.10-13.28.41:171][  0]LogInit: Computer: MASTER
-[2018.01.10-13.28.41:171][  0]LogInit: User: Junio
-[2018.01.10-13.28.41:171][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.10-13.28.41:171][  0]LogInit: High frequency timer resolution =3.020351 MHz
-[2018.01.10-13.28.41:207][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.01.10-13.28.41:207][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.10-13.28.41:207][  0]LogMemory: Process Physical Memory: 279.97 MB used, 279.97 MB peak
-[2018.01.10-13.28.41:207][  0]LogMemory: Process Virtual Memory: 275.07 MB used, 275.07 MB peak
-[2018.01.10-13.28.41:207][  0]LogMemory: Physical Memory: 5219.91 MB used,  2872.28 MB free, 8092.18 MB total
-[2018.01.10-13.28.41:207][  0]LogMemory: Virtual Memory: 669.07 MB used,  2872.28 MB free, 134217728.00 MB total
-[2018.01.10-13.28.42:745][  0]LogInit: Using OS detected language (pt-BR).
-[2018.01.10-13.28.42:745][  0]LogInit: Using OS detected locale (pt-BR).
-[2018.01.10-13.28.48:062][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.10-13.28.48:337][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950' (Feature Level 11_0)
-[2018.01.10-13.28.48:337][  0]LogD3D11RHI:       2017/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.01.10-13.28.48:621][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.01.10-13.28.48:621][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.01.10-13.28.48:687][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.10-13.28.48:687][  0]LogD3D11RHI:       0/0/4046 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.10-13.28.48:687][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.10-13.28.48:704][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.10-13.28.48:704][  0]LogD3D11RHI:     GPU DeviceId: 0x1402 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.10-13.28.48:728][  0]LogWindows: EnumDisplayDevices:
-[2018.01.10-13.28.48:729][  0]LogWindows:    0. 'NVIDIA GeForce GTX 950' (P:1 D:1)
-[2018.01.10-13.28.48:729][  0]LogWindows:    1. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2018.01.10-13.28.48:730][  0]LogWindows:    2. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2018.01.10-13.28.48:730][  0]LogWindows:    3. 'NVIDIA GeForce GTX 950' (P:0 D:0)
-[2018.01.10-13.28.48:731][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.01.10-13.28.48:731][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.01.10-13.28.48:732][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.01.10-13.28.48:732][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950
-[2018.01.10-13.28.48:732][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2018.01.10-13.28.48:732][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2018.01.10-13.28.48:732][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.10-13.28.48:853][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.10-13.28.49:374][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
-[2018.01.10-13.28.49:479][  0]LogShaderCompilers: Guid format shader working directory is -48 characters bigger than the processId version (../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/8668/).
-[2018.01.10-13.28.49:480][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Junio/AppData/Local/Temp/UnrealShaderWorkingDir/FB5DDF43469ADFEA630356B07063451E/'.
-[2018.01.10-13.28.49:509][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.10-13.28.57:285][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.10-13.28.57:388][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.10-13.28.57:444][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.10-13.28.57:498][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.10-13.28.57:601][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.10-13.28.57:658][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.10-13.28.57:716][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.10-13.28.57:772][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.10-13.28.57:822][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.10-13.28.57:889][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.10-13.28.57:943][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.10-13.28.57:998][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.10-13.28.58:052][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.10-13.28.58:106][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.10-13.28.58:161][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.10-13.28.58:270][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.10-13.28.58:270][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.10-13.28.58:318][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.10-13.28.58:518][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.10-13.28.58:551][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.10-13.28.58:605][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.10-13.28.58:658][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.10-13.28.58:748][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.10-13.28.58:825][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.10-13.28.58:836][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.10-13.29.00:528][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Loaded boot cache 1.05s 95MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.10-13.29.01:603][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.10-13.29.01:704][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.10-13.29.01:722][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Junio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.10-13.29.01:909][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.10-13.29.02:007][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.10-13.29.02:138][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.10-13.29.02:147][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.10-13.29.14:277][  0]LogAssetRegistry: FAssetRegistry took 0.0681 seconds to start up
-[2018.01.10-13.29.17:944][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.10-13.29.27:188][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.01.10-13.29.29:823][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.10-13.29.29:987][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.10-13.29.29:987][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.10-13.29.29:987][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.10-13.29.29:987][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.10-13.29.29:987][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.10-13.29.35:339][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
-[2018.01.10-13.29.37:601][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.214114 seconds
-[2018.01.10-13.29.37:652][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.01.10-13.29.37:652][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2018.01.10-13.29.37:660][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.10-13.29.37:894][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.10-13.30.12:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.10-13.30.12:162][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.10-13.30.16:970][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2018.01.10-13.30.17:042][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:042][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:385][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.10-13.30.17:506][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2018.01.10-13.30.17:507][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/LightingModel.LightingModel for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:507][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:543][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2018.01.10-13.30.17:544][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/MaterialAO.MaterialAO for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:544][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:593][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2018.01.10-13.30.17:594][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Metallic.Metallic for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:595][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:633][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2018.01.10-13.30.17:634][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Opacity.Opacity for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:634][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:707][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2018.01.10-13.30.17:707][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Roughness.Roughness for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:707][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:919][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2018.01.10-13.30.17:920][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:920][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:946][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2018.01.10-13.30.17:947][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/SubsurfaceColor.SubsurfaceColor for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:947][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.17:988][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2018.01.10-13.30.17:989][  0]LogMaterial: Warning: Failed to compile Material /Engine/BufferVisualization/WorldNormal.WorldNormal for platform PCD3D_SM5, Default Material will be used in game.
-[2018.01.10-13.30.17:989][  0]LogMaterial: Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.01.10-13.30.20:252][  0]SourceControl: Controle de origem desativado
-[2018.01.10-13.30.24:895][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.10-13.30.25:428][  0]LogOcInput: OculusInput pre-init called
-[2018.01.10-13.30.26:782][  0]LogEngine: Initializing Engine...
-[2018.01.10-13.30.26:864][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.10-13.30.28:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.10-13.30.28:495][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.10-13.30.29:303][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.10-13.30.29:630][  0]LogInit: XAudio2 using 'Alto-falantes (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.10-13.30.29:719][  0]LogInit: FAudioDevice initialized.
-[2018.01.10-13.30.30:175][  0]LogDerivedDataCache: Saved boot cache 0.44s 95MB C:/Users/Junio/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.01.10-13.30.30:188][  0]LogInit: Texture streaming: Enabled
-[2018.01.10-13.30.30:682][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.10-13.30.31:966][  0]LogInit: Transaction tracking system initialized
-[2018.01.10-13.30.32:995][  0]BlueprintLog: New page: Carregar Editor
-[2018.01.10-13.30.35:830][  0]LocalizationService: Localization service is disabled
-[2018.01.10-13.30.37:913][  0]LogConsoleResponse: Display: 
-[2018.01.10-13.30.43:707][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/' took 0.05s
-[2018.01.10-13.30.43:707][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.10-13.30.43:716][  0]LogCook: Display: Mobile HDR setting 0
-[2018.01.10-13.30.43:843][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.01.10-13.30.53:156][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.10-13.30.53:292][  0]LightingResults: New page: Compilação de Iluminação
-[2018.01.10-13.30.54:405][  0]MapCheck: New page: Verificação de Mapa
-[2018.01.10-13.30.54:405][  0]LightingResults: New page: Compilação de Iluminação
-[2018.01.10-13.31.08:223][  0]LogAIModule: Creating AISystem for world Caramuru2D
-[2018.01.10-13.31.09:733][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.10-13.31.09:992][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.10-13.31.10:090][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98,45ms to complete.
-[2018.01.10-13.31.10:111][  0]LogFileHelpers: Loading map 'Caramuru2D' took 17.102
-[2018.01.10-13.31.17:208][  0]LogCollectionManager: Loaded 0 collections in 0.015121 seconds
-[2018.01.10-13.31.18:622][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Collections/' took 0.01s
-[2018.01.10-13.31.18:622][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Developers/Junio/Collections/' took 0.01s
-[2018.01.10-13.31.18:622][  0]LogFileCache: Scanning file cache for directory 'C:/Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/Collections/' took 0.01s
-[2018.01.10-13.31.18:622][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.01.10-13.31.18:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0717 seconds. Added 2386 classes and 500 folders.
-[2018.01.10-13.31.19:389][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.01.10-13.31.21:155][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.01.10-13.31.21:283][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.01.10-13.31.22:037][  0]LogSlate: Took 0.018640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.10-13.31.22:087][  0]LogSlate: Took 0.009590 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.10-13.31.22:299][  0]LogSlate: Took 0.020483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.10-13.31.22:969][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.01.10-13.31.23:895][  0]LogSlate: Took 0.013543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.10-13.31.24:532][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.01.10-13.31.24:533][  0]LogLoad: (Engine Initialization) Total time: 187.03 seconds
-[2018.01.10-13.31.24:533][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.01.10-13.31.24:544][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.01.10-13.31.26:000][  0]SourceControl: On branch master
-[2018.01.10-13.31.26:000][  0]SourceControl: Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
-[2018.01.10-13.31.26:000][  0]SourceControl:   (use "git pull" to update your local branch)
-[2018.01.10-13.31.26:000][  0]SourceControl: Changes not staged for commit:
-[2018.01.10-13.31.26:000][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2018.01.10-13.31.26:000][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Character/Caramuru.uasset
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1.uasset
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Maps/Caramuru2D.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto4.uasset
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto5.uasset
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto1.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto2.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto3.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto4.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto5.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto6.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto7.umap
-[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-0756B61244D4C6D10D28299DAF5D8CD9/CrashReportClient.ini
-[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-34FE49C242EF937641877DA3CD73DB6E/CrashReportClient.ini
-[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-BBC3FDDA4EFE0B6A2C8C1D9AEC081E05/CrashReportClient.ini
-[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-C1B1374248368D956B8CDB8B7294AA33/CrashReportClient.ini
-[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CCF621554FD2333D34CEFCB71761A586/CrashReportClient.ini
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.01.10-13.31.26:000][  0]SourceControl: 	modified:   Saved/Config/WorldState/150936410.json
-[2018.01.10-13.31.26:000][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.03-14.34.10.log
-[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.04-09.02.00.log
-[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.04-11.49.12.log
-[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D-backup-2018.01.04-12.49.46.log
-[2018.01.10-13.31.26:001][  0]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
-[2018.01.10-13.31.26:001][  0]SourceControl: 	deleted:    Saved/Logs/Caramuru2D_2-backup-2018.01.04-11.49.12.log
-[2018.01.10-13.31.26:001][  0]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
-[2018.01.10-13.31.26:001][  0]SourceControl: Untracked files:
-[2018.01.10-13.31.26:001][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto0.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto2.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto3.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Character/Caramuru_Auto5.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto0.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto1.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto2.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto3.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Static_Objects/BP_Ladder1_Auto4.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto0.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto8.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Caramuru2D_Auto9.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-09-20-59.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-09-30-01.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-09-45-39.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-00-23.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-06-27.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-16-55.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-39-06.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-10-47-51.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-08-45.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-19-00.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-38-21.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-11-52-57.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-12-02-56.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-12-29-38.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-03-02.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-19-27.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-34-00.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-40-15.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-13-48-58.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-00-25.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-16-06.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-21-42.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-39-28.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-50-24.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/BP_Ladder1_2018-01-09-14-57-27.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-09-21-23.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-09-45-39.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-10-06-27.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-10-40-06.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-11-18-59.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-11-43-27.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-12-03-22.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-12-30-12.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-13-03-35.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-13-19-31.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-13-40-14.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-03-30.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-17-09.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-28-54.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-39-28.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-14-50-24.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-15-01-51.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru2D_2018-01-09-15-20-35.umap
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-09-38-11.uasset
-[2018.01.10-13.31.26:001][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-09-46-44.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-09-56-49.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-10-06-27.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-10-49-06.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-11-18-59.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-11-42-15.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-11-49-20.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-13-25-43.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-13-40-15.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-17-09.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-39-28.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-46-00.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Backup/Caramuru_2018-01-09-14-55-53.uasset
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-5356A27A4DCA558983E505A58C2D0823/
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-81C3F2C94F0E56C3563555A07B534605/
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.09-08.47.44.log
-[2018.01.10-13.31.26:002][  0]SourceControl: 	Saved/Logs/Caramuru2D-backup-2018.01.10-10.28.36.log
-[2018.01.10-13.31.26:002][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.01.10-13.31.26:026][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.10-13.31.27:151][  2]LogSlate: Took 0.000817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.10-13.31.27:774][  4]LogAssetRegistry: Asset discovery search completed in 133.5202 seconds
-[2018.01.10-13.31.27:809][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.01.10-13.31.27:809][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.008594 seconds (updated 0 objects)
-[2018.01.10-13.32.53:022][831]LogEditorViewport: Clicking on Actor (LMB): Caramuru_C (Character)
-[2018.01.10-13.33.01:075][507]LogSlate: Took 0.007623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.01.10-13.38.13:984][854]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.10-13.38.13:984][854]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.10-13.38.20:220][434]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
-[2018.01.10-13.38.30:047][318]LogEditorViewport: Clicking on Actor (LMB): Caramuru_C (Character)
-[2018.01.10-13.40.12:641][394]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2018.01.10-13.40.12:835][394]EditorErrors: Warning: No assets to check in!
-[2018.01.10-13.49.25:344][805]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree__1__Sprite2)
-[2018.01.10-13.49.26:202][888]LogEditorViewport: Clicking on Actor (LMB): BP_Ladder1_C (BP_Ladder1)
-[2018.01.10-13.49.29:123][214]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.10-13.49.30:108][214]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
-[2018.01.10-13.49.32:611][214]LogSlate: Took 0.014698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.01.10-13.49.45:863][481]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
-[2018.01.10-13.49.46:018][481]EditorErrors: Warning: No assets to check in!
-[2018.01.10-13.58.58:856][113]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
-[2018.01.10-13.59.07:615][962]LogEditorViewport: Clicking on Actor (LMB): Caramuru_C (Character)
-[2018.01.10-13.59.11:394][319]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.10-13.59.11:565][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-13.59.11:583][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.10-13.59.11:785][319]PIE: New page: Sessão de PIE : Caramuru2D (10/01/2018 07:59:11)
-[2018.01.10-13.59.11:808][319]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
-[2018.01.10-13.59.11:909][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.101177s)
-[2018.01.10-13.59.11:910][319]LogAIModule: Creating AISystem for world Caramuru2D
-[2018.01.10-13.59.11:910][319]LogPlayLevel: PIE: World Init took: (0.001431s)
-[2018.01.10-13.59.11:927][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.127642s)
-[2018.01.10-13.59.12:012][319]LogInit: XAudio2 using 'Alto-falantes (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.10-13.59.12:021][319]LogInit: FAudioDevice initialized.
-[2018.01.10-13.59.12:331][319]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.01.10-13.59.12:509][319]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.10-10.59.12
-[2018.01.10-13.59.12:636][319]LogWorld: Bringing up level for play took: 0.153577
-[2018.01.10-13.59.12:781][319]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0019 seconds. Added 11 classes and 0 folders.
-[2018.01.10-13.59.12:958][319]LogBlueprintUserMessages: [Character] SpreaderGun
-[2018.01.10-13.59.13:002][319]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 1,04
-[2018.01.10-13.59.13:003][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-13.59.19:852][ 53]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:860][ 54]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:869][ 55]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:877][ 56]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:885][ 57]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:893][ 58]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:902][ 59]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:910][ 60]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:918][ 61]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:927][ 62]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:935][ 63]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:943][ 64]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:952][ 65]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:960][ 66]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:969][ 67]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:977][ 68]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:985][ 69]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.19:993][ 70]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:002][ 71]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:010][ 72]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:018][ 73]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:027][ 74]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:035][ 75]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:043][ 76]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:052][ 77]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:060][ 78]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:068][ 79]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:077][ 80]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:085][ 81]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:094][ 82]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:102][ 83]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:110][ 84]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:118][ 85]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:127][ 86]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:137][ 87]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:146][ 88]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:154][ 89]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:162][ 90]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:170][ 91]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:179][ 92]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:187][ 93]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:196][ 94]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:204][ 95]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:212][ 96]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:220][ 97]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:229][ 98]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:239][ 99]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:247][100]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:256][101]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:264][102]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:272][103]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:281][104]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:289][105]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:297][106]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:306][107]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:314][108]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:323][109]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:331][110]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:341][111]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:349][112]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:357][113]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:365][114]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:374][115]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:382][116]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:390][117]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:399][118]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:407][119]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:416][120]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:424][121]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:432][122]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:441][123]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:449][124]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:457][125]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:465][126]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:474][127]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:482][128]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:490][129]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:499][130]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:507][131]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:516][132]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:524][133]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:532][134]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:541][135]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:549][136]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:557][137]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:565][138]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:574][139]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:582][140]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:590][141]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:599][142]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:607][143]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:615][144]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:624][145]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:632][146]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:641][147]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:649][148]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:657][149]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:666][150]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:674][151]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:683][152]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:691][153]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:699][154]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:707][155]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:716][156]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:724][157]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:732][158]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:741][159]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:749][160]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:758][161]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:766][162]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:774][163]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:783][164]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:791][165]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.20:799][166]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:610][383]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:619][384]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:627][385]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:635][386]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:643][387]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:652][388]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:660][389]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:669][390]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:677][391]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:686][392]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:694][393]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:702][394]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:710][395]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:719][396]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:727][397]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:735][398]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:744][399]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:752][400]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:760][401]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:769][402]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:777][403]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:785][404]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:794][405]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:802][406]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:810][407]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:819][408]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:827][409]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:835][410]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:844][411]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:852][412]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:860][413]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:869][414]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:877][415]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:885][416]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:894][417]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:902][418]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:910][419]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:918][420]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:927][421]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:935][422]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:943][423]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:952][424]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:960][425]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:968][426]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:977][427]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:985][428]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.22:993][429]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.23:002][430]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.23:010][431]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.23:018][432]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.23:027][433]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.23:035][434]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:300][944]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:308][945]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:316][946]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:325][947]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:333][948]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:341][949]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:350][950]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:358][951]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:367][952]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:375][953]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:383][954]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:392][955]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.27:400][956]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:399][795]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:407][796]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:415][797]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:424][798]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:432][799]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:440][800]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:448][801]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:457][802]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:465][803]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:473][804]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:482][805]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:490][806]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:498][807]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:507][808]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:516][809]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:524][810]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:532][811]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:541][812]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:549][813]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:557][814]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:566][815]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:574][816]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:582][817]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:591][818]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:599][819]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:607][820]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:616][821]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:625][822]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:632][823]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:640][824]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:649][825]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:657][826]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:666][827]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:674][828]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:682][829]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:690][830]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:699][831]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:707][832]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:716][833]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:724][834]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:732][835]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:740][836]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:749][837]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:757][838]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:766][839]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:774][840]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:782][841]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:790][842]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:799][843]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:807][844]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:815][845]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:824][846]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:832][847]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:841][848]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:849][849]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:857][850]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:865][851]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:874][852]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:882][853]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:890][854]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:899][855]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:907][856]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:915][857]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:924][858]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:932][859]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:941][860]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:949][861]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:957][862]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:966][863]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:974][864]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:982][865]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:991][866]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.34:999][867]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:007][868]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:015][869]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:024][870]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:032][871]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:040][872]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:049][873]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:057][874]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:065][875]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:074][876]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:082][877]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:091][878]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:099][879]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:107][880]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:115][881]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:124][882]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:132][883]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:141][884]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:149][885]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:157][886]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:165][887]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:174][888]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:182][889]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:190][890]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:199][891]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:207][892]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:215][893]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:224][894]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:232][895]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:241][896]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:249][897]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:258][898]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:266][899]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:274][900]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:282][901]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:291][902]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:299][903]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:307][904]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:316][905]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:324][906]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:332][907]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:342][908]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:349][909]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:358][910]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:366][911]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.35:374][912]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:070][115]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:078][116]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:087][117]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:095][118]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:103][119]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:112][120]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:120][121]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:128][122]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:137][123]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:145][124]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:153][125]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:162][126]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:170][127]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:178][128]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:187][129]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:195][130]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:203][131]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:212][132]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:220][133]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:228][134]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:237][135]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:245][136]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:253][137]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:262][138]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:270][139]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:279][140]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:287][141]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:295][142]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:303][143]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:312][144]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:320][145]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:328][146]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:337][147]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:346][148]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:354][149]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:362][150]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:371][151]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:379][152]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:388][153]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:396][154]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:404][155]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:413][156]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:421][157]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:429][158]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:438][159]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:446][160]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:454][161]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:463][162]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:471][163]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:479][164]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:488][165]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:496][166]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:504][167]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:513][168]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:521][169]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:529][170]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:538][171]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:546][172]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:554][173]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:563][174]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:571][175]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:579][176]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:588][177]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:596][178]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:604][179]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:613][180]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:621][181]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:629][182]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:638][183]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:646][184]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:654][185]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:663][186]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:671][187]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:679][188]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:688][189]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:697][190]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:704][191]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:713][192]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:721][193]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:729][194]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:738][195]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:746][196]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:754][197]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:763][198]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:771][199]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:779][200]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:788][201]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:796][202]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:804][203]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:813][204]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:821][205]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:829][206]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:837][207]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:846][208]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:854][209]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:863][210]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:871][211]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:879][212]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:887][213]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.37:896][214]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:065][474]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:073][475]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:082][476]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:090][477]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:099][478]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:107][479]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:115][480]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:124][481]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:132][482]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:140][483]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:149][484]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:157][485]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:165][486]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:174][487]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:182][488]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:190][489]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:199][490]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:207][491]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:215][492]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:224][493]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:232][494]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:241][495]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:250][496]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:258][497]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:267][498]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:275][499]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:283][500]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:291][501]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:300][502]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:308][503]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:316][504]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:325][505]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:333][506]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:342][507]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:350][508]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:359][509]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:367][510]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:375][511]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:384][512]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:392][513]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:400][514]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:409][515]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:417][516]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:425][517]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:434][518]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:442][519]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:450][520]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:458][521]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:467][522]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:475][523]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:483][524]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:492][525]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:500][526]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:508][527]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:517][528]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:525][529]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:533][530]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:542][531]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:550][532]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:558][533]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:567][534]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:575][535]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:583][536]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:592][537]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:600][538]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:608][539]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:617][540]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:625][541]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:633][542]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:642][543]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:650][544]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:659][545]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:667][546]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:675][547]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:684][548]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:692][549]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:700][550]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:709][551]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:717][552]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:726][553]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:734][554]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:742][555]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:751][556]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:759][557]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:768][558]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:776][559]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:784][560]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:792][561]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:801][562]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:809][563]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:817][564]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:826][565]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:834][566]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:842][567]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:851][568]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:859][569]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:867][570]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:876][571]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:884][572]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:892][573]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:901][574]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:909][575]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:917][576]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:926][577]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:934][578]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:942][579]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:951][580]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:959][581]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.40:967][582]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:279][859]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:287][860]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:295][861]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:303][862]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:312][863]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:320][864]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:328][865]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:337][866]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:345][867]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:353][868]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:362][869]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:370][870]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:378][871]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:387][872]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:395][873]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:403][874]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:412][875]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:420][876]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:429][877]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:437][878]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:446][879]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:454][880]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:462][881]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:470][882]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:479][883]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:487][884]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:495][885]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:504][886]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:512][887]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:520][888]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:529][889]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:537][890]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:546][891]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:554][892]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:562][893]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:571][894]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:579][895]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:587][896]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:596][897]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:604][898]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:612][899]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:621][900]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:629][901]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:637][902]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:646][903]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:654][904]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:662][905]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:671][906]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:679][907]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:687][908]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:696][909]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:704][910]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.43:712][911]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-13.59.44:364][980]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5061.960 Y=100.000 Z=4023.697
-[2018.01.10-13.59.45:787][150]LogBlueprintUserMessages: [Chest_284] You receive 1 Silver Key.
-[2018.01.10-14.00.01:167][983]LogBlueprintUserMessages: [BP_Check_Point2] X=-3655.439 Y=100.000 Z=3915.697
-[2018.01.10-14.00.02:554][148]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.00.02:734][148]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.00.10:037][852]LogEditorViewport: Clicking on Actor (LMB): BP_Ladder1_C (BP_Ladder1)
-[2018.01.10-14.00.27:127][774]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.10-14.00.27:155][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.00.27:156][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.10-14.00.27:156][774]PIE: New page: Sessão de PIE : Caramuru2D (10/01/2018 08:00:27)
-[2018.01.10-14.00.27:156][774]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
-[2018.01.10-14.00.27:160][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004518s)
-[2018.01.10-14.00.27:161][774]LogAIModule: Creating AISystem for world Caramuru2D
-[2018.01.10-14.00.27:161][774]LogPlayLevel: PIE: World Init took: (0.000628s)
-[2018.01.10-14.00.27:161][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.005393s)
-[2018.01.10-14.00.27:193][774]LogInit: XAudio2 using 'Alto-falantes (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.10-14.00.27:203][774]LogInit: FAudioDevice initialized.
-[2018.01.10-14.00.27:251][774]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.01.10-14.00.27:255][774]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.10-11.00.27
-[2018.01.10-14.00.27:257][774]LogWorld: Bringing up level for play took: 0.005854
-[2018.01.10-14.00.27:258][774]LogBlueprintUserMessages: [Character] SpreaderGun
-[2018.01.10-14.00.27:259][774]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D -0,703
-[2018.01.10-14.00.27:259][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.00.30:781][194]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:789][195]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:798][196]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:806][197]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:814][198]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:822][199]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:830][200]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:839][201]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:847][202]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:855][203]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:864][204]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:872][205]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:881][206]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:889][207]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:897][208]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:906][209]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:914][210]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:922][211]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:931][212]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:939][213]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:947][214]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:956][215]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:964][216]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:972][217]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:980][218]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:989][219]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.30:997][220]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.31:005][221]LogBlueprintUserMessages: [BP_Ladder1_226] ativando
-[2018.01.10-14.00.32:016][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.00.32:058][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.00.33:130][459]Cmd: TRANSACTION UNDO
-[2018.01.10-14.00.33:130][459]LogEditorTransaction: Undo Definir localização do ator
-[2018.01.10-14.00.35:769][683]LogSavePackage: Save=187.57ms
-[2018.01.10-14.00.35:769][683]LogSavePackage: Moving '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Saved/Caramuru2D990CF6FE4302643B0D49BDB2939E337F.tmp' to '../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap'
-[2018.01.10-14.00.35:792][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Documents/projetos/GAMENGINE/Unreal Engine 4/Unreal Projects/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap
-[2018.01.10-14.03.04:648][127]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.10-14.03.04:681][127]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.03.04:681][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.10-14.03.04:681][127]PIE: New page: Sessão de PIE : Caramuru2D (10/01/2018 08:03:04)
-[2018.01.10-14.03.04:681][127]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
-[2018.01.10-14.03.04:687][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005245s)
-[2018.01.10-14.03.04:687][127]LogAIModule: Creating AISystem for world Caramuru2D
-[2018.01.10-14.03.04:688][127]LogPlayLevel: PIE: World Init took: (0.001063s)
-[2018.01.10-14.03.04:688][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.006575s)
-[2018.01.10-14.03.04:712][127]LogInit: XAudio2 using 'Alto-falantes (USB PnP Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.10-14.03.04:720][127]LogInit: FAudioDevice initialized.
-[2018.01.10-14.03.04:752][127]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.01.10-14.03.04:757][127]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.01.10-11.03.04
-[2018.01.10-14.03.04:759][127]LogWorld: Bringing up level for play took: 0.006192
-[2018.01.10-14.03.04:760][127]LogBlueprintUserMessages: [Character] SpreaderGun
-[2018.01.10-14.03.04:761][127]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0,799
-[2018.01.10-14.03.04:761][127]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.03.08:590][571]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5059.397 Y=100.000 Z=4080.788
-[2018.01.10-14.03.12:220][998]LogBlueprintUserMessages: [BP_Check_Point2] X=-3728.210 Y=100.000 Z=4045.941
-[2018.01.10-14.03.13:404][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.03.13:448][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
-[2018.01.10-14.03.37:416][517]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Caramuru2D
-[2018.01.10-14.03.37:416][517]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.01.10-14.03.37:416][517]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2018.01.10-14.03.37:416][517]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.01.10-14.03.37:438][519]LogTemp: BranchPath = MASTER/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MASTER/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2018.01.10-14.03.37:639][537]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Junio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.01.10-14.14.44:169][972]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree__1__Sprite2)
-[2018.01.10-14.15.05:902][336]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree3BG_Sprite2)
-[2018.01.10-14.15.06:939][440]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree_4_Sprite4)
-[2018.01.10-14.15.08:160][567]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree3BG_Sprite2)
+[2018.02.05-21.35.06:690][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.05-21.35.06:690][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.05-21.35.06:852][  0]LogInit: Computer: DESKTOP-63GE4Q3
+[2018.02.05-21.35.06:852][  0]LogInit: User: diego
+[2018.02.05-21.35.06:852][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.02.05-21.35.06:852][  0]LogInit: High frequency timer resolution =1.656322 MHz
+[2018.02.05-21.35.06:853][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.05-21.35.06:853][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.05-21.35.06:853][  0]LogMemory: Process Physical Memory: 280.84 MB used, 280.84 MB peak
+[2018.02.05-21.35.06:853][  0]LogMemory: Process Virtual Memory: 273.89 MB used, 273.89 MB peak
+[2018.02.05-21.35.06:853][  0]LogMemory: Physical Memory: 3393.20 MB used,  4702.30 MB free, 8095.50 MB total
+[2018.02.05-21.35.06:853][  0]LogMemory: Virtual Memory: 698.80 MB used,  4702.30 MB free, 134217728.00 MB total
+[2018.02.05-21.35.10:074][  0]LogInit: Using OS detected language (pt-BR).
+[2018.02.05-21.35.10:075][  0]LogInit: Using OS detected locale (pt-BR).
+[2018.02.05-21.35.20:208][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.05-21.35.20:268][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 820M' (Feature Level 11_0)
+[2018.02.05-21.35.20:268][  0]LogD3D11RHI:       2000/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.05-21.35.20:338][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2018.02.05-21.35.20:338][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.05-21.35.20:342][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.05-21.35.20:342][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.05-21.35.20:342][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.05-21.35.20:430][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.05-21.35.20:430][  0]LogD3D11RHI:     GPU DeviceId: 0x1140 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.05-21.35.20:430][  0]LogWindows: EnumDisplayDevices:
+[2018.02.05-21.35.20:430][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.02.05-21.35.20:430][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.05-21.35.20:430][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.05-21.35.20:431][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.05-21.35.20:431][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 820M
+[2018.02.05-21.35.20:431][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.05-21.35.20:431][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.05-21.35.20:431][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.05-21.35.20:922][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.02.05-21.35.21:020][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.05-21.35.22:261][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.05-21.35.22:413][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Intermediate/Shaders/WorkingDirectory/5744/).
+[2018.02.05-21.35.22:413][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/diego/AppData/Local/Temp/UnrealShaderWorkingDir/FBE061044B0D6A8A454B7D961BC7EE7E/'.
+[2018.02.05-21.35.22:423][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.05-21.35.36:251][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.05-21.35.36:330][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.05-21.35.36:422][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.05-21.35.36:507][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.05-21.35.36:683][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.05-21.35.36:793][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.05-21.35.36:905][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.05-21.35.36:987][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.05-21.35.37:070][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.05-21.35.37:222][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.05-21.35.37:355][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.05-21.35.37:490][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.05-21.35.37:587][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.05-21.35.37:710][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.05-21.35.38:261][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.05-21.35.38:570][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.05-21.35.38:570][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.05-21.35.38:715][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.05-21.35.38:986][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.05-21.35.39:056][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.05-21.35.39:168][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.05-21.35.39:253][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.05-21.35.39:385][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.05-21.35.39:531][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.05-21.35.39:531][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.05-21.35.42:119][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.05-21.35.43:422][  0]LogDerivedDataCache: Loaded boot cache 1.29s 93MB C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.05-21.35.43:423][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.02.05-21.35.43:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.05-21.35.43:423][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.05-21.35.43:423][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.05-21.35.43:423][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.05-21.35.43:511][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.05-21.35.43:551][  0]LogDerivedDataCache: Using Local data cache path C:/Users/diego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.05-21.35.43:617][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.05-21.35.43:700][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.05-21.35.43:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.05-21.35.43:783][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.05-21.35.52:417][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2018.02.05-21.35.54:337][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.05-21.36.00:636][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.05-21.36.02:409][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.05-21.36.02:577][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.05-21.36.02:596][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.05-21.36.02:596][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.05-21.36.02:596][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.05-21.36.02:596][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.05-21.36.06:530][  0]LogNetVersion: Caramuru2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1344554375)
+[2018.02.05-21.36.08:868][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.203694 seconds
+[2018.02.05-21.36.08:908][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.02.05-21.36.08:908][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.02.05-21.36.08:908][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.05-21.36.09:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.05-21.36.30:852][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.05-21.36.30:982][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.05-21.36.34:164][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.05-21.36.35:709][  0]SourceControl: Controle de origem desativado
+[2018.02.05-21.36.38:062][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.05-21.36.38:710][  0]LogOcInput: OculusInput pre-init called
+[2018.02.05-21.36.39:822][  0]LogEngine: Initializing Engine...
+[2018.02.05-21.36.39:857][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.05-21.36.41:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.05-21.36.41:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.05-21.36.41:772][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.05-21.36.41:896][  0]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.05-21.36.41:921][  0]LogInit: FAudioDevice initialized.
+[2018.02.05-21.36.42:664][  0]LogDerivedDataCache: Saved boot cache 0.74s 93MB C:/Users/diego/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.02.05-21.36.42:686][  0]LogInit: Texture streaming: Enabled
+[2018.02.05-21.36.43:146][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.05-21.36.44:608][  0]LogInit: Transaction tracking system initialized
+[2018.02.05-21.36.49:773][  0]BlueprintLog: New page: Carregar Editor
+[2018.02.05-21.36.52:900][  0]LocalizationService: Localization service is disabled
+[2018.02.05-21.36.55:071][  0]LogConsoleResponse: Display: 
+[2018.02.05-21.36.58:995][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/' took 0.03s
+[2018.02.05-21.36.58:995][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.05-21.36.58:995][  0]LogCook: Display: Mobile HDR setting 0
+[2018.02.05-21.36.59:106][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.05-21.37.04:024][  0]Cmd: MAP LOAD FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/2DSideScrollerBP/Maps/Caramuru2D.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.05-21.37.04:057][  0]LightingResults: New page: Compilação de Iluminação
+[2018.02.05-21.37.04:207][  0]MapCheck: New page: Verificação de Mapa
+[2018.02.05-21.37.04:207][  0]LightingResults: New page: Compilação de Iluminação
+[2018.02.05-21.37.11:377][  0]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.05-21.37.11:853][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.05-21.37.11:970][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.05-21.37.12:064][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93,225ms to complete.
+[2018.02.05-21.37.12:064][  0]LogFileHelpers: Loading map 'Caramuru2D' took 8.062
+[2018.02.05-21.37.13:851][  0]LogCollectionManager: Loaded 0 collections in 0.002172 seconds
+[2018.02.05-21.37.14:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Collections/' took 0.01s
+[2018.02.05-21.37.14:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Developers/diego/Collections/' took 0.01s
+[2018.02.05-21.37.14:198][  0]LogFileCache: Scanning file cache for directory 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Collections/' took 0.01s
+[2018.02.05-21.37.14:198][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.05-21.37.14:227][  0]LogContentBrowser: Native class hierarchy populated in 0.0283 seconds. Added 2386 classes and 500 folders.
+[2018.02.05-21.37.14:406][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.02.05-21.37.15:755][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.02.05-21.37.15:977][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.05-21.37.16:587][  0]LogSlate: Took 0.044389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.05-21.37.16:618][  0]LogSlate: Took 0.020123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.05-21.37.16:696][  0]LogSlate: Took 0.022228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.05-21.37.17:167][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 10 NumSamples 1 (Frame:1).
+[2018.02.05-21.37.17:680][  0]LogSlate: Took 0.010217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.05-21.37.18:087][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.05-21.37.18:087][  0]LogLoad: (Engine Initialization) Total time: 155.20 seconds
+[2018.02.05-21.37.18:087][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.05-21.37.18:087][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.05-21.37.18:247][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.05-21.37.18:710][  3]LogAssetRegistry: Asset discovery search completed in 86.3143 seconds
+[2018.02.05-21.37.18:715][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.05-21.37.18:715][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2018.02.05-21.37.39:177][161]LogRenderer: Reallocating scene render targets to support 856x612 Format 10 NumSamples 1 (Frame:1093).
+[2018.02.05-21.38.03:677][729]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.05-21.38.04:049][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.05-21.38.04:049][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.05-21.38.04:070][729]PIE: New page: Sessão de PIE : Caramuru2D (05/02/2018 15:38:04)
+[2018.02.05-21.38.04:070][729]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D
+[2018.02.05-21.38.04:110][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039140s)
+[2018.02.05-21.38.04:110][729]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.05-21.38.04:111][729]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2018.02.05-21.38.04:111][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D to /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.040817s)
+[2018.02.05-21.38.04:141][729]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.05-21.38.04:162][729]LogInit: FAudioDevice initialized.
+[2018.02.05-21.38.04:229][729]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.05-21.38.04:238][729]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.05-18.38.04
+[2018.02.05-21.38.04:277][729]LogWorld: Bringing up level for play took: 0.046863
+[2018.02.05-21.38.04:454][729]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.02.05-21.38.04:512][729]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.05-21.38.04:521][729]PIE: Momento de início de reprodução no editor para /Game/2DSideScrollerBP/Maps/UEDPIE_0_Caramuru2D 0,939
+[2018.02.05-21.38.04:521][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.05-21.43.56:312][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.05-21.43.56:355][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.05-21.43.56:622][787]Cmd: QUIT_EDITOR
+[2018.02.05-21.43.56:883][787]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.05-21.43.56:926][787]LogExit: Preparing to exit.
+[2018.02.05-21.43.57:470][787]LogDirectoryWatcher: A directory notification for 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/' was aborted.
+[2018.02.05-21.43.57:545][787]LogExit: Editor shut down
+[2018.02.05-21.43.57:552][787]LogExit: Transaction tracking system shut down
+[2018.02.05-21.43.57:800][787]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.05-21.43.57:800][787]LogDirectoryWatcher: A directory notification for '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/' was aborted.
+[2018.02.05-21.43.57:800][787]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.05-21.43.57:800][787]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.02.05-21.43.57:801][787]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.02.05-21.43.58:606][787]LogExit: Object subsystem successfully closed.
+[2018.02.05-21.43.58:652][787]LogD3D11RHI: Shutdown
+[2018.02.05-21.43.58:653][787]LogD3D11RHI: CleanupD3DDevice
+[2018.02.05-21.43.58:820][787]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.05-21.43.59:147][787]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.02.05-21.43.59:147][787]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2018.02.05-21.43.59:147][787]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2018.02.05-21.43.59:147][787]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2018.02.05-21.43.59:147][787]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.02.05-21.43.59:148][787]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2018.02.05-21.43.59:148][787]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2018.02.05-21.43.59:149][787]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2018.02.05-21.43.59:149][787]LogDirectoryWatcher: A directory notification for 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Collections/' was aborted.
+[2018.02.05-21.43.59:149][787]LogDirectoryWatcher: A directory notification for 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Developers/diego/Collections/' was aborted.
+[2018.02.05-21.43.59:149][787]LogDirectoryWatcher: A directory notification for 'C:/Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Collections/' was aborted.
+[2018.02.05-21.43.59:149][787]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2018.02.05-21.43.59:149][787]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2018.02.05-21.43.59:149][787]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2018.02.05-21.43.59:185][787]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2018.02.05-21.43.59:186][787]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module Media (477)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2018.02.05-21.43.59:197][787]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2018.02.05-21.43.59:207][787]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2018.02.05-21.43.59:208][787]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2018.02.05-21.43.59:208][787]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2018.02.05-21.43.59:215][787]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2018.02.05-21.43.59:215][787]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2018.02.05-21.43.59:215][787]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2018.02.05-21.43.59:215][787]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2018.02.05-21.44.00:170][787]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2018.02.05-21.44.00:171][787]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2018.02.05-21.44.00:171][787]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2018.02.05-21.44.00:171][787]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2018.02.05-21.44.00:198][787]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2018.02.05-21.44.00:265][787]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2018.02.05-21.44.00:265][787]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2018.02.05-21.44.00:265][787]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2018.02.05-21.44.00:265][787]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2018.02.05-21.44.00:282][787]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2018.02.05-21.44.00:283][787]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2018.02.05-21.44.00:283][787]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2018.02.05-21.44.00:283][787]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2018.02.05-21.44.00:308][787]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2018.02.05-21.44.00:340][787]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2018.02.05-21.44.00:340][787]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2018.02.05-21.44.00:375][787]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2018.02.05-21.44.00:375][787]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2018.02.05-21.44.00:418][787]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2018.02.05-21.44.00:418][787]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2018.02.05-21.44.00:518][787]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2018.02.05-21.44.00:646][787]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2018.02.05-21.44.00:646][787]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2018.02.05-21.44.00:687][787]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2018.02.05-21.44.00:716][787]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2018.02.05-21.44.00:767][787]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2018.02.05-21.44.00:767][787]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2018.02.05-21.44.00:767][787]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2018.02.05-21.44.00:769][787]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2018.02.05-21.44.00:769][787]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2018.02.05-21.44.00:769][787]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2018.02.05-21.44.00:786][787]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2018.02.05-21.44.00:805][787]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2018.02.05-21.44.00:805][787]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2018.02.05-21.44.00:834][787]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2018.02.05-21.44.00:834][787]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2018.02.05-21.44.00:857][787]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2018.02.05-21.44.00:857][787]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2018.02.05-21.44.00:857][787]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2018.02.05-21.44.00:907][787]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2018.02.05-21.44.01:079][787]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2018.02.05-21.44.01:292][787]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2018.02.05-21.44.01:455][787]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2018.02.05-21.44.01:455][787]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2018.02.05-21.44.01:495][787]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2018.02.05-21.44.01:495][787]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2018.02.05-21.44.01:495][787]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2018.02.05-21.44.01:495][787]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2018.02.05-21.44.01:495][787]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2018.02.05-21.44.01:528][787]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2018.02.05-21.44.02:488][787]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2018.02.05-21.44.02:543][787]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2018.02.05-21.44.02:543][787]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2018.02.05-21.44.02:543][787]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2018.02.05-21.44.02:543][787]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2018.02.05-21.44.02:543][787]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2018.02.05-21.44.02:543][787]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.02.05-21.44.02:544][787]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.02.05-21.44.02:544][787]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2018.02.05-21.44.02:544][787]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.02.05-21.44.02:545][787]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.02.05-21.44.02:647][787]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.02.05-21.44.02:747][787]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.02.05-21.44.02:786][787]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.02.05-21.44.02:786][787]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.02.05-21.44.02:786][787]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.02.05-21.44.02:786][787]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.02.05-21.44.02:962][787]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.02.05-21.44.02:964][787]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.02.05-21.44.02:964][787]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.02.05-21.44.02:964][787]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.02.05-21.44.02:964][787]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.02.05-21.44.02:966][787]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.02.05-21.44.03:004][787]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.02.05-21.44.03:004][787]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.02.05-21.44.03:004][787]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.02.05-21.44.03:101][787]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.02.05-21.44.03:101][787]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.02.05-21.44.03:101][787]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.02.05-21.44.03:101][787]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.02.05-21.44.03:101][787]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.02.05-21.44.03:141][787]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.02.05-21.44.03:157][787]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.02.05-21.44.03:157][787]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.02.05-21.44.03:172][787]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.02.05-21.44.03:172][787]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.02.05-21.44.03:175][787]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.02.05-21.44.03:182][787]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.02.05-21.44.03:187][787]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.02.05-21.44.03:187][787]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.02.05-21.44.03:196][787]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.02.05-21.44.03:196][787]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.02.05-21.44.03:197][787]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.02.05-21.44.03:197][787]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.02.05-21.44.03:201][787]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.05-21.44.03:276][787]LogDerivedDataCache: Shutdown
+[2018.02.05-21.44.03:276][787]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.05-21.44.03:276][787]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.05-21.44.03:282][787]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.05-21.44.03:292][787]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.05-21.44.03:293][787]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.05-21.44.03:293][787]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.05-21.44.03:306][787]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.05-21.44.03:306][787]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.05-21.44.03:306][787]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.05-21.44.03:307][787]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.05-21.44.03:315][787]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.05-21.44.03:316][787]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.05-21.44.03:316][787]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.05-21.44.03:316][787]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.05-21.44.03:316][787]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.05-21.44.03:316][787]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.05-21.44.03:317][787]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.05-21.44.03:318][787]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.05-21.44.03:319][787]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.02.05-21.44.03:319][787]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.02.05-21.44.03:319][787]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.02.05-21.44.03:319][787]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.05-21.44.03:319][787]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.05-21.44.03:319][787]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.05-21.44.03:319][787]LogOnline: Display: Unloading online subsystem: NULL
+[2018.02.05-21.44.03:329][787]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.05-21.44.03:342][787]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.05-21.44.03:342][787]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.05-21.44.03:343][787]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE0F1C8FC-4858-5DB9-F654-809D6D8B04E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=1e2a29f74444b18ca3e923abe13dc594%7C832bdc86503a47c68d117857f6f350dc%7C3b863762-c65f-4ea1-a91d-5fdb8332fdbb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.05-21.44.03:375][787]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.05-21.44.03:380][787]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.02.05-21.44.03:380][787]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.02.05-21.44.03:380][787]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.02.05-21.44.03:402][787]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.02.05-21.44.03:402][787]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.02.05-21.44.03:402][787]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.02.05-21.44.03:402][787]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.02.05-21.44.03:416][787]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.02.05-21.44.03:430][787]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.02.05-21.44.03:431][787]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.05-21.44.03:431][787]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.05-21.44.03:431][787]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.05-21.44.03:435][787]LogExit: Exiting.
+[2018.02.05-21.44.03:505][787]Log file closed, 02/05/18 18:44:03
