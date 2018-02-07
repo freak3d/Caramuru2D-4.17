@@ -371,3 +371,1008 @@ LogInit: Object subsystem initialized
 [2018.02.07-21.43.05:809][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
 [2018.02.07-21.43.16:637][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
 [2018.02.07-21.43.16:739][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-21.47.49:407][600]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_54' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:409][600]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_56' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:411][600]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_58' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:438][601]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_60' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:441][601]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_62' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:460][602]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_64' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:463][602]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_66' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:465][602]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_68' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:484][603]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_70' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:486][603]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_72' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:489][603]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_74' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:509][604]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_76' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:532][605]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_78' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:535][605]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_80' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:554][606]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_82' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:557][606]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_84' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:577][607]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_86' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:582][607]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_88' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:601][608]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_90' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:604][608]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_92' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:624][609]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_94' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:627][609]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_96' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:648][610]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_98' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:650][610]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_100' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:672][611]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_102' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:694][612]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_104' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:716][613]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_106' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:738][614]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_108' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:740][614]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_110' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:761][615]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_112' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:765][615]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_114' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:786][616]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_116' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:806][617]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_118' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:808][617]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_120' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:832][618]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_122' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:852][619]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_124' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:855][619]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_126' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:875][620]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_128' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:878][620]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_130' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:899][621]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_132' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:902][621]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_134' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:923][622]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_136' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:926][622]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_138' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:947][623]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_140' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:967][624]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_142' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:970][624]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_144' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:990][625]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_146' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.49:993][625]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_148' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:015][626]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_150' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:018][626]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_152' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:040][627]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_154' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:065][628]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_156' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:086][629]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_158' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:108][630]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_160' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:132][631]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_162' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:153][632]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_164' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:174][633]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_166' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:198][634]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_168' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:218][635]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_170' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:240][636]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_172' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:261][637]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_174' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:283][638]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_176' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:305][639]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_178' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:326][640]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_180' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:349][641]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_182' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:370][642]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:391][643]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_186' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:414][644]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_188' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:436][645]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_190' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:456][646]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_192' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:458][646]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_194' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:477][647]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_196' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:483][647]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_198' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:502][648]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_200' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:505][648]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_202' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:526][649]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_204' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:531][649]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_206' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:551][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_208' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:554][650]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_210' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:574][651]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_212' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:577][651]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_214' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:598][652]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_216' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:601][652]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_218' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:621][653]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_220' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:642][654]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_222' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:646][654]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_224' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:667][655]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_226' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:671][655]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_228' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:696][656]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_230' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:716][657]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_232' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:720][657]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_234' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:739][658]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_236' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:742][658]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_238' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:764][659]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_240' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:766][659]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_242' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:768][659]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_244' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:790][660]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_246' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:809][661]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_248' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:832][662]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_250' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:854][663]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_252' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:875][664]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_254' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:898][665]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_256' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:919][666]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_258' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:941][667]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_260' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:963][668]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_262' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.50:985][669]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_264' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:006][670]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_266' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:035][671]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_268' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:058][672]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_270' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:077][673]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_272' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:101][674]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_274' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:122][675]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_276' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:141][676]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_278' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:166][677]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_280' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:187][678]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_282' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:208][679]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_284' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:232][680]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_286' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:253][681]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_288' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:274][682]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_290' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:297][683]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_292' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:322][684]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_294' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:347][685]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_296' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:369][686]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_298' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:391][687]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_300' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:410][688]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_302' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:434][689]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_304' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:454][690]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_306' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:457][690]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_308' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:475][691]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_310' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:479][691]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_312' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:483][691]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_314' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:504][692]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_316' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:524][693]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_318' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:526][693]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_320' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:549][694]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_322' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:571][695]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_324' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:593][696]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_326' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:615][697]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_328' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:636][698]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_330' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:659][699]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_332' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:681][700]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_334' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:702][701]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_336' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:723][702]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_338' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:742][703]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_340' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:766][704]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_342' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:786][705]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_344' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:808][706]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_346' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:832][707]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_348' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:852][708]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_350' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:874][709]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_352' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:897][710]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_354' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:919][711]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_356' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:940][712]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_358' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:963][713]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_360' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.51:984][714]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_362' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.52:005][715]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_364' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.52:027][716]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_366' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.52:053][717]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_368' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.47.52:077][718]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.VerticalBox_370' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-21.48.00:588][ 87]LogSlate: Took 0.078634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.02.07-21.51.52:711][536]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/Caramuru2D' took 0.045
+[2018.02.07-21.51.52:714][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_MENU] ([1] browsable assets)...
+[2018.02.07-21.51.52:714][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_MENU]
+[2018.02.07-21.51.52:989][536]LogSavePackage: Save=31.71ms
+[2018.02.07-21.51.52:989][536]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU_Auto29090D55249B67142F729E59AB2C64D8B.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto2.uasset'
+[2018.02.07-21.51.52:991][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto2.uasset
+[2018.02.07-21.51.52:991][536]LogFileHelpers: Auto-saving content packages took 0.279
+[2018.02.07-21.59.13:092][431]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-21.59.14:009][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-21.59.14:239][452]LogSavePackage: Save=41.57ms
+[2018.02.07-21.59.14:239][452]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU41D4EC1F4058817CC9306FA149F4599D.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-21.59.14:246][452]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-21.59.17:274][575]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-21.59.17:364][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-21.59.17:364][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-21.59.17:364][575]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 15:59:17)
+[2018.02.07-21.59.17:364][575]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-21.59.17:373][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008306s)
+[2018.02.07-21.59.17:374][575]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-21.59.17:374][575]LogPlayLevel: PIE: World Init took: (0.001303s)
+[2018.02.07-21.59.17:374][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.010133s)
+[2018.02.07-21.59.17:419][575]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-21.59.17:446][575]LogInit: FAudioDevice initialized.
+[2018.02.07-21.59.17:484][575]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-21.59.17:493][575]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-18.59.17
+[2018.02.07-21.59.17:496][575]LogWorld: Bringing up level for play took: 0.010557
+[2018.02.07-21.59.17:498][575]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-21.59.17:499][575]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D 0,783
+[2018.02.07-21.59.17:500][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-21.59.34:225][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-21.59.34:309][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.01.47:390][713]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.01.48:212][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.01.48:441][732]LogSavePackage: Save=50.88ms
+[2018.02.07-22.01.48:442][732]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU168BC4714AD74EE887D16A9BAF7242D9.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.01.48:450][732]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.01.51:519][947]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.01.51:602][947]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.01.51:602][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.01.51:603][947]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:01:51)
+[2018.02.07-22.01.51:603][947]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.01.51:612][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009198s)
+[2018.02.07-22.01.51:613][947]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.01.51:613][947]LogPlayLevel: PIE: World Init took: (0.001338s)
+[2018.02.07-22.01.51:614][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.010969s)
+[2018.02.07-22.01.51:655][947]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.01.51:680][947]LogInit: FAudioDevice initialized.
+[2018.02.07-22.01.51:719][947]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.01.51:727][947]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.01.51
+[2018.02.07-22.01.51:730][947]LogWorld: Bringing up level for play took: 0.010427
+[2018.02.07-22.01.51:733][947]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.01.51:734][947]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D 1,018
+[2018.02.07-22.01.51:735][947]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.01.55:672][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.01.55:707][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.02.44:514][459]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.02.45:229][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.02.45:443][473]LogSavePackage: Save=35.26ms
+[2018.02.07-22.02.45:443][473]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENUC85EE12D4BCB085A2B2703BDB1F1253B.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.02.45:450][473]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.02.46:027][495]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.02.46:116][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.02.46:116][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.02.46:116][495]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:02:46)
+[2018.02.07-22.02.46:116][495]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.02.46:126][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009895s)
+[2018.02.07-22.02.46:128][495]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.02.46:129][495]LogPlayLevel: PIE: World Init took: (0.002228s)
+[2018.02.07-22.02.46:129][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.012618s)
+[2018.02.07-22.02.46:174][495]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.02.46:198][495]LogInit: FAudioDevice initialized.
+[2018.02.07-22.02.46:243][495]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.02.46:252][495]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.02.46
+[2018.02.07-22.02.46:256][495]LogWorld: Bringing up level for play took: 0.011558
+[2018.02.07-22.02.46:258][495]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.02.46:260][495]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D -0,456
+[2018.02.07-22.02.46:261][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.02.57:366][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.02.57:404][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.06.09:533][966]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Caramuru2D
+[2018.02.07-22.06.09:533][966]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.02.07-22.06.09:533][966]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.02.07-22.06.09:534][966]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.02.07-22.06.09:546][967]LogTemp: BranchPath = DESKTOP-63GE4Q3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = DESKTOP-63GE4Q3/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.02.07-22.06.09:848][990]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\diego\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.07-22.07.28:753][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/Caramuru2D' took 0.046
+[2018.02.07-22.07.28:755][883]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_MENU] ([1] browsable assets)...
+[2018.02.07-22.07.28:755][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_MENU]
+[2018.02.07-22.07.29:110][883]LogSavePackage: Save=137.36ms
+[2018.02.07-22.07.29:110][883]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU_Auto359E453A044590B814D2D0EAC5B9CF825.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto3.uasset'
+[2018.02.07-22.07.29:115][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto3.uasset
+[2018.02.07-22.07.29:115][883]LogFileHelpers: Auto-saving content packages took 0.361
+[2018.02.07-22.28.53:481][467]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.28.55:825][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.28.56:050][534]LogSavePackage: Save=37.84ms
+[2018.02.07-22.28.56:050][534]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU77B06EFD4D9EEDC490B99389BDDC13C6.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.28.56:057][534]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.31.44:823][238]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:826][238]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:860][239]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:863][239]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:890][240]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:893][240]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:923][241]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:948][242]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:953][242]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.44:979][243]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:005][244]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:007][244]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:035][245]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:038][245]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:063][246]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:066][246]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:094][247]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:097][247]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:125][248]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:154][249]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_269' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:179][250]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_271' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:209][251]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_273' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:237][252]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_275' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:263][253]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_277' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:295][254]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_279' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:332][255]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_281' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:360][256]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_283' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:390][257]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_285' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:394][257]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_287' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:425][258]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_289' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:428][258]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_291' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:461][259]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_293' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:464][259]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_295' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:499][260]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_297' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:531][261]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_299' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:563][262]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_301' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:595][263]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_303' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:625][264]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_305' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:629][264]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_307' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:660][265]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_309' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:664][265]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_311' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:695][266]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_313' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:699][266]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_315' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:735][267]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_317' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:770][268]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_319' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:802][269]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_321' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:805][269]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_323' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:835][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_325' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:837][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_327' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:865][271]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_329' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:894][272]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_331' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:923][273]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_333' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:949][274]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_335' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.45:978][275]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_337' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:006][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_339' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:036][277]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_341' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:069][278]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_343' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:103][279]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_345' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:132][280]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_347' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:161][281]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_349' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:189][282]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_351' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:215][283]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_353' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:244][284]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_355' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:271][285]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_357' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:296][286]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_359' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:333][287]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_361' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:360][288]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_363' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.31.46:390][289]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_365' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:048][832]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_368' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:050][832]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_370' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:084][833]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_372' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:086][833]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_374' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:089][833]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_376' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:116][834]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_378' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:119][834]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_380' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:145][835]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_382' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:149][835]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_384' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:176][836]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_386' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:179][836]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_388' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:207][837]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_390' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:210][837]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_392' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:240][838]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_394' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:268][839]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_396' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:295][840]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_398' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:322][841]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_400' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:347][842]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_402' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:376][843]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_404' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:405][844]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_406' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:430][845]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_408' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:470][846]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_410' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:475][846]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_412' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:504][847]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_414' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:507][847]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_416' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:535][848]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_418' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:538][848]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_420' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:567][849]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_422' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:570][849]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_424' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:596][850]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_426' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:599][850]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_428' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:626][851]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_430' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:654][852]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_432' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:687][853]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_434' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:690][853]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_436' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:724][854]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_438' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:727][854]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_440' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:756][855]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_442' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:759][855]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_444' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:789][856]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_446' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:814][857]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_448' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:820][857]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_450' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:846][858]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_452' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:875][859]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_454' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:901][860]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_456' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:928][861]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_458' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:931][861]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_460' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:959][862]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_462' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:961][862]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_464' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.03:990][863]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_466' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:017][864]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_468' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:044][865]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_470' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:072][866]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_472' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:100][867]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_474' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:127][868]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_476' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:130][868]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_478' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:158][869]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_480' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:161][869]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_482' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:189][870]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_484' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:192][870]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_486' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:220][871]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_488' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:244][872]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_490' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:247][872]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_492' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:275][873]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_494' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:304][874]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_496' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:330][875]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_498' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:359][876]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_500' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:388][877]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_502' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:390][877]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_504' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:419][878]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_506' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:422][878]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_508' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:449][879]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_510' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:453][879]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_512' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:479][880]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_514' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:483][880]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_516' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:511][881]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_518' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:539][882]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_520' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:567][883]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_522' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:596][884]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_524' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:628][885]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_526' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:658][886]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_528' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:686][887]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_530' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:712][888]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_532' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:717][888]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_534' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:746][889]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_536' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:748][889]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_538' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:774][890]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_540' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:777][890]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_542' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:805][891]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_544' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:808][891]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_546' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:836][892]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_548' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:838][892]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_550' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:841][892]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_552' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:868][893]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_554' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:870][893]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_556' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:873][893]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_558' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:901][894]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_560' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:904][894]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_562' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:931][895]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_564' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:960][896]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_566' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:987][897]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_568' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:990][897]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_570' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.04:993][897]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_572' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:019][898]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_574' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:022][898]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_576' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:025][898]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_578' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:052][899]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_580' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:054][899]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_582' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:057][899]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_584' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:084][900]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_586' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:086][900]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_588' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:089][900]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_590' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:117][901]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_592' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:120][901]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_594' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:146][902]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_596' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:150][902]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_598' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:153][902]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_600' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:179][903]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_602' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:181][903]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_604' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:184][903]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_606' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:211][904]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_608' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:214][904]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_610' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:241][905]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_612' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:244][905]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_614' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:272][906]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_616' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:275][906]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_618' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:303][907]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_620' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:306][907]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_622' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:334][908]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_624' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:335][908]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_626' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:338][908]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_628' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:365][909]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_630' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:368][909]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_632' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:394][910]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_634' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.05:396][910]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_636' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:529][950]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_642' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:533][950]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_644' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:560][951]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_646' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:563][951]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_648' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:590][952]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_650' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:594][952]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_652' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:621][953]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_654' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:625][953]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_656' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:653][954]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_658' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:656][954]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_660' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:680][955]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_662' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:685][955]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_664' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:688][955]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_666' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:714][956]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_668' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:717][956]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_670' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:720][956]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_672' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:747][957]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_674' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:750][957]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_676' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:753][957]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_678' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:779][958]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_680' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:781][958]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_682' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:784][958]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_684' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:810][959]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_686' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:814][959]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_688' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:841][960]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_690' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:844][960]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_692' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:872][961]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_694' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:875][961]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_696' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:902][962]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_698' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:905][962]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_700' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:930][963]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_702' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:935][963]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_704' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:938][963]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_706' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:963][964]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_708' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:965][964]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_710' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:968][964]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_712' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:993][965]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_714' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.06:996][965]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_716' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:023][966]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_718' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:025][966]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_720' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:053][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_722' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:055][967]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_724' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:080][968]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_726' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:086][968]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_728' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:112][969]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_730' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:115][969]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_732' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:142][970]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_734' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:145][970]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_736' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:172][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_738' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:174][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_740' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:177][971]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_742' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:205][972]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_744' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:235][973]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_746' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:263][974]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_748' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.32.07:292][975]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_750' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.02.07-22.34.28:786][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/Caramuru2D' took 0.041
+[2018.02.07-22.34.28:789][801]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_MENU] ([1] browsable assets)...
+[2018.02.07-22.34.28:789][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_MENU]
+[2018.02.07-22.34.29:076][801]LogSavePackage: Save=46.92ms
+[2018.02.07-22.34.29:076][801]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU_Auto4A3EAF52A4762E9155E607D881C026ECF.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto4.uasset'
+[2018.02.07-22.34.29:080][801]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto4.uasset
+[2018.02.07-22.34.29:080][801]LogFileHelpers: Auto-saving content packages took 0.293
+[2018.02.07-22.37.29:110][566]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tree_3_Sprite5)
+[2018.02.07-22.37.33:369][687]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.37.34:095][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.37.34:316][699]LogSavePackage: Save=41.19ms
+[2018.02.07-22.37.34:317][699]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENUF204267E4EF06E5EDB26E780B352EFF2.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.37.34:323][699]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.37.35:905][746]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.37.35:990][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.37.35:990][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.37.35:991][746]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:37:35)
+[2018.02.07-22.37.35:991][746]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.37.35:998][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007231s)
+[2018.02.07-22.37.35:999][746]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.37.36:000][746]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2018.02.07-22.37.36:000][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008692s)
+[2018.02.07-22.37.36:041][746]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.37.36:069][746]LogInit: FAudioDevice initialized.
+[2018.02.07-22.37.36:107][746]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.37.36:115][746]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.37.36
+[2018.02.07-22.37.36:118][746]LogWorld: Bringing up level for play took: 0.009797
+[2018.02.07-22.37.36:120][746]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.37.36:121][746]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D -0,595
+[2018.02.07-22.37.36:122][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.37.44:926][ 53]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.37.44:986][ 53]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.38.20:740][364]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.38.21:601][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.38.21:861][379]LogSavePackage: Save=44.60ms
+[2018.02.07-22.38.21:861][379]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU0BF89C6A4AFA8621AA3479B3A58BCE01.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.38.21:869][379]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.41.25:285][361]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.41.25:370][361]LogBlueprint: Error: [Compiler HUD_MENU] The current value (0, 0, 0) of the ' Location ' pin is invalid: 'Location' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.02.07-22.41.25:382][361]LogBlueprint: Error: [Compiler HUD_MENU] The current value (0, 0, 0) of the ' Rotation ' pin is invalid: 'Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.02.07-22.41.25:664][361]LogBlueprint: Warning: [Compiler HUD_MENU] [4391,67] Compile of HUD_MENU failed. 2 Fatal Issue(s) 0 Warning(s) [in 379 ms] (/Game/Menu/HUD/HUD_MENU.HUD_MENU)
+[2018.02.07-22.42.55:098][385]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.42.55:124][385]LogBlueprint: Error: [Compiler HUD_MENU] The current value (0, 0, 0) of the ' Location ' pin is invalid: 'Location' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.02.07-22.42.55:125][385]LogBlueprint: Error: [Compiler HUD_MENU] The current value (0, 0, 0) of the ' Rotation ' pin is invalid: 'Rotation' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.02.07-22.42.55:394][385]LogBlueprint: Warning: [Compiler HUD_MENU] [4481,40] Compile of HUD_MENU failed. 2 Fatal Issue(s) 0 Warning(s) [in 296 ms] (/Game/Menu/HUD/HUD_MENU.HUD_MENU)
+[2018.02.07-22.42.55:860][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.42.56:120][415]LogSavePackage: Save=66.99ms
+[2018.02.07-22.42.56:120][415]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU42FD3D29430DAAE6EBF4C6B964333B8B.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.42.56:127][415]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.43.57:822][235]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.43.58:743][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.43.58:970][278]LogSavePackage: Save=51.18ms
+[2018.02.07-22.43.58:970][278]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU3C8669DF4AB1550F3A00ADB32271F8D3.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.43.58:977][278]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.44.01:142][447]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.44.01:275][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.44.01:275][447]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.44.01:275][447]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:44:01)
+[2018.02.07-22.44.01:275][447]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.44.01:283][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008172s)
+[2018.02.07-22.44.01:284][447]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.44.01:285][447]LogPlayLevel: PIE: World Init took: (0.001134s)
+[2018.02.07-22.44.01:285][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.009850s)
+[2018.02.07-22.44.01:330][447]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.44.01:361][447]LogInit: FAudioDevice initialized.
+[2018.02.07-22.44.01:398][447]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.44.01:408][447]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.44.01
+[2018.02.07-22.44.01:412][447]LogWorld: Bringing up level for play took: 0.013347
+[2018.02.07-22.44.01:415][447]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.44.01:417][447]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D 0,701
+[2018.02.07-22.44.01:417][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.44.04:353][595]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.04:363][595]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.04:461][595]Cmd: MEM
+[2018.02.07-22.44.04:492][595]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.44.04:492][595]LogMemory: Process Physical Memory: 955.05 MB used, 1340.23 MB peak
+[2018.02.07-22.44.04:492][595]LogMemory: Process Virtual Memory: 2340.37 MB used, 2343.50 MB peak
+[2018.02.07-22.44.04:492][595]LogMemory: Physical Memory: 4757.68 MB used,  3337.82 MB free, 8095.50 MB total
+[2018.02.07-22.44.04:492][595]LogMemory: Virtual Memory: 3232.82 MB used,  3337.82 MB free, 134217728.00 MB total
+[2018.02.07-22.44.04:492][595]LogMemory: 
+[2018.02.07-22.44.04:492][595]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.44.04:519][595]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.44.04:526][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006695s)
+[2018.02.07-22.44.04:526][595]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.44.04:527][595]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2018.02.07-22.44.04:527][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008402s)
+[2018.02.07-22.44.04:527][595]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.44.04:540][595]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.44.04
+[2018.02.07-22.44.04:543][595]LogWorld: Bringing up level for play took: 0.011447
+[2018.02.07-22.44.04:546][595]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.44.04:559][595]LogLoad: Took 0.195254 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.44.06:490][695]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.06:510][695]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.06:546][695]Cmd: MEM
+[2018.02.07-22.44.06:582][695]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.44.06:582][695]LogMemory: Process Physical Memory: 955.14 MB used, 1340.23 MB peak
+[2018.02.07-22.44.06:582][695]LogMemory: Process Virtual Memory: 2396.48 MB used, 2396.48 MB peak
+[2018.02.07-22.44.06:582][695]LogMemory: Physical Memory: 4757.59 MB used,  3337.91 MB free, 8095.50 MB total
+[2018.02.07-22.44.06:582][695]LogMemory: Virtual Memory: 3288.82 MB used,  3337.91 MB free, 134217728.00 MB total
+[2018.02.07-22.44.06:582][695]LogMemory: 
+[2018.02.07-22.44.06:582][695]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.44.06:582][695]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.44.06:588][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005692s)
+[2018.02.07-22.44.06:588][695]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.44.06:589][695]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.02.07-22.44.06:589][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.006838s)
+[2018.02.07-22.44.06:589][695]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.44.06:596][695]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.44.06
+[2018.02.07-22.44.06:598][695]LogWorld: Bringing up level for play took: 0.008799
+[2018.02.07-22.44.06:600][695]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.44.06:601][695]LogLoad: Took 0.090854 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.44.07:154][724]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.07:170][724]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.07:215][724]Cmd: MEM
+[2018.02.07-22.44.07:250][724]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.44.07:250][724]LogMemory: Process Physical Memory: 955.28 MB used, 1340.23 MB peak
+[2018.02.07-22.44.07:250][724]LogMemory: Process Virtual Memory: 2428.54 MB used, 2428.54 MB peak
+[2018.02.07-22.44.07:250][724]LogMemory: Physical Memory: 4757.58 MB used,  3337.92 MB free, 8095.50 MB total
+[2018.02.07-22.44.07:250][724]LogMemory: Virtual Memory: 3320.82 MB used,  3337.92 MB free, 134217728.00 MB total
+[2018.02.07-22.44.07:250][724]LogMemory: 
+[2018.02.07-22.44.07:250][724]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.44.07:250][724]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.44.07:258][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007283s)
+[2018.02.07-22.44.07:258][724]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.44.07:259][724]LogPlayLevel: PIE: World Init took: (0.000895s)
+[2018.02.07-22.44.07:259][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008583s)
+[2018.02.07-22.44.07:259][724]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.44.07:268][724]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.44.07
+[2018.02.07-22.44.07:270][724]LogWorld: Bringing up level for play took: 0.010047
+[2018.02.07-22.44.07:272][724]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.44.07:274][724]LogLoad: Took 0.103945 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.44.07:450][734]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.07:471][734]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.44.07:509][734]Cmd: MEM
+[2018.02.07-22.44.07:541][734]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.44.07:541][734]LogMemory: Process Physical Memory: 954.30 MB used, 1340.23 MB peak
+[2018.02.07-22.44.07:541][734]LogMemory: Process Virtual Memory: 2451.53 MB used, 2460.61 MB peak
+[2018.02.07-22.44.07:541][734]LogMemory: Physical Memory: 4757.29 MB used,  3338.21 MB free, 8095.50 MB total
+[2018.02.07-22.44.07:541][734]LogMemory: Virtual Memory: 3344.82 MB used,  3338.21 MB free, 134217728.00 MB total
+[2018.02.07-22.44.07:541][734]LogMemory: 
+[2018.02.07-22.44.07:541][734]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.44.07:541][734]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.44.07:549][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007694s)
+[2018.02.07-22.44.07:550][734]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.44.07:550][734]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.02.07-22.44.07:550][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008978s)
+[2018.02.07-22.44.07:550][734]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.44.07:614][734]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.44.07
+[2018.02.07-22.44.07:616][734]LogWorld: Bringing up level for play took: 0.064519
+[2018.02.07-22.44.07:618][734]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.44.07:619][734]LogLoad: Took 0.148045 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.44.11:336][923]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.44.11:397][923]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.45.27:777][314]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.45.28:864][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.45.29:092][341]LogSavePackage: Save=50.32ms
+[2018.02.07-22.45.29:093][341]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU4285FF7040D6F7FEAC5B13B9AD36614E.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.45.29:099][341]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.45.30:687][473]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.45.30:767][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.45.30:767][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.45.30:767][473]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:45:30)
+[2018.02.07-22.45.30:768][473]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.45.30:777][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009618s)
+[2018.02.07-22.45.30:778][473]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.45.30:779][473]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2018.02.07-22.45.30:779][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.011236s)
+[2018.02.07-22.45.30:812][473]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.45.30:834][473]LogInit: FAudioDevice initialized.
+[2018.02.07-22.45.30:876][473]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.45.30:885][473]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.45.30
+[2018.02.07-22.45.30:889][473]LogWorld: Bringing up level for play took: 0.011827
+[2018.02.07-22.45.30:891][473]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.45.30:893][473]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D 0,177
+[2018.02.07-22.45.30:893][473]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.45.34:066][617]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsCaramuru6
+	BP_Ladder1_C /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D:PersistentLevel.BP_Ladder1_226
+	Function /Game/Resources/Blueprints/Static_Objects/BP_Ladder1.BP_Ladder1_C:ExecuteUbergraph_BP_Ladder1:009B
+[2018.02.07-22.45.34:067][617]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsCaramuru6 from function: 'ExecuteUbergraph_BP_Ladder1' from node: Definir canJump_0 in graph: EventGraph in object: BP_Ladder1 with description: Accessed None trying to read property K2Node_DynamicCast_AsCaramuru6
+[2018.02.07-22.45.34:067][617]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsCaramuru6
+	BP_Ladder1_C /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D:PersistentLevel.BP_Ladder1_226
+	Function /Game/Resources/Blueprints/Static_Objects/BP_Ladder1.BP_Ladder1_C:ExecuteUbergraph_BP_Ladder1:00C6
+[2018.02.07-22.45.34:067][617]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsCaramuru6 from function: 'ExecuteUbergraph_BP_Ladder1' from node: Definir CaramuruStates in graph: EventGraph in object: BP_Ladder1 with description: Accessed None trying to read property K2Node_DynamicCast_AsCaramuru6
+[2018.02.07-22.45.34:067][617]LogScript: Warning: Attempted to assign to None
+	BP_Ladder1_C /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D:PersistentLevel.BP_Ladder1_226
+	Function /Game/Resources/Blueprints/Static_Objects/BP_Ladder1.BP_Ladder1_C:ExecuteUbergraph_BP_Ladder1:00DB
+[2018.02.07-22.45.34:067][617]PIE: Error: Blueprint Runtime Error: Attempted to assign to None from function: 'ExecuteUbergraph_BP_Ladder1' from node: Definir CaramuruStates in graph: EventGraph in object: BP_Ladder1 with description: Attempted to assign to None
+[2018.02.07-22.45.35:354][681]LogBlueprintUserMessages: [BP_Check_Point_832] X=-5060.219 Y=100.000 Z=4023.697
+[2018.02.07-22.45.36:943][763]LogBlueprintUserMessages: [EnemyCharacter_226] 90
+[2018.02.07-22.45.39:676][909]LogBlueprintUserMessages: [EnemyCharacter_226] 80
+[2018.02.07-22.45.47:040][294]LogBlueprintUserMessages: [EnemyCharacter_226] 70
+[2018.02.07-22.45.52:923][595]LogBlueprintUserMessages: [EnemyCharacter_226] 60
+[2018.02.07-22.45.52:923][595]LogBlueprintUserMessages: [EnemyCharacter_226] 50
+[2018.02.07-22.45.53:149][607]LogBlueprintUserMessages: [EnemyCharacter_226] 40
+[2018.02.07-22.45.54:136][660]LogBlueprintUserMessages: [EnemyCharacter_226] 30
+[2018.02.07-22.45.54:322][670]LogBlueprintUserMessages: [EnemyCharacter_226] 20
+[2018.02.07-22.45.54:322][670]LogBlueprintUserMessages: [EnemyCharacter_226] 10
+[2018.02.07-22.45.58:383][884]LogBlueprintUserMessages: [ExpSphereActor_C_0] You earned 30 EXP
+[2018.02.07-22.46.00:135][974]LogBlueprintUserMessages: [BP_Check_Point2] X=-3729.234 Y=100.000 Z=3941.460
+[2018.02.07-22.47.21:599][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.47.21:671][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.49.57:342][150]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/Caramuru2D' took 0.040
+[2018.02.07-22.49.57:344][150]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_MENU] ([1] browsable assets)...
+[2018.02.07-22.49.57:344][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_MENU]
+[2018.02.07-22.49.57:616][150]LogSavePackage: Save=55.00ms
+[2018.02.07-22.49.57:616][150]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU_Auto5BE2B7D104650496D5BDB9B91B9744BC9.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto5.uasset'
+[2018.02.07-22.49.57:620][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto5.uasset
+[2018.02.07-22.49.57:620][150]LogFileHelpers: Auto-saving content packages took 0.277
+[2018.02.07-22.51.53:881][239]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.51.54:673][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.51.54:901][267]LogSavePackage: Save=51.18ms
+[2018.02.07-22.51.54:901][267]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU84C95AF34B0C7BA7FACA3BBDFA522910.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.51.54:908][267]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.51.59:914][682]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.52.00:014][682]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.00:014][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.52.00:014][682]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:52:00)
+[2018.02.07-22.52.00:014][682]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.52.00:025][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010809s)
+[2018.02.07-22.52.00:026][682]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.52.00:027][682]LogPlayLevel: PIE: World Init took: (0.001573s)
+[2018.02.07-22.52.00:027][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.012961s)
+[2018.02.07-22.52.00:073][682]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.52.00:097][682]LogInit: FAudioDevice initialized.
+[2018.02.07-22.52.00:134][682]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.52.00:143][682]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.52.00
+[2018.02.07-22.52.00:145][682]LogWorld: Bringing up level for play took: 0.010716
+[2018.02.07-22.52.00:148][682]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.52.00:149][682]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D -0,567
+[2018.02.07-22.52.00:150][682]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.01:664][758]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.52.01:680][758]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.52.01:719][758]Cmd: MEM
+[2018.02.07-22.52.01:748][758]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.52.01:748][758]LogMemory: Process Physical Memory: 1049.75 MB used, 1340.23 MB peak
+[2018.02.07-22.52.01:748][758]LogMemory: Process Virtual Memory: 2476.14 MB used, 2485.63 MB peak
+[2018.02.07-22.52.01:748][758]LogMemory: Physical Memory: 4820.53 MB used,  3274.97 MB free, 8095.50 MB total
+[2018.02.07-22.52.01:748][758]LogMemory: Virtual Memory: 3397.51 MB used,  3274.97 MB free, 134217728.00 MB total
+[2018.02.07-22.52.01:748][758]LogMemory: 
+[2018.02.07-22.52.01:748][758]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.52.01:748][758]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.52.01:755][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006584s)
+[2018.02.07-22.52.01:756][758]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.52.01:756][758]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2018.02.07-22.52.01:756][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.007805s)
+[2018.02.07-22.52.01:756][758]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.52.01:763][758]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.52.01
+[2018.02.07-22.52.01:765][758]LogWorld: Bringing up level for play took: 0.008534
+[2018.02.07-22.52.01:767][758]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.52.01:769][758]LogLoad: Took 0.088751 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.52.13:490][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.13:562][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.28:952][357]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.52.29:617][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.52.29:852][380]LogSavePackage: Save=52.85ms
+[2018.02.07-22.52.29:852][380]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENUE7907D8F49F07C1CD0F2DCA9C91450E4.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.52.29:857][380]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.52.32:048][546]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.52.32:130][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.32:130][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.52.32:130][546]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:52:32)
+[2018.02.07-22.52.32:131][546]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.52.32:138][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007619s)
+[2018.02.07-22.52.32:139][546]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.52.32:140][546]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2018.02.07-22.52.32:140][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.009766s)
+[2018.02.07-22.52.32:184][546]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.52.32:207][546]LogInit: FAudioDevice initialized.
+[2018.02.07-22.52.32:246][546]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.52.32:255][546]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.52.32
+[2018.02.07-22.52.32:258][546]LogWorld: Bringing up level for play took: 0.011306
+[2018.02.07-22.52.32:260][546]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.52.32:262][546]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D -0,454
+[2018.02.07-22.52.32:262][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.33:259][596]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.52.33:276][596]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.52.33:313][596]Cmd: MEM
+[2018.02.07-22.52.33:346][596]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.52.33:346][596]LogMemory: Process Physical Memory: 1053.64 MB used, 1340.23 MB peak
+[2018.02.07-22.52.33:346][596]LogMemory: Process Virtual Memory: 2479.88 MB used, 2532.42 MB peak
+[2018.02.07-22.52.33:346][596]LogMemory: Physical Memory: 4821.41 MB used,  3274.09 MB free, 8095.50 MB total
+[2018.02.07-22.52.33:346][596]LogMemory: Virtual Memory: 3393.51 MB used,  3274.09 MB free, 134217728.00 MB total
+[2018.02.07-22.52.33:346][596]LogMemory: 
+[2018.02.07-22.52.33:346][596]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.52.33:346][596]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.52.33:353][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006351s)
+[2018.02.07-22.52.33:353][596]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.52.33:353][596]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.02.07-22.52.33:354][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.007557s)
+[2018.02.07-22.52.33:354][596]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.52.33:360][596]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.52.33
+[2018.02.07-22.52.33:363][596]LogWorld: Bringing up level for play took: 0.008426
+[2018.02.07-22.52.33:365][596]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.52.33:366][596]LogLoad: Took 0.089448 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.52.34:993][680]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.52.35:011][680]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.52.35:053][680]Cmd: MEM
+[2018.02.07-22.52.35:085][680]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.52.35:085][680]LogMemory: Process Physical Memory: 1053.29 MB used, 1340.23 MB peak
+[2018.02.07-22.52.35:085][680]LogMemory: Process Virtual Memory: 2535.81 MB used, 2536.22 MB peak
+[2018.02.07-22.52.35:085][680]LogMemory: Physical Memory: 4821.60 MB used,  3273.90 MB free, 8095.50 MB total
+[2018.02.07-22.52.35:085][680]LogMemory: Virtual Memory: 3449.51 MB used,  3273.90 MB free, 134217728.00 MB total
+[2018.02.07-22.52.35:085][680]LogMemory: 
+[2018.02.07-22.52.35:085][680]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.52.35:085][680]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.52.35:093][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007649s)
+[2018.02.07-22.52.35:094][680]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.52.35:094][680]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2018.02.07-22.52.35:094][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.008990s)
+[2018.02.07-22.52.35:095][680]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.52.35:101][680]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.52.35
+[2018.02.07-22.52.35:103][680]LogWorld: Bringing up level for play took: 0.007939
+[2018.02.07-22.52.35:105][680]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.52.35:107][680]LogLoad: Took 0.095973 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.52.47:345][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.52.47:404][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.54.01:013][406]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.54.01:707][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.54.01:936][429]LogSavePackage: Save=53.01ms
+[2018.02.07-22.54.01:937][429]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENUC8B05E354BB25EEE0B2C92AE6B83E885.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.54.01:943][429]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-22.54.04:716][628]LogTemp: Repeating last play command: Selected Viewport
+[2018.02.07-22.54.04:803][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.54.04:803][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.07-22.54.04:803][628]PIE: New page: Sessão de PIE : Caramuru2D (07/02/2018 16:54:04)
+[2018.02.07-22.54.04:803][628]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.54.04:814][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010453s)
+[2018.02.07-22.54.04:815][628]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.54.04:816][628]LogPlayLevel: PIE: World Init took: (0.002183s)
+[2018.02.07-22.54.04:817][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.013317s)
+[2018.02.07-22.54.04:855][628]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.07-22.54.04:879][628]LogInit: FAudioDevice initialized.
+[2018.02.07-22.54.04:918][628]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.54.04:926][628]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.54.04
+[2018.02.07-22.54.04:930][628]LogWorld: Bringing up level for play took: 0.011602
+[2018.02.07-22.54.04:932][628]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.54.04:935][628]PIE: Momento de início de reprodução no editor para /Game/Resources/Maps/UEDPIE_0_Caramuru2D 0,218
+[2018.02.07-22.54.04:935][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.54.06:878][727]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.54.06:898][727]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.54.06:939][727]Cmd: MEM
+[2018.02.07-22.54.06:968][727]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.54.06:969][727]LogMemory: Process Physical Memory: 1076.16 MB used, 1340.23 MB peak
+[2018.02.07-22.54.06:969][727]LogMemory: Process Virtual Memory: 2496.79 MB used, 2567.88 MB peak
+[2018.02.07-22.54.06:969][727]LogMemory: Physical Memory: 4827.41 MB used,  3268.09 MB free, 8095.50 MB total
+[2018.02.07-22.54.06:969][727]LogMemory: Virtual Memory: 3405.51 MB used,  3268.09 MB free, 134217728.00 MB total
+[2018.02.07-22.54.06:969][727]LogMemory: 
+[2018.02.07-22.54.06:969][727]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.54.06:969][727]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.54.06:975][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005884s)
+[2018.02.07-22.54.06:976][727]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.54.06:976][727]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.02.07-22.54.06:976][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.007049s)
+[2018.02.07-22.54.06:976][727]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.54.06:983][727]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.54.06
+[2018.02.07-22.54.06:986][727]LogWorld: Bringing up level for play took: 0.009871
+[2018.02.07-22.54.06:988][727]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.54.06:989][727]LogLoad: Took 0.091737 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.54.08:285][794]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.54.08:301][794]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.54.08:341][794]Cmd: MEM
+[2018.02.07-22.54.08:371][794]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.54.08:371][794]LogMemory: Process Physical Memory: 1075.22 MB used, 1340.23 MB peak
+[2018.02.07-22.54.08:371][794]LogMemory: Process Virtual Memory: 2552.21 MB used, 2567.88 MB peak
+[2018.02.07-22.54.08:371][794]LogMemory: Physical Memory: 4827.96 MB used,  3267.54 MB free, 8095.50 MB total
+[2018.02.07-22.54.08:371][794]LogMemory: Virtual Memory: 3461.51 MB used,  3267.54 MB free, 134217728.00 MB total
+[2018.02.07-22.54.08:371][794]LogMemory: 
+[2018.02.07-22.54.08:371][794]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.54.08:371][794]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.54.08:377][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006179s)
+[2018.02.07-22.54.08:378][794]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.54.08:378][794]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2018.02.07-22.54.08:379][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.007444s)
+[2018.02.07-22.54.08:379][794]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.54.08:385][794]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.54.08
+[2018.02.07-22.54.08:388][794]LogWorld: Bringing up level for play took: 0.008124
+[2018.02.07-22.54.08:389][794]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.54.08:390][794]LogLoad: Took 0.089000 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.54.11:388][948]LogNet: Browse: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.54.11:408][948]LogLoad: LoadMap: /Game/Resources/Maps/Caramuru2D
+[2018.02.07-22.54.11:445][948]Cmd: MEM
+[2018.02.07-22.54.11:477][948]LogMemory: Platform Memory Stats for Windows
+[2018.02.07-22.54.11:478][948]LogMemory: Process Physical Memory: 1075.23 MB used, 1340.23 MB peak
+[2018.02.07-22.54.11:478][948]LogMemory: Process Virtual Memory: 2495.67 MB used, 2568.24 MB peak
+[2018.02.07-22.54.11:478][948]LogMemory: Physical Memory: 4835.64 MB used,  3259.86 MB free, 8095.50 MB total
+[2018.02.07-22.54.11:478][948]LogMemory: Virtual Memory: 3405.51 MB used,  3259.86 MB free, 134217728.00 MB total
+[2018.02.07-22.54.11:478][948]LogMemory: 
+[2018.02.07-22.54.11:478][948]Allocator Stats for TBB: (not implemented)
+[2018.02.07-22.54.11:478][948]LogPlayLevel: Creating play world package: /Game/Resources/Maps/UEDPIE_0_Caramuru2D
+[2018.02.07-22.54.11:484][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006475s)
+[2018.02.07-22.54.11:485][948]LogAIModule: Creating AISystem for world Caramuru2D
+[2018.02.07-22.54.11:485][948]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2018.02.07-22.54.11:485][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Resources/Maps/Caramuru2D.Caramuru2D to /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D (0.007627s)
+[2018.02.07-22.54.11:485][948]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.02.07-22.54.11:493][948]LogWorld: Bringing World /Game/Resources/Maps/UEDPIE_0_Caramuru2D.Caramuru2D up for play (max tick rate 0) at 2018.02.07-19.54.11
+[2018.02.07-22.54.11:495][948]LogWorld: Bringing up level for play took: 0.009434
+[2018.02.07-22.54.11:497][948]LogBlueprintUserMessages: [Character] SpreaderGun
+[2018.02.07-22.54.11:499][948]LogLoad: Took 0.091399 seconds to LoadMap(/Game/Resources/Maps/UEDPIE_0_Caramuru2D)
+[2018.02.07-22.54.14:637][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.54.14:697][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel' has LevelScriptBlueprint '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D' with GeneratedClass '/Game/Resources/Maps/Caramuru2D.Caramuru2D_C' with ClassGeneratedBy '/Game/Resources/Maps/Caramuru2D.Caramuru2D:PersistentLevel.Caramuru2D'
+[2018.02.07-22.56.38:702][827]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-22.56.39:359][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-22.56.39:605][849]LogSavePackage: Save=67.30ms
+[2018.02.07-22.56.39:605][849]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU0033B3364AEBD2B36DF1EF90ABDC971D.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-22.56.39:612][849]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-23.00.45:904][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/Caramuru2D' took 0.039
+[2018.02.07-23.00.45:906][695]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_MENU] ([1] browsable assets)...
+[2018.02.07-23.00.45:906][695]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_MENU]
+[2018.02.07-23.00.46:190][695]LogSavePackage: Save=53.43ms
+[2018.02.07-23.00.46:190][695]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU_Auto67293CDF6411BB96398F006A9652F2991.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto6.uasset'
+[2018.02.07-23.00.46:193][695]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto6.uasset
+[2018.02.07-23.00.46:193][695]LogFileHelpers: Auto-saving content packages took 0.288
+[2018.02.07-23.01.04:623][269]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-23.01.05:492][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-23.01.05:720][286]LogSavePackage: Save=47.00ms
+[2018.02.07-23.01.05:720][286]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENUFDC641EB49AD37B68E8BDA932F70827E.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-23.01.05:727][286]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-23.05.09:475][654]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-23.05.10:250][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-23.05.10:548][683]LogSavePackage: Save=105.77ms
+[2018.02.07-23.05.10:548][683]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU7BBF98F14E0BD49337AC66983873B0A9.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-23.05.10:555][683]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-23.10.46:613][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Resources/Maps/Caramuru2D' took 0.043
+[2018.02.07-23.10.46:615][247]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menu/HUD/HUD_MENU] ([1] browsable assets)...
+[2018.02.07-23.10.46:615][247]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/HUD/HUD_MENU]
+[2018.02.07-23.10.46:915][247]LogSavePackage: Save=49.85ms
+[2018.02.07-23.10.46:915][247]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU_Auto7C580650C424797B3455AA08F3730B2BB.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto7.uasset'
+[2018.02.07-23.10.46:917][247]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto7.uasset
+[2018.02.07-23.10.46:917][247]LogFileHelpers: Auto-saving content packages took 0.303
+[2018.02.07-23.16.25:748][599]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-23.16.26:598][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-23.16.26:845][615]LogSavePackage: Save=53.80ms
+[2018.02.07-23.16.26:845][615]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENU3713DEAE470D939FEFC364BC095ED9AC.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-23.16.26:853][615]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-23.32.28:843][106]BlueprintLog: New page: Compilar HUD_MENU
+[2018.02.07-23.32.29:661][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/HUD/HUD_MENU" FILE="../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset" SILENT=true
+[2018.02.07-23.32.29:908][121]LogSavePackage: Save=53.97ms
+[2018.02.07-23.32.29:908][121]LogSavePackage: Moving '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Saved/HUD_MENUDD932A82427F2692B26D6EAE6A5C2AA7.tmp' to '../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset'
+[2018.02.07-23.32.29:913][121]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/diego/OneDrive/Documentos/GitHub/Caramuru2D-4.17/Caramuru2D-4.17/Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-23.32.52:413][143]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.38.54:334][879]SourceControl: Controle de origem desativado
+[2018.02.07-23.39.23:836][600]SourceControl: Controle de origem desativado
+[2018.02.07-23.39.36:192][706]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.40.32:680][110]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.40.33:118][136]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.40.33:286][144]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.40.33:457][151]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.40.54:849][729]SourceControl: Error: Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.02.07-23.47.18:643][858]SourceControl: Controle de origem desativado
+[2018.02.07-23.47.29:905][908]SourceControl: Controle de origem desativado
+[2018.02.07-23.56.30:638][ 50]SourceControl: On branch master
+[2018.02.07-23.56.30:638][ 50]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
+[2018.02.07-23.56.30:638][ 50]SourceControl:   (use "git push" to publish your local commits)
+[2018.02.07-23.56.30:638][ 50]SourceControl: Changes not staged for commit:
+[2018.02.07-23.56.30:638][ 50]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.02.07-23.56.30:638][ 50]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.02.07-23.56.30:638][ 50]SourceControl: 	modified:   Config/DefaultEngine.ini
+[2018.02.07-23.56.30:638][ 50]SourceControl: 	modified:   Content/Menu/HUD/HUD_MENU.uasset
+[2018.02.07-23.56.30:638][ 50]SourceControl: 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2018.02.07-23.56.30:638][ 50]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2018.02.07-23.56.30:638][ 50]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	modified:   Saved/Logs/Caramuru2D.log
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	modified:   Saved/SaveGames/Loc.sav
+[2018.02.07-23.56.30:639][ 50]SourceControl: Untracked files:
+[2018.02.07-23.56.30:639][ 50]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto2.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto3.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto4.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto5.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto6.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Autosaves/Game/Menu/HUD/HUD_MENU_Auto7.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-18-51-52.uasset
+[2018.02.07-23.56.30:639][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-18-59-14.uasset
+[2018.02.07-23.56.30:640][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-19-07-28.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-19-28-56.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-19-34-29.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-19-42-56.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-19-49-57.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-19-56-39.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-20-05-10.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-20-10-46.uasset
+[2018.02.07-23.56.30:641][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-20-16-26.uasset
+[2018.02.07-23.56.30:642][ 50]SourceControl: 	Saved/Backup/HUD_MENU_2018-02-07-20-32-29.uasset
+[2018.02.07-23.56.30:642][ 50]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.02.07-23.56.54:782][325]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2018.02.07-23.57.03:183][325]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.02.07-23.57.03:391][325]SourceControl: [master a4ab0e3] menu novo
+[2018.02.07-23.57.03:391][325]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.02.07-23.57.03:391][325]SourceControl:  rewrite Content/Menu/HUD/HUD_MENU.uasset (70%)
+[2018.02.07-23.57.03:398][325]SourceControl: Commited [master a4ab0e3] menu novo.
